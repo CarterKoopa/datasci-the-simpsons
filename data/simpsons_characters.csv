@@ -1,51 +1,84 @@
 id,name,normalized_name,gender
+1,Marge Simpson,marge simpson,f
+2,Homer Simpson,homer simpson,m
+3,Seymour Skinner,seymour skinner,m
+4,JANEY,janey,f
+5,Todd Flanders,todd flanders,m
+6,Dewey Largo,dewey largo,m
 7,Children,children,
+8,Bart Simpson,bart simpson,m
+9,Lisa Simpson,lisa simpson,f
+10,Patty Bouvier,patty bouvier,f
+11,Ned Flanders,ned flanders,m
 12,Mechanical Santa,mechanical santa,
 13,Tattoo Man,tattoo man,
+14,Waylon Smithers,waylon smithers,m
+15,C. Montgomery Burns,c montgomery burns,m
 16,DOCTOR ZITSOFSKY,doctor zitsofsky,
+17,Moe Szyslak,moe szyslak,m
+18,Barney Gumble,barney gumble,m
+19,Interviewer,interviewer,m
 20,Students,students,
+21,Teacher,teacher,m
+22,Selma Bouvier,selma bouvier,f
+23,Voice,voice,m
 24,Little Boy,little boy,
+25,Milhouse Van Houten,milhouse van houten,m
 26,Lewis Clark,lewis clark,
 27,Little Girl,little girl,
+28,Clerk,clerk,m
 29,Bubbles,bubbles,
 30,Moldy,moldy,
+31,Grampa Simpson,grampa simpson,m
+32,Father,father,m
+33,Announcer,announcer,m
 34,Ticket Seller,ticket seller,
-35,"Elf #1",elf 1,
+35,Elf #1,elf 1,
 36,Elves,elves,
 37,Dog's Owner,dogs owner,
+38,Martin Prince,martin prince,m
 39,Kids,kids,
+40,Edna Krabappel-Flanders,edna krabappel-flanders,f
 41,Conductor,conductor,
 42,Secretary,secretary,
+43,Dr. J. Loren Pyror,dr j loren pyror,m
+44,Ms. Melon,ms melon,f
+45,Ethan Foley,ethan foley,m
 46,Sydney,sydney,
 47,Cecile Shapiro,cecile shapiro,
 48,Ian,ian,
 49,Calvin,calvin,
 50,"Martin Prince, Sr.",martin prince sr,
 51,Richard,richard,
+52,Otto Mann,otto mann,m
 53,Wendell Borton,wendell borton,
+54,Sherri Mackleberry,sherri mackleberry,f
+55,Terri Mackleberry,terri mackleberry,f
+56,Narrator,narrator,m
 57,Smilin' Joe Fission,smilin joe fission,
-58,"Rod #1",rod 1,
-59,"Rod #2",rod 2,
+58,Rod #1,rod 1,
+59,Rod #2,rod 2,
 60,RODS,rods,
-61,"Workman #1",workman 1,
+61,Workman #1,workman 1,
 62,Foreman,foreman,
 63,TERRI & SHERRI,terri sherri,
 64,PUNK TEENAGER,punk teenager,
-65,"Tv Announcer #1",tv announcer 1,
-66,"Tv Announcer #2",tv announcer 2,
+65,Tv Announcer #1,tv announcer 1,
+66,Tv Announcer #2,tv announcer 2,
 67,Jingle Chorus,jingle chorus,
 68,Sylvia Winfield,sylvia winfield,
 69,Old Man Winfield,old man winfield,
-70,"Councilman #1",councilman 1,
-72,"Councilman #2",councilman 2,
-73,"COUNCILMEN #1/#2",councilmen 12,
-74,"Demonstrator #1",demonstrator 1,
+70,Councilman #1,councilman 1,
+71,Chief Wiggum,chief wiggum,m
+72,Councilman #2,councilman 2,
+73,COUNCILMEN #1/#2,councilmen 12,
+74,Demonstrator #1,demonstrator 1,
 75,Crowd,crowd,
 76,MR. GAMMILL,mr gammill,
 77,TOM,tom,
 78,Mrs. Long,mrs long,
-79,"Wife #1",wife 1,
-80,"Wife #2",wife 2,
+79,Wife #1,wife 1,
+80,Wife #2,wife 2,
 81,Other Women,other women,
 82,Nice Father,nice father,
 83,Nice Boy,nice boy,
@@ -55,163 +88,140 @@ id,name,normalized_name,gender
 87,Williams Boy,williams boy,
 88,Mr. Williams,mr williams,
 89,BOXING ANNOUNCER,boxing announcer,
+90,Eddie,eddie,m
+91,Lou,lou,m
 92,TV-STATION ANNOUNCER,tv-station announcer,
 93,Tv Wife,tv wife,
 94,Tv Husband,tv husband,
 95,Small Boy,small boy,
+96,Dr. Marvin Monroe,dr marvin monroe,m
 97,Pawn Broker,pawn broker,
+98,Receptionist,receptionist,f
 99,Homer-ish Husband,homer-ish husband,
-100,"Weasel #1",weasel 1,
+100,Weasel #1,weasel 1,
+101,Nelson Muntz,nelson muntz,m
 102,ALL AT THE TABLE,all at the table,
 103,Kid,kid,
-104,"Weasel #2",weasel 2,
+104,Weasel #2,weasel 2,
 105,Maggie Simpson,maggie simpson,
 106,Homer's Image,homers image,
 107,Elderly Gentleman,elderly gentleman,
+108,Herman Hermann,herman hermann,m
 109,All,all,
-1,Marge Simpson,marge simpson,f
-8,Bart Simpson,bart simpson,m
-9,Lisa Simpson,lisa simpson,f
-17,Moe Szyslak,moe szyslak,m
-3,Seymour Skinner,seymour skinner,m
-11,Ned Flanders,ned flanders,m
-31,Grampa Simpson,grampa simpson,m
-71,Chief Wiggum,chief wiggum,m
-25,Milhouse Van Houten,milhouse van houten,m
-14,Waylon Smithers,waylon smithers,m
-101,Nelson Muntz,nelson muntz,m
-40,Edna Krabappel-Flanders,edna krabappel-flanders,f
-33,Announcer,announcer,m
-22,Selma Bouvier,selma bouvier,f
-18,Barney Gumble,barney gumble,m
-10,Patty Bouvier,patty bouvier,f
-38,Martin Prince,martin prince,m
-52,Otto Mann,otto mann,m
-91,Lou,lou,m
-5,Todd Flanders,todd flanders,m
-96,Dr. Marvin Monroe,dr marvin monroe,m
-43,Dr. J. Loren Pyror,dr j loren pyror,m
-6,Dewey Largo,dewey largo,m
-90,Eddie,eddie,m
-21,Teacher,teacher,m
-28,Clerk,clerk,m
-32,Father,father,m
-54,Sherri Mackleberry,sherri mackleberry,f
-4,JANEY,janey,f
-44,Ms. Melon,ms melon,f
-19,Interviewer,interviewer,m
-45,Ethan Foley,ethan foley,m
-55,Terri Mackleberry,terri mackleberry,f
-23,Voice,voice,m
-98,Receptionist,receptionist,f
 110,Ms. Barr,ms barr,
+111,Bleeding Gums Murphy,bleeding gums murphy,m
+112,Jacqueline Bouvier,jacqueline bouvier,f
 113,Newsman,newsman,
 114,Barflies,barflies,
+115,Cashier,cashier,m
 116,Boy Onlooker,boy onlooker,
 117,Champ,champ,
+118,Woman,woman,f
+119,Ralph Wiggum,ralph wiggum,m
+120,Stan,stan,m
+121,Rod Flanders,rod flanders,m
 122,NED,ned,
+123,Cowboy Bob,cowboy bob,m
+124,Salesman,salesman,m
 125,Homer's Canyon Echo,homers canyon echo,
 126,Camper Father,camper father,
 127,Camper Mother,camper mother,
 128,Photographer,photographer,
 129,Game Warden,game warden,
-130,"Reporter #1",reporter 1,
-131,"Reporter #2",reporter 2,
+130,Reporter #1,reporter 1,
+131,Reporter #2,reporter 2,
 132,Flunky,flunky,
 133,Map Boy,map boy,
-134,"Man #1",man 1,
-135,"Man #2",man 2,
+134,Man #1,man 1,
+135,Man #2,man 2,
 136,German Scientist,german scientist,
 137,Beautiful French Scientist,beautiful french scientist,
 138,English Scientist,english scientist,
-141,"Announcer #1",announcer 1,
-142,"Radio Announcer #1",radio announcer 1,
+139,Krusty the Clown,krusty the clown,m
+140,Rev. Timothy Lovejoy,rev timothy lovejoy,m
+141,Announcer #1,announcer 1,
+142,Radio Announcer #1,radio announcer 1,
 143,Churchgoing Woman,churchgoing woman,
+144,Jimbo Jones,jimbo jones,m
+145,Kearney Zzyzwicz,kearney zzyzwicz,m
+146,DOLPH,dolph,m
 147,Girl On Screen,girl on screen,
 148,Boy On Screen,boy on screen,
 149,Usher,usher,
 150,Mr. Dandy,mr dandy,
-151,"Radio Announcer #3",radio announcer 3,
+151,Radio Announcer #3,radio announcer 3,
 152,Jebediah Springfield,jebediah springfield,
-154,"TV ANNOUNCER #3 CONT'D",tv announcer 3 contd,
+153,Sideshow Bob,sideshow bob,m
+154,TV ANNOUNCER #3 CONT'D,tv announcer 3 contd,
 155,Mob,mob,
+156,Security Guard,security guard,m
 157,Waiters,waiters,
 158,1st Waiter Quartet,1st waiter quartet,
 159,2nd Waiter Quartet,2nd waiter quartet,
 160,3rd Waiter Quartet,3rd waiter quartet,
 161,4TH QUARTET OF WAITERS,4th quartet of waiters,
 162,Counter Guy,counter guy,
+163,Jacques,jacques,m
 164,HELEN,helen,
+165,Lenny Leonard,lenny leonard,m
 166,Another Worker,another worker,
 167,Female Mail Carrier,female mail carrier,
 168,Mr. Fisk,mr fisk,
 169,Eugene Fisk,eugene fisk,
+170,Carl Carlson,carl carlson,m
+171,Waiter,waiter,m
 172,Workers,workers,
 173,Princess Kashmir,princess kashmir,
 174,Hoyt,hoyt,
-175,"Girl #1",girl 1,
-176,"Boy #1",boy 1,
+175,Girl #1,girl 1,
+176,Boy #1,boy 1,
 177,All Kids,all kids,
 178,Freddie,freddie,
 179,Lewis's Dad,lewiss dad,
 180,Al,al,
 181,Happy Man,happy man,
 182,Funky Guy,funky guy,
+183,Manager,manager,m
 184,Man At Door,man at door,
 185,Ticket-seller,ticket-seller,
 186,Stage Manager,stage manager,
-188,"Theatre-goer #1",theatre-goer 1,
-189,"Theatre-goer #2",theatre-goer 2,
-190,"Theatre-goer #3",theatre-goer 3,
+187,Gulliver Dark,gulliver dark,m
+188,Theatre-goer #1,theatre-goer 1,
+189,Theatre-goer #2,theatre-goer 2,
+190,Theatre-goer #3,theatre-goer 3,
+191,Krusty Doll,krusty doll,m
+192,Agnes Skinner,agnes skinner,f
 193,Steward,steward,
+194,Mother,mother,f
 195,Adil Hoxha,adil hoxha,
 196,UGOLIN,ugolin,
+197,Cesar,cesar,m
 198,Male Announcer,male announcer,
 199,Military Man,military man,
 200,MARGE & BART,marge bart,
 201,Gendarme,gendarme,
-202,"Cia Agent #1",cia agent 1,
-203,"Cia Agent #2",cia agent 2,
+202,Cia Agent #1,cia agent 1,
+203,Cia Agent #2,cia agent 2,
 204,Brad,brad,
 205,Female Announcer,female announcer,
 206,Brittany,brittany,
 207,ITCHY & SCRATCHY CHORUS,itchy scratchy chorus,
+208,Apu Nahasapeemapetilon,apu nahasapeemapetilon,m
 209,Police Artist,police artist,
 210,Scott Christian,scott christian,
-212,"Reporter #3",reporter 3,
+211,Kent Brockman,kent brockman,m
+212,Reporter #3,reporter 3,
+213,Lawyer,lawyer,m
+214,Judge Snyder,judge snyder,m
 215,District Attorney,district attorney,
 216,Merchant,merchant,
-211,Kent Brockman,kent brockman,m
-208,Apu Nahasapeemapetilon,apu nahasapeemapetilon,m
-165,Lenny Leonard,lenny leonard,m
-170,Carl Carlson,carl carlson,m
-153,Sideshow Bob,sideshow bob,m
-119,Ralph Wiggum,ralph wiggum,m
-144,Jimbo Jones,jimbo jones,m
-192,Agnes Skinner,agnes skinner,f
-145,Kearney Zzyzwicz,kearney zzyzwicz,m
-146,DOLPH,dolph,m
-214,Judge Snyder,judge snyder,m
-163,Jacques,jacques,m
-124,Salesman,salesman,m
-118,Woman,woman,f
-121,Rod Flanders,rod flanders,m
-183,Manager,manager,m
-111,Bleeding Gums Murphy,bleeding gums murphy,m
-123,Cowboy Bob,cowboy bob,m
-112,Jacqueline Bouvier,jacqueline bouvier,f
-171,Waiter,waiter,m
-187,Gulliver Dark,gulliver dark,m
-197,Cesar,cesar,m
-120,Stan,stan,m
-115,Cashier,cashier,m
-191,Krusty Doll,krusty doll,m
-213,Lawyer,lawyer,m
-194,Mother,mother,f
 217,Foreperson,foreperson,
-219,"Merchandiser #1",merchandiser 1,
-220,"Merchandiser #3",merchandiser 3,
+218,Director,director,m
+219,Merchandiser #1,merchandiser 1,
+220,Merchandiser #3,merchandiser 3,
 221,Kbbl Weatherman,kbbl weatherman,
+222,Arnie Pye,arnie pye,m
+223,Radio Announcer,radio announcer,m
 224,Screener,screener,
 225,Worker One,worker one,
 226,Florist,florist,
@@ -224,6 +234,10 @@ id,name,normalized_name,gender
 234,Krabappel's Mouth,krabappels mouth,
 235,GRANDMA,grandma,
 236,Nurse Farrell,nurse farrell,
+237,Nurse,nurse,f
+238,Marty,marty,m
+239,Bill,bill,m
+240,Mayor Joe Quimby,mayor joe quimby,m
 241,Entire Town,entire town,
 242,Thomas Jefferson,thomas jefferson,
 243,John Adams,john adams,
@@ -239,9 +253,10 @@ id,name,normalized_name,gender
 253,Other Runner,other runner,
 254,Jake,jake,
 255,Woman Applicant,woman applicant,
+256,Karl,karl,m
 257,Man In Tuxedo,man in tuxedo,
-258,"Executive #1",executive 1,
-259,"Executive #3",executive 3,
+258,Executive #1,executive 1,
+259,Executive #3,executive 3,
 260,Moving Man,moving man,
 261,House,house,
 262,Kang,kang,
@@ -252,75 +267,71 @@ id,name,normalized_name,gender
 267,Dave Shutton,dave shutton,
 268,Chief Inspector,chief inspector,
 269,Dean Danielson,dean danielson,
+270,DANIELSON,danielson,m
 271,DANEILSON,daneilson,
+272,TV Announcer,tv announcer,m
+273,Jasper Beardly,jasper beardly,m
 274,OLD BEARDED GUY,old bearded guy,
 275,Charles Darwin,charles darwin,
 276,Singers,singers,
 277,MARY BAILEY,mary bailey,
-278,"Investigator #1",investigator 1,
-279,"Investigator #2",investigator 2,
-280,"Investigator #3",investigator 3,
+278,Investigator #1,investigator 1,
+279,Investigator #2,investigator 2,
+280,Investigator #3,investigator 3,
 281,Make-up Man,make-up man,
 282,Gregor,gregor,
 283,GAMMILL,gammill,
 284,FLASH,flash,
-285,"Player #1",player 1,
+285,Player #1,player 1,
 286,P.A. Announcer,pa announcer,
 288,Dan Hoard,dan hoard,
 289,Vendor,vendor,
 290,VENDER,vender,
 291,MR. O'HARA,mr ohara,
 292,Man On Bus,man on bus,
-293,"Player #2",player 2,
-294,"Rasta #1",rasta 1,
-295,"Rasta #2",rasta 2,
+293,Player #2,player 2,
+294,Rasta #1,rasta 1,
+295,Rasta #2,rasta 2,
 296,Supervisor,supervisor,
 297,Tony Bennett,tony bennett,
 298,Capital City Goofball,capital city goofball,
 299,Dave Glass,dave glass,
-300,"First Wife #3",first wife 3,
-301,"First Wife #1",first wife 1,
+300,First Wife #3,first wife 3,
+301,First Wife #1,first wife 1,
 302,Hot Dog Man,hot dog man,
-303,"Spectator #1",spectator 1,
-304,"Spectator #2",spectator 2,
-305,"Spectator #3",spectator 3,
+303,Spectator #1,spectator 1,
+304,Spectator #2,spectator 2,
+305,Spectator #3,spectator 3,
 306,Clubhouse Attendant,clubhouse attendant,
 307,Dave Rosenfield,dave rosenfield,
+308,Maude Flanders,maude flanders,f
+309,Helen Lovejoy,helen lovejoy,f
 310,Librarian,librarian,
+311,Man,man,m
 312,SENIOR CITIZENS,senior citizens,
-314,"Announcer #2",announcer 2,
+313,British Commentator,british commentator,m
+314,Announcer #2,announcer 2,
 315,Mrs. Spencer,mrs spencer,
-316,"Security Guard #1",security guard 1,
+316,Security Guard #1,security guard 1,
 317,Casey,casey,
 318,Rory,rory,
 319,Transient,transient,
 320,Uncle Sam,uncle sam,
 321,Audience,audience,
-322,"Tv Voice #1",tv voice 1,
-323,"Tv Voice #2",tv voice 2,
-324,"Tv Voice #3",tv voice 3,
+322,Tv Voice #1,tv voice 1,
+323,Tv Voice #2,tv voice 2,
+324,Tv Voice #3,tv voice 3,
 325,ALL THREE TV VOICES,all three tv voices,
-240,Mayor Joe Quimby,mayor joe quimby,m
-308,Maude Flanders,maude flanders,f
-309,Helen Lovejoy,helen lovejoy,f
-273,Jasper Beardly,jasper beardly,m
-311,Man,man,m
-238,Marty,marty,m
-272,TV Announcer,tv announcer,m
-239,Bill,bill,m
-218,Director,director,m
-222,Arnie Pye,arnie pye,m
-237,Nurse,nurse,f
-256,Karl,karl,m
-223,Radio Announcer,radio announcer,m
-313,British Commentator,british commentator,m
-270,DANIELSON,danielson,m
 326,ALL 3 ANNOUNCERS,all 3 announcers,
 327,LARGO,largo,
 328,SCRAPER,scraper,
 329,CLARK,clark,
+330,Track Announcer,track announcer,m
+331,MURDOCK,murdock,m
+332,Dr. Julius Hibbert,dr julius hibbert,m
 333,SMYTHE,smythe,
 334,Itchy & Scratchy Singers,itchy scratchy singers,
+335,"Roger Meyers, Jr.",roger meyers jr,m
 336,Her Group,her group,
 337,Animator,animator,
 338,1ST BOARD MEMBER,1st board member,
@@ -329,11 +340,18 @@ id,name,normalized_name,gender
 342,Scratchy,scratchy,
 343,Itchy,itchy,
 344,Curator,curator,
+345,Reporter,reporter,m
+346,Devil,devil,m
+347,Lionel Hutz,lionel hutz,m
 348,Della,della,
+349,Dr. Nick Riviera,dr nick riviera,m
 350,Bailiff,bailiff,
+351,Blue-Haired Lawyer,blue-haired lawyer,m
 352,BURNS LAWYER,burns lawyer,
+353,Larry,larry,m
 354,Sushi Bar Chefs,sushi bar chefs,
 355,Hostess,hostess,
+356,Akira,akira,m
 357,Toshiro,toshiro,
 358,Master,master,
 359,Richie Sakai,richie sakai,
@@ -346,8 +364,10 @@ id,name,normalized_name,gender
 366,Police Captain,police captain,
 368,Fat One,fat one,
 369,Kim,kim,
+370,Principal Dondelinger,principal dondelinger,m
 371,Estelle,estelle,
 372,MCINTYRE,mcintyre,
+373,Artie Ziff,artie ziff,m
 374,Mrs. Bloominstein,mrs bloominstein,
 375,Coach Flanagan,coach flanagan,
 376,Mr. Seckofsky,mr seckofsky,
@@ -360,23 +380,24 @@ id,name,normalized_name,gender
 383,Moses,moses,
 384,Cable Guy,cable guy,
 385,Comic,comic,
-386,"Woman #1",woman 1,
-387,"Woman #2",woman 2,
+386,Woman #1,woman 1,
+387,Woman #2,woman 2,
 388,Mexican Announcer,mexican announcer,
 389,Representative,representative,
 390,Cockfight Announcer,cockfight announcer,
 391,Davey,davey,
 392,Goliath,goliath,
-394,"Panelist #1",panelist 1,
+394,Panelist #1,panelist 1,
 395,Blockbuster Announcer,blockbuster announcer,
 396,Top Hat Announcer,top hat announcer,
 397,Stock Reporter,stock reporter,
-398,"Boxing Announcer #1",boxing announcer 1,
-399,"Boxing Announcer #2",boxing announcer 2,
+398,Boxing Announcer #1,boxing announcer 1,
+399,Boxing Announcer #2,boxing announcer 2,
 400,Challenger,challenger,
 401,Referee,referee,
 402,Kindly Old Gent,kindly old gent,
 403,Stanley,stanley,
+404,Groundskeeper Willie,groundskeeper willie,m
 405,Busboy,busboy,
 406,Australian Boy,australian boy,
 407,Australian Girl,australian girl,
@@ -386,54 +407,42 @@ id,name,normalized_name,gender
 411,Female Commando,female commando,
 412,Theatre Manager,theatre manager,
 413,Floozy,floozy,
+414,Mona Simpson,mona simpson,f
 416,Attendant,attendant,
+417,HERB,herb,m
 418,Policeman,policeman,
-419,"Executive #2",executive 2,
+419,Executive #2,executive 2,
 420,Head Engineer,head engineer,
-421,"Engineer #2",engineer 2,
-422,"Engineer #3",engineer 3,
+421,Engineer #2,engineer 2,
+422,Engineer #3,engineer 3,
 423,Female Singer,female singer,
 424,Counter Man,counter man,
 425,Flanders's Thoughts,flanderss thoughts,
+426,Troy McClure,troy mcclure,m
+427,Emily,emily,f
 428,Kelly,kelly,
+429,Jack,jack,m
 430,Father McGrath,father mcgrath,
 431,Salesboy,salesboy,
 432,Hula Woman,hula woman,
+433,Farmer,farmer,m
 434,BEA,bea,
 435,Checker,checker,
-332,Dr. Julius Hibbert,dr julius hibbert,m
-404,Groundskeeper Willie,groundskeeper willie,m
-426,Troy McClure,troy mcclure,m
-347,Lionel Hutz,lionel hutz,m
-417,HERB,herb,m
-414,Mona Simpson,mona simpson,f
-335,"Roger Meyers, Jr.",roger meyers jr,m
-351,Blue-Haired Lawyer,blue-haired lawyer,m
-349,Dr. Nick Riviera,dr nick riviera,m
-373,Artie Ziff,artie ziff,m
-353,Larry,larry,m
-370,Principal Dondelinger,principal dondelinger,m
-427,Emily,emily,f
-356,Akira,akira,m
-429,Jack,jack,m
-330,Track Announcer,track announcer,m
-346,Devil,devil,m
-433,Farmer,farmer,m
-345,Reporter,reporter,m
-331,MURDOCK,murdock,m
+436,Guard,guard,m
 437,Tracker,tracker,
 438,Mr. Hazelwood,mr hazelwood,
 439,Cabbie,cabbie,
 440,KENT,kent,
 441,MONROE,monroe,
+442,Professor Jonathan Frink,professor jonathan frink,m
 443,Old Man Daly,old man daly,
 444,Old Man McGrath,old man mcgrath,
 445,Plato,plato,
 446,Croupier,croupier,
 447,Recorded Announcer,recorded announcer,
 448,Old Woman In Line,old woman in line,
-449,"Monitor #1",monitor 1,
-450,"Monitor #2",monitor 2,
+449,Monitor #1,monitor 1,
+450,Monitor #2,monitor 2,
 451,Female Newscaster,female newscaster,
 452,Mr. Schindler,mr schindler,
 453,Student,student,
@@ -447,17 +456,22 @@ id,name,normalized_name,gender
 461,WETHERBY,wetherby,
 462,MRS. HOOVER,mrs hoover,
 463,Chuck,chuck,
+464,Miss Hoover,miss hoover,f
+465,BERGSTROM,bergstrom,m
 466,Classmate,classmate,
 467,Terri/sherri,terrisherri,
 468,Woman In Booth,woman in booth,
 469,Landlady,landlady,
 470,Kid Reporter,kid reporter,
 471,Husband Of Marge's Friend,husband of marges friend,
-472,"Sophisticate #1",sophisticate 1,
-473,"Sophisticate #2",sophisticate 2,
-474,"Sophisticate #3",sophisticate 3,
+472,Sophisticate #1,sophisticate 1,
+473,Sophisticate #2,sophisticate 2,
+474,Sophisticate #3,sophisticate 3,
 475,Sultan,sultan,
 476,Worm Man,worm man,
+477,Gloria,gloria,f
+478,John,john,m
+479,Captain,captain,m
 480,Convict,convict,
 481,Customer,customer,
 482,DIAMOND JOE,diamond joe,
@@ -473,6 +487,7 @@ id,name,normalized_name,gender
 493,Older Selma,older selma,
 494,Adult Narrator,adult narrator,
 495,Teller,teller,
+496,Mrs. Glick,mrs glick,f
 497,Asa,asa,
 498,Soap Actress,soap actress,
 499,Soap Actor,soap actor,
@@ -481,13 +496,19 @@ id,name,normalized_name,gender
 502,Roman,roman,
 503,Postal Worker,postal worker,
 505,Joey,joey,
-506,"Guard #1",guard 1,
-507,"Guard #2",guard 2,
+506,Guard #1,guard 1,
+507,Guard #2,guard 2,
+508,Host,host,m
 509,Psychiatrist,psychiatrist,
 510,Orderly,orderly,
+511,MICHAEL,michael,m
 512,Floyd,floyd,
 513,Bart's Head,barts head,
+514,Wiseguy,wiseguy,m
 515,Voice On Phone,voice on phone,
+516,Doctor,doctor,m
+517,Dave,dave,m
+518,Snake Jailbird,snake jailbird,m
 519,Leon Kompowsky,leon kompowsky,
 520,Minnesota Girl,minnesota girl,
 521,Alabama Boy,alabama boy,
@@ -495,41 +516,27 @@ id,name,normalized_name,gender
 523,Female Judge,female judge,
 524,Dad,dad,
 525,Flight Attendant,flight attendant,
+526,Pilot,pilot,m
 527,Irs Man,irs man,
 528,Hotel Guest,hotel guest,
 529,Miss Crowley,miss crowley,
 530,Truong/maria,truongmaria,
 531,TRUONG,truong,
 532,MARIA,maria,
+533,BARBARA,barbara,f
 534,Worker,worker,
 535,Guide,guide,
 536,Lobbyist,lobbyist,
 537,Arnold,arnold,
 538,Newlywed Wife,newlywed wife,
-539,"White Trash Woman #1",white trash woman 1,
-540,"Man #3",man 3,
+539,White Trash Woman #1,white trash woman 1,
+540,Man #3,man 3,
 541,Old Timer,old timer,
 542,Guy,guy,
 543,Songster,songster,
 544,Page,page,
 545,Senator,senator,
 546,Oil Developer,oil developer,
-442,Professor Jonathan Frink,professor jonathan frink,m
-518,Snake Jailbird,snake jailbird,m
-464,Miss Hoover,miss hoover,f
-465,BERGSTROM,bergstrom,m
-511,MICHAEL,michael,m
-526,Pilot,pilot,m
-478,John,john,m
-508,Host,host,m
-436,Guard,guard,m
-477,Gloria,gloria,f
-479,Captain,captain,m
-496,Mrs. Glick,mrs glick,f
-516,Doctor,doctor,m
-533,BARBARA,barbara,f
-517,Dave,dave,m
-514,Wiseguy,wiseguy,m
 547,Agent,agent,
 548,Speaker,speaker,
 549,Majority Leader,majority leader,
@@ -537,7 +544,7 @@ id,name,normalized_name,gender
 551,President,president,
 552,Foreign Dignitary,foreign dignitary,
 553,Paper Boy,paper boy,
-554,"Sportscaster #1",sportscaster 1,
+554,Sportscaster #1,sportscaster 1,
 555,Girl,girl,
 556,Neighborhood Guy,neighborhood guy,
 557,Homemaker,homemaker,
@@ -550,11 +557,14 @@ id,name,normalized_name,gender
 564,Collection Agent,collection agent,
 565,Wife,wife,
 566,Shoppers,shoppers,
+567,Executive,executive,m
+568,Fat Tony,fat tony,m
 569,Legs,legs,
+570,Louie,louie,m
 571,Race Announcer,race announcer,
 572,Jack Larson,jack larson,
-573,"Fbi Agent #1",fbi agent 1,
-574,"Fbi Agent #2",fbi agent 2,
+573,Fbi Agent #1,fbi agent 1,
+574,Fbi Agent #2,fbi agent 2,
 575,Rival Gang Leader,rival gang leader,
 576,Psychic,psychic,
 577,Skinner Body,skinner body,
@@ -565,24 +575,28 @@ id,name,normalized_name,gender
 582,Mr. Devereaux,mr devereaux,
 583,Margarita,margarita,
 584,Program Voices,program voices,
+585,Instructor,instructor,m
 586,Female Worker,female worker,
 587,Male Worker,male worker,
 588,Contestant,contestant,
 589,Magic Johnson,magic johnson,
 590,Aristotle,aristotle,
+591,Luann Van Houten,luann van houten,f
 592,Thought Bubble Barney,thought bubble barney,
 593,Female Voice,female voice,
 594,SCOTT,scott,
 595,Miss Lois Pennycandy,miss lois pennycandy,
 596,Sexy Female Recording,sexy female recording,
 597,PENNYCANDY,pennycandy,
-600,"Rabbi #1",rabbi 1,
+598,Rabbi Hyman Krustofsky,rabbi hyman krustofsky,m
+600,Rabbi #1,rabbi 1,
 601,Rowdy Rabbi,rowdy rabbi,
 602,Martian,martian,
+603,D.J.,dj,m
 604,Caller,caller,
 605,MONSIGNOR DALEY,monsignor daley,
 606,Yiddle,yiddle,
-607,"Rabbi #2",rabbi 2,
+607,Rabbi #2,rabbi 2,
 608,Waitress,waitress,
 609,Stagehand,stagehand,
 610,Airport Announcer,airport announcer,
@@ -590,6 +604,7 @@ id,name,normalized_name,gender
 612,Military Cops,military cops,
 613,English Diplomat,english diplomat,
 614,Argentine Diplomat,argentine diplomat,
+615,Colonel,colonel,m
 616,Female Office Worker,female office worker,
 617,Male Office Worker,male office worker,
 618,Townspeople,townspeople,
@@ -600,6 +615,7 @@ id,name,normalized_name,gender
 623,Crypt Keeper Willie,crypt keeper willie,
 624,Robot,robot,
 625,Homer-Ape,homer-ape,
+626,Lunchlady Doris,lunchlady doris,f
 627,Little Man,little man,
 628,Teenager,teenager,
 630,Baby Lisa,baby lisa,
@@ -610,34 +626,26 @@ id,name,normalized_name,gender
 635,Johnny Carson,johnny carson,
 636,Scoey,scoey,
 637,Teenage Clerk,teenage clerk,
+638,Football Announcer,football announcer,m
 639,DAVE JR.,dave jr,
 640,Official,official,
 641,Voice From Trunk,voice from trunk,
 642,Ronnie,ronnie,
 643,DREDERICK,drederick,
 644,Wanda,wanda,
+645,Becky,becky,f
 646,Girls,girls,
-647,"Patron #1",patron 1,
-648,"Patron #2",patron 2,
+647,Patron #1,patron 1,
+648,Patron #2,patron 2,
 649,Collette,collette,
 650,HARV,harv,
 651,Bernard,bernard,
+652,Aide,aide,m
 653,Aerosmith,aerosmith,
 654,Steven Tyler,steven tyler,
 655,Joe Perry,joe perry,
 656,Brad Whitford,brad whitford,
-568,Fat Tony,fat tony,m
-570,Louie,louie,m
-598,Rabbi Hyman Krustofsky,rabbi hyman krustofsky,m
-591,Luann Van Houten,luann van houten,f
-615,Colonel,colonel,m
-638,Football Announcer,football announcer,m
-567,Executive,executive,m
-603,D.J.,dj,m
-645,Becky,becky,f
-585,Instructor,instructor,m
-652,Aide,aide,m
-626,Lunchlady Doris,lunchlady doris,f
+657,HUGH,hugh,m
 658,Everyone,everyone,
 659,Bartender,bartender,
 660,One-eyed Bartender,one-eyed bartender,
@@ -648,6 +656,8 @@ id,name,normalized_name,gender
 665,Broker,broker,
 666,Hans,hans,
 667,Fritz,fritz,
+668,Charlie,charlie,m
+669,Horst,horst,m
 670,German Teacher,german teacher,
 671,Boxer,boxer,
 672,Mr. Thorson,mr thorson,
@@ -655,8 +665,8 @@ id,name,normalized_name,gender
 674,Patient,patient,
 675,Justice Of The Peace,justice of the peace,
 676,Groom,groom,
-677,"Applicant #1",applicant 1,
-678,"Applicant #2",applicant 2,
+677,Applicant #1,applicant 1,
+678,Applicant #2,applicant 2,
 679,Applicants,applicants,
 680,Tourist Kid,tourist kid,
 681,Tourist Dad,tourist dad,
@@ -677,22 +687,24 @@ id,name,normalized_name,gender
 696,Falcon Man,falcon man,
 697,Sailor,sailor,
 698,Sting,sting,
+699,Sideshow Mel,sideshow mel,m
 700,Choir,choir,
 701,Souvenir Hawker,souvenir hawker,
 702,Station Announcer,station announcer,
-703,"Old Lady #1",old lady 1,
+703,Old Lady #1,old lady 1,
 704,Bret,bret,
 705,JIMMY,jimmy,
 706,Sportscaster,sportscaster,
 707,Coach,coach,
-708,"Football Announcer #2",football announcer 2,
+708,Football Announcer #2,football announcer 2,
 709,Player,player,
 710,Marco,marco,
 711,Box,box,
 712,Nutty Comedian,nutty comedian,
 713,Alien,alien,
 714,Duff Announcer,duff announcer,
-716,"Nick #2",nick 2,
+715,Nick,nick,m
+716,Nick #2,nick 2,
 717,Commercial Guy,commercial guy,
 718,Man On Phone,man on phone,
 719,Bus Driver,bus driver,
@@ -701,8 +713,8 @@ id,name,normalized_name,gender
 722,Chef Rodrigo,chef rodrigo,
 723,Gregory,gregory,
 724,FABRIZIO,fabrizio,
-725,"Woman On Tv #1",woman on tv 1,
-726,"Woman On Tv #2",woman on tv 2,
+725,Woman On Tv #1,woman on tv 1,
+726,Woman On Tv #2,woman on tv 2,
 727,Teenage Boy,teenage boy,
 728,CHIF WIGGUM,chif wiggum,
 729,Service Manager,service manager,
@@ -717,6 +729,8 @@ id,name,normalized_name,gender
 738,Dispatcher,dispatcher,
 739,ARI,ari,
 740,Jose Canseco,jose canseco,
+741,Mike Scioscia,mike scioscia,m
+742,Tour Guide,tour guide,m
 743,Ozzie Smith,ozzie smith,
 744,Don Mattingly,don mattingly,
 745,Steve Sax,steve sax,
@@ -731,38 +745,34 @@ id,name,normalized_name,gender
 754,Courier,courier,
 756,FORTE,forte,
 757,Donna,donna,
+758,Tammy,tammy,f
 759,PRINCIPAL WILLIE,principal willie,
 760,Prosecutor,prosecutor,
 761,Steve Allen,steve allen,
 762,Mr. Montone,mr montone,
 763,Former Teacher,former teacher,
-764,"Teacher #1",teacher 1,
-765,"Teacher #2",teacher 2,
+764,Teacher #1,teacher 1,
+765,Teacher #2,teacher 2,
 766,Hippie Teacher,hippie teacher,
-768,Employer,employer,
-699,Sideshow Mel,sideshow mel,m
-742,Tour Guide,tour guide,m
-657,HUGH,hugh,m
-758,Tammy,tammy,f
 767,Employee,employee,m
-741,Mike Scioscia,mike scioscia,m
-668,Charlie,charlie,m
-715,Nick,nick,m
+768,Employer,employer,
 769,Window Washers,window washers,
 770,Sanjay Nahasapeemapetilon,sanjay nahasapeemapetilon,
 771,Lottery Announcer,lottery announcer,
 772,Vet,vet,
 773,Mr. Danielson,mr danielson,
+774,God,god,m
 775,Sadistic Barfly,sadistic barfly,
 776,Young Barfly,young barfly,
 777,Trainee,trainee,
 778,Butler,butler,
 779,Ticket Man,ticket man,
 780,General,general,
-781,"Cowboy #1",cowboy 1,
-782,"Cowboy #2",cowboy 2,
+781,Cowboy #1,cowboy 1,
+782,Cowboy #2,cowboy 2,
 783,Bar Owner,bar owner,
 784,Yodelin' Zeke,yodelin zeke,
+785,Lurleen Lumpkin,lurleen lumpkin,f
 786,Male Nurse,male nurse,
 787,Music Store Owner,music store owner,
 788,Mr. Boylan,mr boylan,
@@ -773,12 +783,14 @@ id,name,normalized_name,gender
 793,Hurley,hurley,
 794,Dinosaur Dad,dinosaur dad,
 795,Dinosaur Son,dinosaur son,
-796,"Cellmate #1",cellmate 1,
+796,Cellmate #1,cellmate 1,
 797,FAMILY/EVERYONE,familyeveryone,
 798,Crooner,crooner,
 799,MacGyver,macgyver,
 800,T-shirt Guy,t-shirt guy,
+801,Comic Book Guy,comic book guy,m
 802,David,david,
+803,Nigel Bakerbutcher,nigel bakerbutcher,m
 804,DEREK,derek,
 805,Roadie,roadie,
 806,Stoned Guy,stoned guy,
@@ -789,14 +801,15 @@ id,name,normalized_name,gender
 811,Samantha Stanky,samantha stanky,
 812,Grave Digger,grave digger,
 813,Crane Operator,crane operator,
-814,"Worker #1",worker 1,
-815,"Worker #2",worker 2,
+814,Worker #1,worker 1,
+815,Worker #2,worker 2,
 816,Mr. Stanky,mr stanky,
+817,Kirk Van Houten,kirk van houten,m
 818,Nun,nun,
-819,"NUN #2",nun 2,
+819,NUN #2,nun 2,
 820,Bum,bum,
 821,WILLIAM POWEL LOOKALIKE,william powel lookalike,
-822,"Bum #2",bum 2,
+822,Bum #2,bum 2,
 823,Nbc Anchorman,nbc anchorman,
 824,Jittery Private,jittery private,
 825,Angry Sergeant,angry sergeant,
@@ -811,23 +824,24 @@ id,name,normalized_name,gender
 834,Campers,campers,
 835,Line Judge,line judge,
 836,Stablehand,stablehand,
-837,"Little Boy #1",little boy 1,
+837,Little Boy #1,little boy 1,
 838,Queen Elizabeth II,queen elizabeth ii,
 839,Yoga Instructor,yoga instructor,
 840,HOMER'S THOUGHT,homers thought,
 841,Contestants,contestants,
 842,Mr. Bozwell,mr bozwell,
 843,DEBORAH JO SMALLWOOD,deborah jo smallwood,
-845,"Auditioning Woman #1",auditioning woman 1,
-846,"Auditioning Woman #2",auditioning woman 2,
-847,"Auditioning Woman #3",auditioning woman 3,
+844,Llewellyn Sinclair,llewellyn sinclair,m
+845,Auditioning Woman #1,auditioning woman 1,
+846,Auditioning Woman #2,auditioning woman 2,
+847,Auditioning Woman #3,auditioning woman 3,
 848,Ms. Sinclair,ms sinclair,
 849,Video Game Voice,video game voice,
 850,Company,company,
 851,Actress,actress,
 852,Male Parishoner,male parishoner,
-853,"Stooge #1",stooge 1,
-854,"Stooge #2",stooge 2,
+853,Stooge #1,stooge 1,
+854,Stooge #2,stooge 2,
 855,Boring Guy,boring guy,
 856,Commentator,commentator,
 857,Abraham Lincoln,abraham lincoln,
@@ -850,21 +864,18 @@ id,name,normalized_name,gender
 874,Museum Worker,museum worker,
 875,Show Announcer,show announcer,
 876,Bob Hope,bob hope,
-817,Kirk Van Houten,kirk van houten,m
-785,Lurleen Lumpkin,lurleen lumpkin,f
-774,God,god,m
-803,Nigel Bakerbutcher,nigel bakerbutcher,m
 877,Advance Man,advance man,
-878,"Soldier #1",soldier 1,
-879,"Soldier #2",soldier 2,
-881,"Nerd #1",nerd 1,
-882,"Nerd #2",nerd 2,
+878,Soldier #1,soldier 1,
+879,Soldier #2,soldier 2,
+880,Santa Claus,santa claus,m
+881,Nerd #1,nerd 1,
+882,Nerd #2,nerd 2,
 883,Football Player,football player,
 884,Shopkeeper,shopkeeper,
 885,Gangster,gangster,
 886,Repairman,repairman,
-887,"Sailor #1",sailor 1,
-888,"Sailor #2",sailor 2,
+887,Sailor #1,sailor 1,
+888,Sailor #2,sailor 2,
 889,Natives,natives,
 890,'30s Reporter,30s reporter,
 891,Girl Star,girl star,
@@ -884,6 +895,7 @@ id,name,normalized_name,gender
 905,Helmsman,helmsman,
 906,Chief Engineer,chief engineer,
 907,Rowdy Woman,rowdy woman,
+908,Bumblebee Man,bumblebee man,m
 909,Astronaut,astronaut,
 910,Booth Attendant,booth attendant,
 911,MCCLURE,mcclure,
@@ -896,11 +908,13 @@ id,name,normalized_name,gender
 918,Homer,homer,
 919,Hunk,hunk,
 920,Price,price,
+921,Laura Powers,laura powers,f
+923,Squeaky-Voiced Teen,squeaky-voiced teen,m
 924,Mrs. Powers,mrs powers,
-925,"Guy #1",guy 1,
-926,"Guy #2",guy 2,
+925,Guy #1,guy 1,
+926,Guy #2,guy 2,
 927,Chef,chef,
-928,"Waiter #2",waiter 2,
+928,Waiter #2,waiter 2,
 929,Old Man,old man,
 930,Attorney,attorney,
 931,Mailman,mailman,
@@ -916,6 +930,7 @@ id,name,normalized_name,gender
 941,Adam West,adam west,
 942,President Bush,president bush,
 943,"""Just Stamp the Ticket"" Man",just stamp the ticket man,
+944,Captain Horatio McCallister,captain horatio mccallister,m
 945,Linda Ronstadt,linda ronstadt,
 946,Teenage Barney,teenage barney,
 948,Copy Writer,copy writer,
@@ -933,6 +948,7 @@ id,name,normalized_name,gender
 960,Clown Bed,clown bed,
 961,Korean Gymnast,korean gymnast,
 962,Pig,pig,
+963,Hans Moleman,hans moleman,m
 964,Gas Station Boy,gas station boy,
 965,Billy,billy,
 966,Homer's Spirit,homers spirit,
@@ -947,20 +963,14 @@ id,name,normalized_name,gender
 975,Young Riviera,young riviera,
 976,Angry Man,angry man,
 977,Warrior,warrior,
+978,LANLEY,lanley,m
 979,Truckosaurus,truckosaurus,
 980,Sebastian Kobb,sebastian kobb,
 981,Woman With Baby,woman with baby,
 982,Baby,baby,
 983,NIMOY,nimoy,
-984,"Engineer #1",engineer 1,
+984,Engineer #1,engineer 1,
 985,Haverbrook Man,haverbrook man,
-944,Captain Horatio McCallister,captain horatio mccallister,m
-963,Hans Moleman,hans moleman,m
-923,Squeaky-Voiced Teen,squeaky-voiced teen,m
-978,LANLEY,lanley,m
-921,Laura Powers,laura powers,f
-908,Bumblebee Man,bumblebee man,m
-880,Santa Claus,santa claus,m
 986,Bart Anchor,bart anchor,
 987,Lance Murdock,lance murdock,
 988,2nd Announcer,2nd announcer,
@@ -972,7 +982,7 @@ id,name,normalized_name,gender
 994,MR. HUTZ,mr hutz,
 995,Princess Opal,princess opal,
 996,Bag Boy,bag boy,
-997,"Waitress #2",waitress 2,
+997,Waitress #2,waitress 2,
 998,Sperm Doctor,sperm doctor,
 999,Babies,babies,
 1000,MAN ON RADIO,man on radio,
@@ -1020,15 +1030,16 @@ id,name,normalized_name,gender
 1043,Parent One,parent one,
 1044,Parent Two,parent two,
 1045,Feminists,feminists,
+1046,Baseball Announcer,baseball announcer,m
 1047,Train,train,
 1048,Receiver,receiver,
 1049,Burns' Grandfather,burns grandfather,
 1050,Dr. Wolfe,dr wolfe,
 1051,Gummy Joe,gummy joe,
 1052,Donut Vendor,donut vendor,
-1053,"Mop Top #1",mop top 1,
-1054,"Mop Top #2",mop top 2,
-1055,"Mop Top #3",mop top 3,
+1053,Mop Top #1,mop top 1,
+1054,Mop Top #2,mop top 2,
+1055,Mop Top #3,mop top 3,
 1056,Mop Tops,mop tops,
 1057,Goon,goon,
 1058,Bird,bird,
@@ -1043,18 +1054,20 @@ id,name,normalized_name,gender
 1068,Writer,writer,
 1069,Roxie,roxie,
 1070,Bobby Mindich,bobby mindich,
+1071,ARTIE,artie,m
 1072,Barney's Boss,barneys boss,
-1073,"Writer #2",writer 2,
+1073,Writer #2,writer 2,
 1074,Cowboys,cowboys,
 1075,BROOKE,brooke,
 1076,Child,child,
 1077,Seagull,seagull,
+1078,Gary Chalmers,gary chalmers,m
 1079,Scottish Woman,scottish woman,
 1080,Exhaust Pipe Lid,exhaust pipe lid,
 1081,Chicken,chicken,
 1082,Mr. Ogden,mr ogden,
-1083,"Scientist #1",scientist 1,
-1084,"Scientist #2",scientist 2,
+1083,Scientist #1,scientist 1,
+1084,Scientist #2,scientist 2,
 1085,Evil Homer,evil homer,
 1086,Hitler,hitler,
 1087,Recruiter,recruiter,
@@ -1066,26 +1079,25 @@ id,name,normalized_name,gender
 1093,Barry White,barry white,
 1094,Miss Springfield,miss springfield,
 1095,Irishman,irishman,
-1078,Gary Chalmers,gary chalmers,m
-1046,Baseball Announcer,baseball announcer,m
-1071,ARTIE,artie,m
 1096,Old Mrs. Glick,old mrs glick,
 1097,SICK JAPANESE WORKER,sick japanese worker,
-1098,"Japanese Worker #2",japanese worker 2,
+1098,Japanese Worker #2,japanese worker 2,
 1099,JAPANESE WORKERS,japanese workers,
-1100,"White Blood Cell #1",white blood cell 1,
-1101,"White Blood Cell #2",white blood cell 2,
+1100,White Blood Cell #1,white blood cell 1,
+1101,White Blood Cell #2,white blood cell 2,
 1102,Virus,virus,
 1103,JAMAICAN MAN,jamaican man,
 1104,Husband,husband,
 1105,Jury,jury,
 1106,David Crosby,david crosby,
 1107,Jury Foreman,jury foreman,
+1108,Warden,warden,m
 1109,Phillips,phillips,
 1110,Tattoo Annie,tattoo annie,
 1111,Park Commissioner,park commissioner,
 1112,Assistant,assistant,
 1113,Jacqueline,jacqueline,
+1114,Rainier Wolfcastle,rainier wolfcastle,m
 1115,Coast Guard Officer,coast guard officer,
 1116,Charley Weaver,charley weaver,
 1117,Gabbo,gabbo,
@@ -1131,9 +1143,9 @@ id,name,normalized_name,gender
 1157,MRS KRABAPPEL,mrs krabappel,
 1158,Parole Board Head,parole board head,
 1159,People In Court,people in court,
-1160,"Parole Board Member #1",parole board member 1,
+1160,Parole Board Member #1,parole board member 1,
 1161,Parole Board,parole board,
-1162,"Parole Board Member #2",parole board member 2,
+1162,Parole Board Member #2,parole board member 2,
 1163,Man On Screen,man on screen,
 1164,Woman On Tape,woman on tape,
 1165,Investigator,investigator,
@@ -1141,8 +1153,8 @@ id,name,normalized_name,gender
 1167,Woman's Voice,womans voice,
 1168,Nrc Woman,nrc woman,
 1169,Nrc Man,nrc man,
-1170,"Dumb Employee #1",dumb employee 1,
-1171,"Dumb Employee #2",dumb employee 2,
+1170,Dumb Employee #1,dumb employee 1,
+1171,Dumb Employee #2,dumb employee 2,
 1172,Counselor,counselor,
 1173,Admissions Man,admissions man,
 1174,Admissions Woman,admissions woman,
@@ -1168,18 +1180,17 @@ id,name,normalized_name,gender
 1194,Burns's Father,burnss father,
 1195,George Burns,george burns,
 1196,Jimmy Carter,jimmy carter,
-1198,"RAMONE #1",ramone 1,
-1199,"RAMONE #2",ramone 2,
-1200,"RAMONE #3",ramone 3,
-1201,"RAMONE #4",ramone 4,
 1197,George H.W. Bush,george hw bush,m
-1108,Warden,warden,m
+1198,RAMONE #1,ramone 1,
+1199,RAMONE #2,ramone 2,
+1200,RAMONE #3,ramone 3,
+1201,RAMONE #4,ramone 4,
 1202,Drummer,drummer,
 1203,Mechanic,mechanic,
 1204,Explorer,explorer,
 1205,Bear,bear,
 1206,Workman,workman,
-1207,"Workman #2",workman 2,
+1207,Workman #2,workman 2,
 1208,Hooded Man,hooded man,
 1209,Dinosaur,dinosaur,
 1210,Mr. Boswell,mr boswell,
@@ -1195,19 +1206,22 @@ id,name,normalized_name,gender
 1220,GROUNDKEEPER WILLIE,groundkeeper willie,
 1221,Bart Bat,bart bat,
 1222,Humorist,humorist,
+1223,Edward,edward,m
 1224,The Pope,the pope,
+1225,RUTH,ruth,f
 1226,Scientist,scientist,
-1227,"Technician #1",technician 1,
-1228,"Technician #2",technician 2,
+1227,Technician #1,technician 1,
+1228,Technician #2,technician 2,
 1229,Lady,lady,
 1230,Tape Player,tape player,
 1231,Lenny's Wife,lennys wife,
 1232,Tough Guy,tough guy,
 1233,Mohawk Girl,mohawk girl,
-1235,"Woman #3",woman 3,
-1236,"Woman #4",woman 4,
+1235,Woman #3,woman 3,
+1236,Woman #4,woman 4,
 1237,Fry Cook,fry cook,
 1238,Diner Owner,diner owner,
+1239,GOODMAN,goodman,m
 1240,Flanders' Inner Child,flanders inner child,
 1241,Homer's Inner Child,homers inner child,
 1242,Moe's Inner Child,moes inner child,
@@ -1228,15 +1242,17 @@ id,name,normalized_name,gender
 1257,Fathers,fathers,
 1258,Ernest Borgnine,ernest borgnine,
 1259,Dolphins,dolphins,
+1260,Accountant,accountant,m
 1261,Arab Men,arab men,
-1262,"Agent #1",agent 1,
+1262,Agent #1,agent 1,
 1263,Zutroy,zutroy,
-1264,"Agent #2",agent 2,
+1264,Agent #2,agent 2,
 1265,Optometrist,optometrist,
 1266,Dermatologist,dermatologist,
 1267,Podiatrist,podiatrist,
 1268,Internist,internist,
 1269,Jerry Lewis Bart,jerry lewis bart,
+1270,Mindy,mindy,f
 1271,Cherub Lenny,cherub lenny,
 1272,Cherub Carl,cherub carl,
 1273,Fish,fish,
@@ -1248,10 +1264,10 @@ id,name,normalized_name,gender
 1279,Nerds,nerds,
 1280,Big Hand Man,big hand man,
 1281,Bellhop,bellhop,
-1282,"Passerby #1",passerby 1,
-1283,"Passerby #2",passerby 2,
-1284,"Chinese Waiter #1",chinese waiter 1,
-1285,"Chinese Waiter #2",chinese waiter 2,
+1282,Passerby #1,passerby 1,
+1283,Passerby #2,passerby 2,
+1284,Chinese Waiter #1,chinese waiter 1,
+1285,Chinese Waiter #2,chinese waiter 2,
 1286,Newsreel Announcer,newsreel announcer,
 1287,Amos Guy,amos guy,
 1288,Young Jasper,young jasper,
@@ -1274,13 +1290,8 @@ id,name,normalized_name,gender
 1305,Gambler,gambler,
 1306,CRAP PLAYERS,crap players,
 1307,Farmboy,farmboy,
-1308,"Slot Player #1",slot player 1,
-1309,"Slot Player #2",slot player 2,
-1239,GOODMAN,goodman,m
-1225,RUTH,ruth,f
-1270,Mindy,mindy,f
-1223,Edward,edward,m
-1260,Accountant,accountant,m
+1308,Slot Player #1,slot player 1,
+1309,Slot Player #2,slot player 2,
 1310,Audience Member,audience member,
 1311,Robert Goulet,robert goulet,
 1312,Wheelman,wheelman,
@@ -1301,11 +1312,14 @@ id,name,normalized_name,gender
 1327,Hammer,hammer,
 1328,CONAN,conan,
 1329,Kitty,kitty,
-1330,"Customer #1",customer 1,
-1331,"Customer #2",customer 2,
+1330,Customer #1,customer 1,
+1331,Customer #2,customer 2,
 1332,Dog,dog,
-1334,"Bum #1",bum 1,
+1333,Technician,technician,m
+1334,Bum #1,bum 1,
 1335,Comedian,comedian,
+1336,Female Executive,female executive,f
+1337,James Woods,james woods,m
 1338,Stockboy,stockboy,
 1339,Christians,christians,
 1340,Robed Indian,robed indian,
@@ -1313,7 +1327,7 @@ id,name,normalized_name,gender
 1342,ROBBER,robber,
 1343,Old Ladies,old ladies,
 1344,Onlookers,onlookers,
-1345,"Girl #2",girl 2,
+1345,Girl #2,girl 2,
 1346,Hip Old Man,hip old man,
 1347,Buzz Announcer,buzz announcer,
 1348,Malibu Stacy,malibu stacy,
@@ -1333,11 +1347,12 @@ id,name,normalized_name,gender
 1362,Executives,executives,
 1363,Old Lady Customer,old lady customer,
 1364,Old People,old people,
-1365,"GIRL#2",girl2,
+1365,GIRL#2,girl2,
 1366,Crowd Noise,crowd noise,
-1367,"Nasa Announcer #1",nasa announcer 1,
-1368,"Nasa Announcer #2",nasa announcer 2,
+1367,Nasa Announcer #1,nasa announcer 1,
+1368,Nasa Announcer #2,nasa announcer 2,
 1369,Dr. Babcock,dr babcock,
+1370,STILLWATER,stillwater,m
 1371,Chimp,chimp,
 1372,Female Scientist,female scientist,
 1373,TIM ALLEN-TYPE,tim allen-type,
@@ -1350,26 +1365,27 @@ id,name,normalized_name,gender
 1380,Race,race,
 1381,Everybody,everybody,
 1382,Ants,ants,
-1383,"Ant #1",ant 1,
-1384,"Ant #2",ant 2,
-1385,"Ant #3",ant 3,
-1386,"Ant #4",ant 4,
+1383,Ant #1,ant 1,
+1384,Ant #2,ant 2,
+1385,Ant #3,ant 3,
+1386,Ant #4,ant 4,
 1387,James Taylor,james taylor,
-1388,"RERPORTER #4",rerporter 4,
+1388,RERPORTER #4,rerporter 4,
 1389,Star Child Homer,star child homer,
 1390,First Guy In Line,first guy in line,
 1391,Eddie Money,eddie money,
 1392,Jeremiah,jeremiah,
 1393,Priest,priest,
 1394,Rappin' Ronnie,rappin ronnie,
-1395,"Voice #1",voice 1,
-1396,"Voice #2",voice 2,
-1397,"Voice #3",voice 3,
-1398,"Voice #4",voice 4,
+1395,Voice #1,voice 1,
+1396,Voice #2,voice 2,
+1397,Voice #3,voice 3,
+1398,Voice #4,voice 4,
 1399,Congregation,congregation,
 1400,Ernie Ford,ernie ford,
 1401,Carter,carter,
 1402,Gomer,gomer,
+1403,Bill Clinton,bill clinton,m
 1404,Saxophone,saxophone,
 1405,Mr. Clean-style Character,mr clean-style character,
 1406,Goofy Recording,goofy recording,
@@ -1379,20 +1395,16 @@ id,name,normalized_name,gender
 1410,Small Kid,small kid,
 1411,MEDIUM-SIZED KID,medium-sized kid,
 1412,Kid's Mother,kids mother,
+1413,Cletus Spuckler,cletus spuckler,m
 1414,Grizzled Guy,grizzled guy,
 1415,Wildlife Man,wildlife man,
 1416,Ivory Dealer,ivory dealer,
 1417,Speaker Box,speaker box,
 1418,GAME SHOW MAN,game show man,
-1403,Bill Clinton,bill clinton,m
-1337,James Woods,james woods,m
-1524,Jessica,jessica,f
-1370,STILLWATER,stillwater,m
-1333,Technician,technician,m
 1419,Baby Burns,baby burns,
 1420,Teenage Burns,teenage burns,
-1421,"Greenpeace Hippie #1",greenpeace hippie 1,
-1422,"Greenpeace Hippie #2",greenpeace hippie 2,
+1421,Greenpeace Hippie #1,greenpeace hippie 1,
+1422,Greenpeace Hippie #2,greenpeace hippie 2,
 1423,Lee Majors,lee majors,
 1424,Street Urchin,street urchin,
 1425,Elf,elf,
@@ -1405,14 +1417,16 @@ id,name,normalized_name,gender
 1432,Baby Bart,baby bart,
 1433,Class,class,
 1434,Leopold,leopold,
-1436,"Hayseed #1",hayseed 1,
-1437,"Hayseed #2",hayseed 2,
+1435,Luigi,luigi,m
+1436,Hayseed #1,hayseed 1,
+1437,Hayseed #2,hayseed 2,
 1438,Flanders's Beatnik Dad,flanderss beatnik dad,
 1439,Private,private,
 1440,Rowdy Soldier,rowdy soldier,
 1441,Huck,huck,
 1442,Freddy,freddy,
 1443,Lincoln Hobo,lincoln hobo,
+1444,Auctioneer,auctioneer,m
 1445,Various Quimbys,various quimbys,
 1446,French Waiter,french waiter,
 1447,Quimby's Lawyer,quimbys lawyer,
@@ -1420,6 +1434,7 @@ id,name,normalized_name,gender
 1449,JIMBO JR.,jimbo jr,
 1450,Jurors,jurors,
 1451,Monkeys,monkeys,
+1452,Old Jewish Man,old jewish man,m
 1453,Grampa's Brain,grampas brain,
 1454,Generation X Guy,generation x guy,
 1455,Nelson Apparition,nelson apparition,
@@ -1443,12 +1458,13 @@ id,name,normalized_name,gender
 1473,Police Dept. Machine,police dept machine,
 1474,Jimmy Stewart Character,jimmy stewart character,
 1475,Swashbuckler,swashbuckler,
-1477,"Fbi #1",fbi 1,
-1478,"Fbi #2",fbi 2,
+1476,Allison,allison,f
+1477,Fbi #1,fbi 1,
+1478,Fbi #2,fbi 2,
 1479,Professor Taylor,professor taylor,
 1480,Englishman,englishman,
-1481,"Beekeeper #1",beekeeper 1,
-1482,"Beekeeper #2",beekeeper 2,
+1481,Beekeeper #1,beekeeper 1,
+1482,Beekeeper #2,beekeeper 2,
 1483,Üter,Üter,
 1484,Sherry,sherry,
 1485,Various Kids,various kids,
@@ -1456,31 +1472,33 @@ id,name,normalized_name,gender
 1487,2nd Radio Preacher,2nd radio preacher,
 1488,3rd Radio Preacher,3rd radio preacher,
 1489,Engineer,engineer,
-1490,"Waiter #1",waiter 1,
+1490,Waiter #1,waiter 1,
 1491,Childcare Worker,childcare worker,
 1492,Little Kid,little kid,
-1493,"Mother #1",mother 1,
+1493,Mother #1,mother 1,
 1494,Childcare Supervisor,childcare supervisor,
 1495,Pinitchio,pinitchio,
-1496,"Technician #3",technician 3,
+1496,Technician #3,technician 3,
 1497,Loud Speaker,loud speaker,
-1498,"Technician #4",technician 4,
+1498,Technician #4,technician 4,
 1499,French Ticket Taker,french ticket taker,
 1500,Jingle Singers,jingle singers,
-1502,"Chinese Principal #1",chinese principal 1,
-1503,"Chinese Principal #2",chinese principal 2,
+1501,Birch Barlow,birch barlow,m
+1502,Chinese Principal #1,chinese principal 1,
+1503,Chinese Principal #2,chinese principal 2,
 1504,Dr. Demento,dr demento,
 1505,DR. DEMEMTO,dr dememto,
 1506,Protesters,protesters,
 1507,Others,others,
+1508,The Rich Texan,the rich texan,m
 1509,Big Moose,big moose,
 1510,Scary Announcer,scary announcer,
 1511,Kindergarten Teacher,kindergarten teacher,
 1512,FRED FLINTSTONE,fred flintstone,
 1513,Shadowy Figure,shadowy figure,
 1514,Spectators,spectators,
-1515,"Prisoner #1",prisoner 1,
-1516,"Prisoner #2",prisoner 2,
+1515,Prisoner #1,prisoner 1,
+1516,Prisoner #2,prisoner 2,
 1517,GROUNDSKEEPER WILLIE'S BRAIN,groundskeeper willies brain,
 1518,Chorus,chorus,
 1519,Mr. Peabody,mr peabody,
@@ -1488,17 +1506,13 @@ id,name,normalized_name,gender
 1521,Sloth,sloth,
 1522,Kid Behind Glass,kid behind glass,
 1523,Jewish Man,jewish man,
-1435,Luigi,luigi,m
-1452,Old Jewish Man,old jewish man,m
-1501,Birch Barlow,birch barlow,m
-1444,Auctioneer,auctioneer,m
-1476,Allison,allison,f
-1525,"Trucker #1",trucker 1,
-1526,"Trucker #2",trucker 2,
+1524,Jessica,jessica,f
+1525,Trucker #1,trucker 1,
+1526,Trucker #2,trucker 2,
 1527,Library Boy,library boy,
 1528,Various Congregation Members,various congregation members,
 1529,Car,car,
-1530,"Car #3",car 3,
+1530,Car #3,car 3,
 1531,News Announcer,news announcer,
 1532,Weatherman,weatherman,
 1533,Gym Teacher,gym teacher,
@@ -1516,6 +1530,7 @@ id,name,normalized_name,gender
 1545,Crying Woman,crying woman,
 1546,Female Host,female host,
 1547,Ben Announcer,ben announcer,
+1548,Ben,ben,m
 1549,Trainer,trainer,
 1550,Fox Announcer,fox announcer,
 1551,Young Babysitter,young babysitter,
@@ -1544,16 +1559,18 @@ id,name,normalized_name,gender
 1574,Alan,alan,
 1575,Stewardess,stewardess,
 1576,Additional Man,additional man,
+1577,Dr. Zweig,dr zweig,f
 1578,Gramma Bouvier,gramma bouvier,
 1579,Plumber,plumber,
 1580,7-Year-Old Homer,7-year-old homer,
 1581,7-YEAR-OLD-HOMER,7-year-old-homer,
 1582,Homer Glumpet,homer glumpet,
+1583,Number One,number one,m
 1584,Last Signer,last signer,
 1585,Innkeeper,innkeeper,
 1586,Stonecutters,stonecutters,
 1587,School Kids,school kids,
-1588,"Kid #3",kid 3,
+1588,Kid #3,kid 3,
 1589,Redenbacher,redenbacher,
 1590,NICHOLSON,nicholson,
 1591,Mr. T,mr t,
@@ -1561,13 +1578,13 @@ id,name,normalized_name,gender
 1593,Knightboat's Partner,knightboats partner,
 1594,Knightboat,knightboat,
 1595,Villain,villain,
-1596,"Sperm #1",sperm 1,
-1597,"Sperm #2",sperm 2,
+1596,Sperm #1,sperm 1,
+1597,Sperm #2,sperm 2,
 1598,"SPERM #3, #4, & #5",sperm 3 4 5,
-1599,"Sperm #40012",sperm 40012,
+1599,Sperm #40012,sperm 40012,
 1600,Customers,customers,
 1601,Various Patrons,various patrons,
-1602,"Pilot #2",pilot 2,
+1602,Pilot #2,pilot 2,
 1603,Female Astronomer,female astronomer,
 1604,Ham,ham,
 1605,Database,database,
@@ -1576,8 +1593,8 @@ id,name,normalized_name,gender
 1608,SUPERFRIENDS,superfriends,
 1609,Male Astronomer,male astronomer,
 1610,Panicked Man,panicked man,
-1611,"Congressman #1",congressman 1,
-1612,"Congressman #2",congressman 2,
+1611,Congressman #1,congressman 1,
+1612,Congressman #2,congressman 2,
 1613,Congress,congress,
 1614,Johnny Unitas,johnny unitas,
 1615,Angelique,angelique,
@@ -1599,7 +1616,7 @@ id,name,normalized_name,gender
 1631,Elderly Nazi,elderly nazi,
 1632,Gus,gus,
 1633,Prime Minister,prime minister,
-1583,Number One,number one,m
+1634,Evan Conover,evan conover,m
 1635,Shiva,shiva,
 1636,Bullfrog,bullfrog,
 1637,Sentry,sentry,
@@ -1618,13 +1635,14 @@ id,name,normalized_name,gender
 1650,Japanese Man,japanese man,
 1651,Japanese Woman,japanese woman,
 1652,Person,person,
+1653,Jay,jay,m
 1654,Charles Bronson,charles bronson,
 1655,Man In Audience,man in audience,
 1656,New York Pilot,new york pilot,
 1657,Spielbergo,spielbergo,
 1658,Jay's Stomach,jays stomach,
-1659,"Actor #1",actor 1,
-1660,"Actor #3",actor 3,
+1659,Actor #1,actor 1,
+1660,Actor #3,actor 3,
 1661,Villagers,villagers,
 1662,BEN HUR,ben hur,
 1663,EUDORA WELTY,eudora welty,
@@ -1646,17 +1664,17 @@ id,name,normalized_name,gender
 1679,Fat Cheeked Housekeeper,fat cheeked housekeeper,
 1680,Ticket Lady,ticket lady,
 1681,Shelbyville Principal,shelbyville principal,
-1682,"Enemy Soldier #1",enemy soldier 1,
-1683,"Enemy Soldier #2",enemy soldier 2,
-1684,"Soldier #3",soldier 3,
-1685,"Soldier #4",soldier 4,
+1682,Enemy Soldier #1,enemy soldier 1,
+1683,Enemy Soldier #2,enemy soldier 2,
+1684,Soldier #3,soldier 3,
+1685,Soldier #4,soldier 4,
 1686,Ring Girl,ring girl,
 1687,Tape Recorder,tape recorder,
 1688,Tutor,tutor,
-1689,"Onlooker #1",onlooker 1,
-1690,"Opponent #1",opponent 1,
-1691,"Opponent #2",opponent 2,
-1692,"Opponent #3",opponent 3,
+1689,Onlooker #1,onlooker 1,
+1690,Opponent #1,opponent 1,
+1691,Opponent #2,opponent 2,
+1692,Opponent #3,opponent 3,
 1693,Parents,parents,
 1694,Tiny Student,tiny student,
 1695,All Students,all students,
@@ -1704,9 +1722,9 @@ id,name,normalized_name,gender
 1737,Male Inspector,male inspector,
 1738,Female Inspector,female inspector,
 1739,Other Old People,other old people,
-1740,"Imaginary Burns #1",imaginary burns 1,
-1741,"Imaginary Burns #2",imaginary burns 2,
-1742,"Imaginary Burns #3",imaginary burns 3,
+1740,Imaginary Burns #1,imaginary burns 1,
+1741,Imaginary Burns #2,imaginary burns 2,
+1742,Imaginary Burns #3,imaginary burns 3,
 1743,Ten Imaginary Burnses,ten imaginary burnses,
 1744,Elderly Guard,elderly guard,
 1745,Smithers's Brain,smitherss brain,
@@ -1715,6 +1733,7 @@ id,name,normalized_name,gender
 1748,Pigeon,pigeon,
 1749,Police Dispatcher,police dispatcher,
 1750,Old Board Member,old board member,
+1751,Producer,producer,m
 1752,Scoutmaster,scoutmaster,
 1753,Different Announcers,different announcers,
 1754,Casting Lady,casting lady,
@@ -1732,6 +1751,7 @@ id,name,normalized_name,gender
 1767,Head Lice,head lice,
 1768,Bully Girls,bully girls,
 1769,Old Mafia Guy,old mafia guy,
+1770,Officer Goodman,officer goodman,m
 1771,Officer Noble,officer noble,
 1772,FROM SPEAKER,from speaker,
 1773,Father In Burlap Sack,father in burlap sack,
@@ -1778,7 +1798,7 @@ id,name,normalized_name,gender
 1814,Rugged Man,rugged man,
 1815,Moviegoer,moviegoer,
 1816,Ice Cream Man,ice cream man,
-1817,"Worker #3",worker 3,
+1817,Worker #3,worker 3,
 1818,Line Man,line man,
 1819,County Clerk,county clerk,
 1820,Grave-digger,grave-digger,
@@ -1787,7 +1807,7 @@ id,name,normalized_name,gender
 1823,Student Wiggum,student wiggum,
 1824,Dennis Hopper,dennis hopper,
 1825,Postal Clerk,postal clerk,
-1826,"Postal Clerk #2",postal clerk 2,
+1826,Postal Clerk #2,postal clerk 2,
 1827,Van Driver,van driver,
 1828,Enraged Prisoner,enraged prisoner,
 1829,Teenage Girl,teenage girl,
@@ -1803,9 +1823,8 @@ id,name,normalized_name,gender
 1839,Airman With Pistol,airman with pistol,
 1840,Airman In Tank,airman in tank,
 1841,Matt Groening,matt groening,
-1842,"Network Executive #1",network executive 1,
-1843,"Network Executive #2",network executive 2,
-1751,Producer,producer,m
+1842,Network Executive #1,network executive 1,
+1843,Network Executive #2,network executive 2,
 1844,Supervillain,supervillain,
 1845,Bont,bont,
 1846,Indian Woman,indian woman,
@@ -1820,20 +1839,25 @@ id,name,normalized_name,gender
 1855,Donkey Kong,donkey kong,
 1856,Lee Carvallo,lee carvallo,
 1857,Sonic the Hedgehog,sonic the hedgehog,
+1858,Detective,detective,m
 1859,Answering Machine,answering machine,
 1860,Mangy Santa,mangy santa,
-1861,"Quimby #2",quimby 2,
+1861,Quimby #2,quimby 2,
 1862,Quimbys,quimbys,
 1863,Bowling Clerk,bowling clerk,
 1864,Nurselady Doris,nurselady doris,
-1865,"Sportscaster #2",sportscaster 2,
+1865,Sportscaster #2,sportscaster 2,
 1866,Guy In Crowd,guy in crowd,
+1867,Disco Stu,disco stu,m
+1868,Agent Johnson,agent johnson,m
 1869,GEORGE BUSH & FLANDERS,george bush flanders,
 1870,Teenage Kid,teenage kid,
 1871,HOMER AND BART,homer and bart,
 1872,Elks,elks,
 1873,GORBACHEV,gorbachev,
 1874,Gerald Ford,gerald ford,
+1875,Brandine Del Roy,brandine del roy,f
+1876,Evelyn,evelyn,f
 1877,Simpsons,simpsons,
 1878,Women,women,
 1879,Dorothy Parker-ish Socialite,dorothy parker-ish socialite,
@@ -1844,7 +1868,7 @@ id,name,normalized_name,gender
 1884,Saleslady,saleslady,
 1885,Mr. Dewey,mr dewey,
 1886,Bank Employee,bank employee,
-1887,"Teller #2",teller 2,
+1887,Teller #2,teller 2,
 1888,Cayman Islands Bank Guy,cayman islands bank guy,
 1889,Chief Agent,chief agent,
 1890,2ND IRS AGENT,2nd irs agent,
@@ -1856,6 +1880,7 @@ id,name,normalized_name,gender
 1896,Troy-jebediah,troy-jebediah,
 1897,Fatherly Pioneer,fatherly pioneer,
 1898,Mechanical Voice,mechanical voice,
+1899,HURLBUT,hurlbut,m
 1900,Committee Members,committee members,
 1901,Sprüngfeld,sprüngfeld,
 1902,Betsy Ross,betsy ross,
@@ -1867,6 +1892,7 @@ id,name,normalized_name,gender
 1908,Middle-aged Man,middle-aged man,
 1909,Brinkley,brinkley,
 1910,Suzanne Somers,suzanne somers,
+1911,Chester Lampwick,chester lampwick,m
 1913,Courtroom Spectators,courtroom spectators,
 1914,Amendment,amendment,
 1915,Congressman,congressman,
@@ -1877,13 +1903,14 @@ id,name,normalized_name,gender
 1920,Sir Kermit,sir kermit,
 1921,Paparazzo,paparazzo,
 1922,PHONE VOICE,phone voice,
+1923,Macarthur Parker,macarthur parker,m
 1924,Diners,diners,
 1925,Obnoxious Diner,obnoxious diner,
 1926,TROY/ONSCREEN TROY,troyonscreen troy,
 1927,Male Co-host,male co-host,
 1928,Female Co-host,female co-host,
 1929,Ape,ape,
-1930,"Ape #2",ape 2,
+1930,Ape #2,ape 2,
 1931,Chorus Of Ape Elders,chorus of ape elders,
 1932,Ape Nurse,ape nurse,
 1933,Dr. Zaius,dr zaius,
@@ -1902,13 +1929,6 @@ id,name,normalized_name,gender
 1946,Oak Ridge Engineer,oak ridge engineer,
 1947,Review Board Members,review board members,
 1948,Review Board Chairman,review board chairman,
-1875,Brandine Del Roy,brandine del roy,f
-1899,HURLBUT,hurlbut,m
-1867,Disco Stu,disco stu,m
-1911,Chester Lampwick,chester lampwick,m
-1923,Macarthur Parker,macarthur parker,m
-1858,Detective,detective,m
-1876,Evelyn,evelyn,f
 1949,Señora Bumblebee Man,señora bumblebee man,
 1950,Twangy Singers,twangy singers,
 1951,Very Tall Man,very tall man,
@@ -1925,8 +1945,8 @@ id,name,normalized_name,gender
 1962,Platoon,platoon,
 1963,Etch,etch,
 1964,ROD/TODD,rodtodd,
-1965,"State Dept. Man #1",state dept man 1,
-1966,"State Dept. Man #2",state dept man 2,
+1965,State Dept. Man #1,state dept man 1,
+1966,State Dept. Man #2,state dept man 2,
 1967,Von Wörtzenburger,von wörtzenburger,
 1968,VON WÖRTZENURGER,von wÖrtzenurger,
 1969,GREAT GRAMPA,great grampa,
@@ -1935,6 +1955,7 @@ id,name,normalized_name,gender
 1972,Apu's Father,apus father,
 1973,Apu's Mother,apus mother,
 1974,Young Apu,young apu,
+1975,Manjula Nahasapeemapetilon,manjula nahasapeemapetilon,f
 1976,Young Frink,young frink,
 1977,Tom Cruise,tom cruise,
 1978,Nicole Kidman,nicole kidman,
@@ -1950,7 +1971,7 @@ id,name,normalized_name,gender
 1988,Sales Kid,sales kid,
 1989,Sour Kid,sour kid,
 1990,Many Kids,many kids,
-1991,"Sour Kid #2",sour kid 2,
+1991,Sour Kid #2,sour kid 2,
 1992,Sour Girl,sour girl,
 1993,Peter Frampton,peter frampton,
 1994,Billy Corgan,billy corgan,
@@ -1959,6 +1980,7 @@ id,name,normalized_name,gender
 1997,Smashing Pumpkins,smashing pumpkins,
 1998,First Gen-x Kid,first gen-x kid,
 1999,Second Gen-x Kid,second gen-x kid,
+2000,D'arcy,darcy,f
 2001,Jimmy Chamberlin,jimmy chamberlin,
 2002,James Iha,james iha,
 2003,DJ Muggs,dj muggs,
@@ -1998,6 +2020,7 @@ id,name,normalized_name,gender
 2037,Man In Crowd,man in crowd,
 2038,Alien Crier,alien crier,
 2039,Businesswoman,businesswoman,
+2040,Hank Scorpio,hank scorpio,m
 2041,Technicians,technicians,
 2042,Student In Sunglasses,student in sunglasses,
 2043,Milhouse,milhouse,
@@ -2011,24 +2034,22 @@ id,name,normalized_name,gender
 2051,U.N. Member,un member,
 2052,2nd U.N. Member,2nd un member,
 2053,Jumpsuited Guy,jumpsuited guy,
-3001,Duncan,duncan,
-2040,Hank Scorpio,hank scorpio,m
-2000,D'arcy,darcy,f
 2054,Record/children,recordchildren,
 2055,Computer,computer,
 2056,Messenger,messenger,
 2057,Mall Announcer,mall announcer,
-2058,"Indian #1",indian 1,
-2059,"Indian #2",indian 2,
+2058,Indian #1,indian 1,
+2059,Indian #2,indian 2,
 2060,Microchip Voice,microchip voice,
 2061,Jimbo's Dad,jimbos dad,
 2062,Dolph's Dad,dolphs dad,
 2063,Kearney's Dad,kearneys dad,
 2064,LUCIUS,lucius,
+2065,Drederick Tatum,drederick tatum,m
 2066,Prisoners,prisoners,
-2067,"Questioner #1",questioner 1,
-2068,"Questioner #2",questioner 2,
-2069,"Questioner #3",questioner 3,
+2067,Questioner #1,questioner 1,
+2068,Questioner #2,questioner 2,
+2069,Questioner #3,questioner 3,
 2070,PAROLE BOARD MEMBERS,parole board members,
 2071,T-shirt Vendor,t-shirt vendor,
 2072,Michael Buffer,michael buffer,
@@ -2045,10 +2066,11 @@ id,name,normalized_name,gender
 2083,Simulated Homer,simulated homer,
 2084,Starlet,starlet,
 2085,Sports Announcer,sports announcer,
-2086,"Dancer #1",dancer 1,
+2086,Dancer #1,dancer 1,
+2087,Belle,belle,f
 2088,Rusty,rusty,
 2089,Bernice Hibbert,bernice hibbert,
-2090,"Dancer #2",dancer 2,
+2090,Dancer #2,dancer 2,
 2091,BELLE/DANCERS,belledancers,
 2092,Townsmen Chorus,townsmen chorus,
 2093,Marge's Dummy,marges dummy,
@@ -2071,6 +2093,7 @@ id,name,normalized_name,gender
 2110,Prison Officials,prison officials,
 2111,Citizens,citizens,
 2112,Older Nurse,older nurse,
+2113,Dr. Foster,dr foster,m
 2114,Young Ned,young ned,
 2115,Young Dr. Foster,young dr foster,
 2116,"Nedward Flanders, Sr.",nedward flanders sr,
@@ -2090,9 +2113,9 @@ id,name,normalized_name,gender
 2130,Alf,alf,
 2131,MARVIN-THE-MARTIAN-TYPE,marvin-the-martian-type,
 2132,Whale,whale,
-2133,"Frog #1",frog 1,
-2134,"Frog #2",frog 2,
-2135,"Frog #3",frog 3,
+2133,Frog #1,frog 1,
+2134,Frog #2,frog 2,
+2135,Frog #3,frog 3,
 2136,alligator,alligator,
 2137,Hot Dog Stand Guy,hot dog stand guy,
 2138,SMITHERS',smithers,
@@ -2116,19 +2139,18 @@ id,name,normalized_name,gender
 2156,John Muir,john muir,
 2157,Drunk Man,drunk man,
 2158,McFadden,mcfadden,
-2113,Dr. Foster,dr foster,m
-2087,Belle,belle,f
 2159,Mr. Burns's Thoughts,mr burnss thoughts,
 2160,Family,family,
 2161,FORD,ford,
 2162,Older Woman,older woman,
 2163,Elderly Woman,elderly woman,
 2164,Nanny,nanny,
+2165,SHARY,shary,f
 2166,Fidgety Lieutenant,fidgety lieutenant,
 2167,Quentin Tarantino,quentin tarantino,
 2168,Moderator,moderator,
-2169,"Writer #1",writer 1,
-2170,"Writer #3",writer 3,
+2169,Writer #1,writer 1,
+2170,Writer #3,writer 3,
 2171,Writing Staff,writing staff,
 2172,Head Animator,head animator,
 2173,Roy,roy,
@@ -2145,16 +2167,17 @@ id,name,normalized_name,gender
 2184,Worker In Crowd,worker in crowd,
 2185,Convicts,convicts,
 2186,Fat Convict,fat convict,
+2187,Cecil Terwilliger,cecil terwilliger,m
 2188,Sideshow Bob's Brain,sideshow bobs brain,
 2189,1986 Cecil,1986 cecil,
-2190,1986 BOB,1986 bob,
+2190,BOB 1986.00,1986 bob,
 2191,1986 Krusty,1986 krusty,
 2192,EVERYONE BUT BOB AND CECIL,everyone but bob and cecil,
 2193,Cousin Merl,cousin merl,
 2194,Man In Lower Outhouse,man in lower outhouse,
 2195,Comedy Nurse,comedy nurse,
 2196,Distressed Yuppie,distressed yuppie,
-2197,"Young Italian Man #1",young italian man 1,
+2197,Young Italian Man #1,young italian man 1,
 2198,Limo Driver,limo driver,
 2199,Emergency Operator,emergency operator,
 2200,Irish Cops,irish cops,
@@ -2166,6 +2189,7 @@ id,name,normalized_name,gender
 2206,Councilmen,councilmen,
 2207,Head Of Duff,head of duff,
 2208,Quimby's Aide,quimbys aide,
+2209,Rex Banner,rex banner,m
 2210,"HOMER, MARGE AND BART",homer marge and bart,
 2211,Helpful Clerk,helpful clerk,
 2212,Voice In Crowd,voice in crowd,
@@ -2174,7 +2198,7 @@ id,name,normalized_name,gender
 2215,Computerized Japanese Voice,computerized japanese voice,
 2216,Laddie,laddie,
 2217,Credit Representative,credit representative,
-2218,"Repo Goon #2",repo goon 2,
+2218,Repo Goon #2,repo goon 2,
 2219,Heiress,heiress,
 2220,Lumley,lumley,
 2221,Distant Voice,distant voice,
@@ -2196,15 +2220,15 @@ id,name,normalized_name,gender
 2237,P.A. SYSTEM,pa system,
 2238,Young Flanders,young flanders,
 2239,Young Lovejoy,young lovejoy,
-2240,"Japanese Worker #1",japanese worker 1,
+2240,Japanese Worker #1,japanese worker 1,
 2241,St. Eleutherius,st eleutherius,
 2242,St. Bartholomew,st bartholomew,
 2243,St. Lucian,st lucian,
 2244,St. Donickus,st donickus,
 2245,Japanese Businessman,japanese businessman,
 2246,Mr. Sparkle,mr sparkle,
-2247,"UNDERWATER GIRLS #1 & #2",underwater girls 1 2,
-2248,"UNDERWATER GIRL #3",underwater girl 3,
+2247,UNDERWATER GIRLS #1 & #2,underwater girls 1 2,
+2248,UNDERWATER GIRL #3,underwater girl 3,
 2249,Sumo Wrestlers,sumo wrestlers,
 2250,Japanese Announcer,japanese announcer,
 2251,Donny,donny,
@@ -2212,14 +2236,12 @@ id,name,normalized_name,gender
 2253,Japanese Tourist,japanese tourist,
 2254,Zookeeper,zookeeper,
 2255,Baboons,baboons,
+2256,Frank Grimes,frank grimes,m
 2257,City Employee,city employee,
 2258,Portly Chef,portly chef,
 2259,Big Daddy,big daddy,
 2260,Scary Huge-headed Figure,scary huge-headed figure,
 2261,Betty,betty,
-2187,Cecil Terwilliger,cecil terwilliger,m
-2165,SHARY,shary,f
-2209,Rex Banner,rex banner,m
 2262,BETTY & MOE,betty moe,
 2263,MOE & BETTY,moe betty,
 2264,Tim Conway,tim conway,
@@ -2227,6 +2249,7 @@ id,name,normalized_name,gender
 2266,OSMODIAR AND TROY,osmodiar and troy,
 2267,Adlai Stevenson,adlai stevenson,
 2268,Parrots,parrots,
+2269,Commandant,commandant,m
 2270,Cadet,cadet,
 2271,Cadet Larsen,cadet larsen,
 2272,Cadet Franklin,cadet franklin,
@@ -2234,6 +2257,7 @@ id,name,normalized_name,gender
 2274,Cadets,cadets,
 2275,CADET ANDERSEN,cadet andersen,
 2276,Cadet Anderson,cadet anderson,
+2277,Duffman,duffman,m
 2278,Cheerleaders,cheerleaders,
 2279,Hasidic Man,hasidic man,
 2280,Immigrants,immigrants,
@@ -2249,8 +2273,8 @@ id,name,normalized_name,gender
 2290,Angry Cab Driver,angry cab driver,
 2291,Bike Messenger,bike messenger,
 2292,Song On Radio,song on radio,
-2293,"Jury Member #1",jury member 1,
-2294,"Jury Member #2",jury member 2,
+2293,Jury Member #1,jury member 1,
+2294,Jury Member #2,jury member 2,
 2295,Jury Chorus,jury chorus,
 2296,Mr. Cleary,mr cleary,
 2297,Staff/patients,staffpatients,
@@ -2259,6 +2283,8 @@ id,name,normalized_name,gender
 2300,Carriage Driver,carriage driver,
 2301,Student Choir,student choir,
 2302,Stranger,stranger,
+2303,Sgt. Skinner,sgt skinner,m
+2304,Armin,armin,m
 2305,Young Armin,young armin,
 2306,Frog,frog,
 2307,Krusty,krusty,
@@ -2319,13 +2345,10 @@ id,name,normalized_name,gender
 2363,Pr Man,pr man,
 2364,Caveman,caveman,
 2365,Stephen Jay Gould,stephen jay gould,
-2277,Duffman,duffman,m
-2304,Armin,armin,m
-2269,Commandant,commandant,m
-2303,Sgt. Skinner,sgt skinner,m
 2366,SOUTH AMERICAN BIDDER,south american bidder,
 2367,Johnny D,johnny d,
 2368,City Clerk,city clerk,
+2369,Gil Gunderson,gil gunderson,m
 2370,Cookie,cookie,
 2371,Assorted Agents,assorted agents,
 2372,Lionel Hutz's Head,lionel hutzs head,
@@ -2340,7 +2363,7 @@ id,name,normalized_name,gender
 2381,Sullen Teen,sullen teen,
 2382,Sean,sean,
 2383,Alex Trebek,alex trebek,
-2384,"Goon #1",goon 1,
+2384,Goon #1,goon 1,
 2385,Hombre,hombre,
 2386,Clint Eastwood,clint eastwood,
 2387,Townspeople Chorus,townspeople chorus,
@@ -2352,6 +2375,7 @@ id,name,normalized_name,gender
 2393,Dracula Voice,dracula voice,
 2394,Maintenance Man,maintenance man,
 2395,Game Announcer,game announcer,
+2396,Cooder,cooder,m
 2397,Spud,spud,
 2398,Performer,performer,
 2399,Camel,camel,
@@ -2360,6 +2384,7 @@ id,name,normalized_name,gender
 2402,Hari Krishna,hari krishna,
 2403,Christian,christian,
 2404,Jane,jane,
+2405,Glen,glen,m
 2406,Movementarians,movementarians,
 2407,Don,don,
 2408,Homer's Stomach,homers stomach,
@@ -2368,8 +2393,8 @@ id,name,normalized_name,gender
 2411,THE LEADER,the leader,
 2412,Noah,noah,
 2413,Singing Children,singing children,
-2414,"Chinese Sailor #1",chinese sailor 1,
-2415,"Chinese Sailor #2",chinese sailor 2,
+2414,Chinese Sailor #1,chinese sailor 1,
+2415,Chinese Sailor #2,chinese sailor 2,
 2416,Bill Gates,bill gates,
 2417,James Earl Jones,james earl jones,
 2418,Volunteer,volunteer,
@@ -2380,10 +2405,11 @@ id,name,normalized_name,gender
 2423,COMPUTER ON STOOL,computer on stool,
 2424,Comics,comics,
 2425,Mr. Teeny,mr teeny,
-2426,"Businessman #1",businessman 1,
-2427,"Businessman #2",businessman 2,
+2426,Businessman #1,businessman 1,
+2427,Businessman #2,businessman 2,
 2428,Jay Leno,jay leno,
 2429,HANK WILLIAMS JR.,hank williams jr,
+2430,Renee,renee,f
 2431,Republican Candidate,republican candidate,
 2432,Drunken Cop,drunken cop,
 2433,Photographer Cop,photographer cop,
@@ -2393,15 +2419,15 @@ id,name,normalized_name,gender
 2437,Station Manager,station manager,
 2438,Great Uncle Chet,great uncle chet,
 2439,Well-dressed Relative,well-dressed relative,
-2440,"Relative #1",relative 1,
-2441,"Relative #2",relative 2,
-2442,"Relative #3",relative 3,
-2443,"Relative #4",relative 4,
-2444,"Relative #5",relative 5,
+2440,Relative #1,relative 1,
+2441,Relative #2,relative 2,
+2442,Relative #3,relative 3,
+2443,Relative #4,relative 4,
+2444,Relative #5,relative 5,
 2445,Dr. Simpson,dr simpson,
-2446,"Simpson Woman #1",simpson woman 1,
-2447,"Simpson Woman #2",simpson woman 2,
-2448,"Simpson Woman #3",simpson woman 3,
+2446,Simpson Woman #1,simpson woman 1,
+2447,Simpson Woman #2,simpson woman 2,
+2448,Simpson Woman #3,simpson woman 3,
 2449,Nerdy Kids,nerdy kids,
 2450,Female Computer,female computer,
 2451,Bullies,bullies,
@@ -2425,9 +2451,6 @@ id,name,normalized_name,gender
 2469,Captain Tenille,captain tenille,
 2470,Female Ensign,female ensign,
 2471,Enemy Crewperson,enemy crewperson,
-2396,Cooder,cooder,m
-2405,Glen,glen,m
-2430,Renee,renee,f
 2472,Enemy Captain,enemy captain,
 2473,Asian Ensign,asian ensign,
 2474,Hick,hick,
@@ -2439,9 +2462,9 @@ id,name,normalized_name,gender
 2480,Thought Bubble Moe,thought bubble moe,
 2481,Thought Bubble Bart,thought bubble bart,
 2482,Penguins,penguins,
-2483,"Admiral #1",admiral 1,
-2484,"Admiral #3",admiral 3,
-2485,"Admiral #4",admiral 4,
+2483,Admiral #1,admiral 1,
+2484,Admiral #3,admiral 3,
+2485,Admiral #4,admiral 4,
 2486,Janitor,janitor,
 2487,Myron,myron,
 2488,Agent Miller,agent miller,
@@ -2467,8 +2490,9 @@ id,name,normalized_name,gender
 2508,Older Exec,older exec,
 2509,Female Exec,female exec,
 2510,Other Executives,other executives,
-2511,"Garbage Man #1",garbage man 1,
-2512,"Garbage Man #2",garbage man 2,
+2511,Garbage Man #1,garbage man 1,
+2512,Garbage Man #2,garbage man 2,
+2513,Ray Magini,ray magini,m
 2514,Paul,paul,
 2515,Susie,susie,
 2516,Bono,bono,
@@ -2486,14 +2510,14 @@ id,name,normalized_name,gender
 2528,Commie Nazi,commie nazi,
 2529,Other Team,other team,
 2530,Muscular Man,muscular man,
-2531,"Sherpa #1",sherpa 1,
-2532,"Sherpa #2",sherpa 2,
+2531,Sherpa #1,sherpa 1,
+2532,Sherpa #2,sherpa 2,
 2533,Sherpas,sherpas,
 2534,Geese,geese,
 2535,Faucet-head Kid's Mother,faucet-head kids mother,
 2536,Soldier,soldier,
-2537,"Russian Man #1",russian man 1,
-2538,"Russian Man #2",russian man 2,
+2537,Russian Man #1,russian man 1,
+2538,Russian Man #2,russian man 2,
 2539,HOMER'S VOICE MAIL,homers voice mail,
 2540,FISH-HAG,fish-hag,
 2541,Telephone Repairman,telephone repairman,
@@ -2501,15 +2525,16 @@ id,name,normalized_name,gender
 2543,Cow,cow,
 2544,Studio Audience,studio audience,
 2545,Pirate Captain,pirate captain,
-2546,"Pirate #1",pirate 1,
+2546,Pirate #1,pirate 1,
 2547,Ilsa,ilsa,
 2548,Golf Course Crowd,golf course crowd,
 2549,Minister,minister,
 2550,Stadium Announcer,stadium announcer,
 2551,Stadium Crowd,stadium crowd,
 2552,Kicker,kicker,
-2554,"Thug #1",thug 1,
-2555,"Thug #2",thug 2,
+2553,Alex,alex,f
+2554,Thug #1,thug 1,
+2555,Thug #2,thug 2,
 2556,Cardinal Flanders,cardinal flanders,
 2557,President Lenny,president lenny,
 2558,Heckle,heckle,
@@ -2532,9 +2557,9 @@ id,name,normalized_name,gender
 2575,Homie Bear,homie bear,
 2576,BART BART,bart bart,
 2577,Ranger Ned,ranger ned,
-2579,Alec Baldwin,alec baldwin,m
 2578,Kim Basinger,kim basinger,f
-2553,Alex,alex,f
+2579,Alec Baldwin,alec baldwin,m
+2580,Ron Howard,ron howard,m
 2581,Gentleman,gentleman,
 2582,ALEC/KIM,aleckim,
 2583,ALEC/KIM/RON,aleckimron,
@@ -2545,8 +2570,8 @@ id,name,normalized_name,gender
 2588,Young Mona,young mona,
 2589,Young Munchie,young munchie,
 2590,Young Seth,young seth,
-2591,"Hippie Girl #1",hippie girl 1,
-2592,"Hippie Girl #2",hippie girl 2,
+2591,Hippie Girl #1,hippie girl 1,
+2592,Hippie Girl #2,hippie girl 2,
 2593,Ginsberg,ginsberg,
 2594,Jill St. John,jill st john,
 2595,Phyllis Diller,phyllis diller,
@@ -2561,9 +2586,9 @@ id,name,normalized_name,gender
 2604,President Of Harvard,president of harvard,
 2605,Comptroller Atkins,comptroller atkins,
 2606,REAL COMPT. ATKINS,real compt atkins,
-2607,"Robot Cowboy #1",robot cowboy 1,
-2608,"Robot Cowboy #2",robot cowboy 2,
-2609,"Robot Cowboy #3",robot cowboy 3,
+2607,Robot Cowboy #1,robot cowboy 1,
+2608,Robot Cowboy #2,robot cowboy 2,
+2609,Robot Cowboy #3,robot cowboy 3,
 2610,Curly,curly,
 2611,Old Curly,old curly,
 2612,3-Year-Old Homer,3-year-old homer,
@@ -2576,14 +2601,15 @@ id,name,normalized_name,gender
 2619,Caribbean Outcast,caribbean outcast,
 2620,Son,son,
 2621,Young Woman,young woman,
-2622,"Hideous Alien #1",hideous alien 1,
-2623,"Hideous Alien #2",hideous alien 2,
+2622,Hideous Alien #1,hideous alien 1,
+2623,Hideous Alien #2,hideous alien 2,
 2624,C-3PO,c-3po,
 2625,Chewbacca,chewbacca,
 2626,Neil Armstrong,neil armstrong,
 2627,Dr. Smith,dr smith,
 2628,Nerdy Young Woman,nerdy young woman,
 2629,Crowd Of Nerds,crowd of nerds,
+2630,Mark Hamill,mark hamill,m
 2631,Ernie,ernie,
 2632,Big Tom,big tom,
 2633,Leavelle,leavelle,
@@ -2598,7 +2624,7 @@ id,name,normalized_name,gender
 2642,Joan Rivers,joan rivers,
 2643,LANCE,lance,
 2644,Pit Boss,pit boss,
-2645,"WAITRESS #1",waitress 1,
+2645,WAITRESS #1,waitress 1,
 2646,Ginger,ginger,
 2647,Tiger,tiger,
 2648,Graeme Edge,graeme edge,
@@ -2613,20 +2639,22 @@ id,name,normalized_name,gender
 2657,Wacky Friend,wacky friend,
 2658,Deep-voiced Announcer,deep-voiced announcer,
 2659,Higher Nasal Announcer,higher nasal announcer,
+2660,Mrs. Muntz,mrs muntz,f
 2661,Craggy Farmer,craggy farmer,
-2662,"Creepy English Boy #2",creepy english boy 2,
-2663,"Creepy English Girl #1",creepy english girl 1,
+2662,Creepy English Boy #2,creepy english boy 2,
+2663,Creepy English Girl #1,creepy english girl 1,
 2664,Constable,constable,
-2665,"Creepy English Girl #2",creepy english girl 2,
+2665,Creepy English Girl #2,creepy english girl 2,
 2666,Townsfolk,townsfolk,
 2667,Pyro,pyro,
 2668,Adults,adults,
 2669,Postmaster Bill,postmaster bill,
 2670,Man In Military Uniform,man in military uniform,
 2671,Government Official,government official,
-2672,"Mailman #1",mailman 1,
-2673,"Mailman #2",mailman 2,
-2674,"Mailman #3",mailman 3,
+2672,Mailman #1,mailman 1,
+2673,Mailman #2,mailman 2,
+2674,Mailman #3,mailman 3,
+2675,Wally,wally,m
 2676,Guys,guys,
 2677,Rudy,rudy,
 2678,Rosey Grier,rosey grier,
@@ -2635,9 +2663,6 @@ id,name,normalized_name,gender
 2681,Troy Aikman,troy aikman,
 2682,Dan Marino,dan marino,
 2683,Man Next To Dan,man next to dan,
-2660,Mrs. Muntz,mrs muntz,f
-2630,Mark Hamill,mark hamill,m
-2580,Ron Howard,ron howard,m
 2684,Male Voice,male voice,
 2685,Vincent Price,vincent price,
 2686,Ticket Scalper,ticket scalper,
@@ -2647,29 +2672,30 @@ id,name,normalized_name,gender
 2690,Rupert Murdoch,rupert murdoch,
 2691,Enchanted Policemen,enchanted policemen,
 2692,Football Players,football players,
-2693,"Reporter #4",reporter 4,
+2693,Reporter #4,reporter 4,
 2694,Linemen,linemen,
 2695,JODY PRICE,jody price,
 2696,Archie Bunker,archie bunker,
 2697,Bad Flanders,bad flanders,
 2698,Lieutenant,lieutenant,
 2699,Commander,commander,
-2700,"Bank Robber #1",bank robber 1,
-2701,"Bank Robber #2",bank robber 2,
-2702,"POLICECOP #2",policecop 2,
-2703,"POLICECOP #1",policecop 1,
+2700,Bank Robber #1,bank robber 1,
+2701,Bank Robber #2,bank robber 2,
+2702,POLICECOP #2,policecop 2,
+2703,POLICECOP #1,policecop 1,
 2704,Banker,banker,
 2705,DETECTIVE HOMER SIMPSON,detective homer simpson,
 2706,2nd Producer,2nd producer,
 2707,3rd Producer,3rd producer,
 2708,4th Producer,4th producer,
 2709,5th Producer,5th producer,
+2710,Saleswoman,saleswoman,f
 2711,TRENT,trent,
 2712,Valet,valet,
-2713,"Guest #1",guest 1,
+2713,Guest #1,guest 1,
 2714,"Ed Begley, Jr.",ed begley jr,
 2715,Lorne Michaels,lorne michaels,
-2716,"Guest #2",guest 2,
+2716,Guest #2,guest 2,
 2717,Bald Eagle,bald eagle,
 2718,Police Car,police car,
 2719,MACAW,macaw,
@@ -2683,24 +2709,24 @@ id,name,normalized_name,gender
 2727,Australian Gamekeeper,australian gamekeeper,
 2728,Workmen,workmen,
 2729,Omnitouch Rep,omnitouch rep,
-2730,"Security Guard #2",security guard 2,
+2730,Security Guard #2,security guard 2,
 2731,New Age Clerk,new age clerk,
 2732,Deep Male Voice,deep male voice,
-2733,"Repo Man #1",repo man 1,
-2734,"Repo Man #2",repo man 2,
+2733,Repo Man #1,repo man 1,
+2734,Repo Man #2,repo man 2,
 2735,RED,red,
-2736,"Cow #1",cow 1,
-2737,"Red's Friend #1",reds friend 1,
-2738,"Red's Friend #2",reds friend 2,
+2736,Cow #1,cow 1,
+2737,Red's Friend #1,reds friend 1,
+2738,Red's Friend #2,reds friend 2,
 2739,ABBA,abba,
-2740,"Missionary #1",missionary 1,
-2741,"Missionary #2",missionary 2,
+2740,Missionary #1,missionary 1,
+2741,Missionary #2,missionary 2,
 2742,Old Lady,old lady,
-2743,"Tourist #1",tourist 1,
-2744,"Trucker #3",trucker 3,
+2743,Tourist #1,tourist 1,
+2744,Trucker #3,trucker 3,
 2745,Various Truckers,various truckers,
-2746,"Trucker #5",trucker 5,
-2747,"Trucker #4",trucker 4,
+2746,Trucker #5,trucker 5,
+2747,Trucker #4,trucker 4,
 2748,Navitron Auto-drive,navitron auto-drive,
 2749,Truckers,truckers,
 2750,Señor Ding-Dong,señor ding-dong,
@@ -2741,7 +2767,6 @@ id,name,normalized_name,gender
 2785,Jack LaLanne,jack lalanne,
 2786,Male Host,male host,
 2787,Appraiser,appraiser,
-3108,SATAN,satan,
 2788,Everyone In Store,everyone in store,
 2789,Kevin Costner,kevin costner,
 2790,PEOPLE,people,
@@ -2797,22 +2822,23 @@ id,name,normalized_name,gender
 2840,Robin,robin,
 2841,EDWARD/WILLIAM/ROBYN,edwardwilliamrobyn,
 2842,Hosey the Bear,hosey the bear,
-2843,"Researcher #1",researcher 1,
-2844,"Researcher #2",researcher 2,
+2843,Researcher #1,researcher 1,
+2844,Researcher #2,researcher 2,
 2845,Video Game,video game,
 2846,Staffer,staffer,
 2847,Electronic Organizer,electronic organizer,
 2848,Navajo Boy,navajo boy,
 2849,Dancer,dancer,
-2850,"SOLIDIER #1",solidier 1,
+2850,SOLIDIER #1,solidier 1,
 2851,Sir Widebottom,sir widebottom,
 2852,SCHOOLKIDS,schoolkids,
 2853,Satellite,satellite,
 2854,Mark McGwire,mark mcgwire,
 2855,Homer Effigy,homer effigy,
-2856,"Newspaper Worker #1",newspaper worker 1,
-2857,"Newspaper Worker #2",newspaper worker 2,
+2856,Newspaper Worker #1,newspaper worker 1,
+2857,Newspaper Worker #2,newspaper worker 2,
 2858,SHREWISH WOMAN,shrewish woman,
+2859,Lifeways Editor,lifeways editor,m
 2860,Mimi,mimi,
 2861,German Man,german man,
 2862,German Woman,german woman,
@@ -2829,9 +2855,9 @@ id,name,normalized_name,gender
 2873,CREEPY VOICE,creepy voice,
 2874,Lucy Lawless,lucy lawless,
 2875,Dick Clark,dick clark,
-2876,"Band Member #1",band member 1,
-2877,"Band Member #2",band member 2,
-2878,"Band Member #3",band member 3,
+2876,Band Member #1,band member 1,
+2877,Band Member #2,band member 2,
+2878,Band Member #3,band member 3,
 2879,Rick James,rick james,
 2880,WAFFLE IRON,waffle iron,
 2881,Tom Arnold,tom arnold,
@@ -2846,14 +2872,13 @@ id,name,normalized_name,gender
 2890,Man In The Iron Mask,man in the iron mask,
 2891,Zorro,zorro,
 2892,Princess,princess,
-3109,Troll,troll,
 2893,Scarlet Pimpernel,scarlet pimpernel,
 2894,King Arthur,king arthur,
 2895,Rap Singer,rap singer,
 2896,B-52'S,b-52s,
 2897,HOMERA,homera,
 2898,COLONEL'S WIFE,colonels wife,
-2899,"Farmer #2",farmer 2,
+2899,Farmer #2,farmer 2,
 2900,Storekeeper,storekeeper,
 2901,Elephant,elephant,
 2902,Sandy,sandy,
@@ -2894,13 +2919,16 @@ id,name,normalized_name,gender
 2937,Grim Father,grim father,
 2938,Cop,cop,
 2939,Rebel,rebel,
+2940,Meathook,meathook,m
 2941,Ramrod,ramrod,
 2942,Bikers,bikers,
 2943,BURLY BARTENDER,burly bartender,
 2944,NURSING STUDENTS,nursing students,
 2945,Plaintiff,plaintiff,
 2946,Defendant,defendant,
+2947,Jim Hope,jim hope,m
 2948,LINDSEY,lindsey,
+2949,Male Executive,male executive,m
 2950,Dixie Chicks,dixie chicks,
 2951,Funzo,funzo,
 2952,Gary Coleman,gary coleman,
@@ -2908,8 +2936,8 @@ id,name,normalized_name,gender
 2954,Chair Lift Operator,chair lift operator,
 2955,Ski Instructor,ski instructor,
 2956,DEER,deer,
-2957,"Lodge Employee #1",lodge employee 1,
-2958,"Lodge Employee #2",lodge employee 2,
+2957,Lodge Employee #1,lodge employee 1,
+2958,Lodge Employee #2,lodge employee 2,
 2959,Mr. Sakamoto,mr sakamoto,
 2960,Ricky,ricky,
 2961,Lucy,lucy,
@@ -2922,8 +2950,9 @@ id,name,normalized_name,gender
 2968,Virtual Doctor,virtual doctor,
 2969,Lubchenko,lubchenko,
 2970,Men's Singing Group,mens singing group,
-2971,"Frat Boy #1",frat boy 1,
-2972,"Frat Boy #2",frat boy 2,
+2971,Frat Boy #1,frat boy 1,
+2972,Frat Boy #2,frat boy 2,
+2973,Brother Faith,brother faith,m
 2974,Bart's Congregation,barts congregation,
 2975,Float Singers,float singers,
 2976,FAN,fan,
@@ -2941,8 +2970,8 @@ id,name,normalized_name,gender
 2988,State Comptroller Atkins,state comptroller atkins,
 2989,Giant Pearl,giant pearl,
 2990,Dream Homer,dream homer,
-2991,"Jockey #1",jockey 1,
-2992,"Jockey #2",jockey 2,
+2991,Jockey #1,jockey 1,
+2992,Jockey #2,jockey 2,
 2993,Mrs. Vanderbilt,mrs vanderbilt,
 2994,Mr. Vanderbilt,mr vanderbilt,
 2995,Jockeys,jockeys,
@@ -2951,17 +2980,17 @@ id,name,normalized_name,gender
 2998,Woman Jockey,woman jockey,
 2999,OTHER JOCKEYS,other jockeys,
 3000,Hank Jockey,hank jockey,
-2947,Jim Hope,jim hope,m
-2940,Meathook,meathook,m
-2949,Male Executive,male executive,m
+3001,Duncan,duncan,
 3002,FIRST PARROT,first parrot,
 3003,SECOND PARROT,second parrot,
 3004,Clay Babcock,clay babcock,
 3005,Mrs. Babcock,mrs babcock,
 3006,Crew Chief,crew chief,
 3007,LINDSAY,lindsay,
+3008,Rachel,rachel,f
 3009,Pbs-style Announcer,pbs-style announcer,
 3010,Teen-aged Hooligan,teen-aged hooligan,
+3011,Betty White,betty white,f
 3012,Mr. Rogers,mr rogers,
 3013,Yo-Yo Ma,yo-yo ma,
 3014,Bigg Byrd,bigg byrd,
@@ -2978,9 +3007,9 @@ id,name,normalized_name,gender
 3025,Phil Angelides,phil angelides,
 3026,Dr. Velimirovic,dr velimirovic,
 3027,Jailbird's Son,jailbirds son,
-3028,"Slick-looking Man #1",slick-looking man 1,
-3029,"Slick-looking Man #2",slick-looking man 2,
-3030,"Slick-looking Man #3",slick-looking man 3,
+3028,Slick-looking Man #1,slick-looking man 1,
+3029,Slick-looking Man #2,slick-looking man 2,
+3030,Slick-looking Man #3,slick-looking man 3,
 3031,Second Nurse,second nurse,
 3032,Other Nurses,other nurses,
 3033,20-ISH MOE,20-ish moe,
@@ -2990,6 +3019,7 @@ id,name,normalized_name,gender
 3037,Ingenue,ingenue,
 3038,Contessa,contessa,
 3039,Arthur Crandall,arthur crandall,
+3040,Casino Manager,casino manager,m
 3041,Hologram Nelson,hologram nelson,
 3042,Heckler,heckler,
 3043,Old Barney,old barney,
@@ -3006,6 +3036,7 @@ id,name,normalized_name,gender
 3054,Chinese Delegate,chinese delegate,
 3055,TIKI,tiki,
 3056,Bar Patrons,bar patrons,
+3057,Lindsay Naegle,lindsay naegle,f
 3058,Factory Foreman,factory foreman,
 3059,Burt Reynolds,burt reynolds,
 3060,Charlie Rose,charlie rose,
@@ -3017,16 +3048,19 @@ id,name,normalized_name,gender
 3066,JOE C.,joe c,
 3067,Kid Rock,kid rock,
 3068,Band,band,
+3069,Sheriff,sheriff,m
 3070,Female Student,female student,
 3071,Male Student,male student,
 3072,RADIO ANNCR,radio anncr,
 3073,Southern Dowager,southern dowager,
 3074,Cyborganizer,cyborganizer,
 3075,Robobaby,robobaby,
+3076,Eduardo,eduardo,m
 3077,Dance Coach,dance coach,
 3078,PLAIN JANE,plain jane,
 3079,Latin Milhouse,latin milhouse,
 3080,LISABELLA,lisabella,
+3081,Little Vicki,little vicki,f
 3082,Texan Man,texan man,
 3083,Thought Bubble Homer,thought bubble homer,
 3084,ORGAN SALESMAN,organ salesman,
@@ -3046,19 +3080,15 @@ id,name,normalized_name,gender
 3098,Dr. Stephen Hawking,dr stephen hawking,
 3099,Richie Rich,richie rich,
 3100,Female Artist,female artist,
-3101,"Sidekick #2",sidekick 2,
+3101,Sidekick #2,sidekick 2,
 3102,LISA'S LAWYER,lisas lawyer,
 3103,Willie Nelson,willie nelson,
 3104,Huckleberry Hound,huckleberry hound,
 3105,St. Peter,st peter,
 3106,Ghost Homer,ghost homer,
 3107,SCOUT,scout,
-3081,Little Vicki,little vicki,f
-3076,Eduardo,eduardo,m
-3011,Betty White,betty white,f
-3008,Rachel,rachel,f
-3069,Sheriff,sheriff,m
-3040,Casino Manager,casino manager,m
+3108,SATAN,satan,
+3109,Troll,troll,
 3110,Goldilocks,goldilocks,
 3111,RAPUNZEL,rapunzel,
 3112,Witch,witch,
@@ -3100,13 +3130,15 @@ id,name,normalized_name,gender
 3148,Ace of Spades,ace of spades,
 3149,ALL FOUR ACES,all four aces,
 3150,MAN WITH JEWELER'S LOUPE,man with jewelers loupe,
-3151,"Female Teen #1",female teen 1,
-3152,"Female Teen #2",female teen 2,
+3151,Female Teen #1,female teen 1,
+3152,Female Teen #2,female teen 2,
 3153,Mobsters,mobsters,
 3154,Squealer,squealer,
+3155,Johnny Tightlips,johnny tightlips,m
 3156,Old Barber,old barber,
 3157,Mr. Thai,mr thai,
 3158,LEAD PROTESTER,lead protester,
+3159,Jesse Grass,jesse grass,m
 3160,Activists,activists,
 3161,Caleb,caleb,
 3162,Wild Turkey,wild turkey,
@@ -3124,36 +3156,36 @@ id,name,normalized_name,gender
 3174,Terrorists,terrorists,
 3175,Head Terrorist,head terrorist,
 3176,Committee Woman,committee woman,
-3177,"Citizen #1",citizen 1,
-3178,"Citizen #2",citizen 2,
+3177,Citizen #1,citizen 1,
+3178,Citizen #2,citizen 2,
 3179,Patrick McGoohan,patrick mcgoohan,
 3180,Blind Man,blind man,
 3181,Number 2,number 2,
 3182,Fake Homer,fake homer,
 3183,Questo,questo,
 3184,QUESTO'S THOUGHTS,questos thoughts,
-3185,"Cosmonaut #1",cosmonaut 1,
-3186,"COSMONAUT #2",cosmonaut 2,
+3185,Cosmonaut #1,cosmonaut 1,
+3186,COSMONAUT #2,cosmonaut 2,
 3187,PUPPETEER,puppeteer,
 3188,Silver-haired Man,silver-haired man,
 3189,FBI MAN,fbi man,
 3190,Willie's Lawyer,willies lawyer,
-3191,"Ex-jock #2",ex-jock 2,
-3192,"Ex-jock #1",ex-jock 1,
+3191,Ex-jock #2,ex-jock 2,
+3192,Ex-jock #1,ex-jock 1,
 3193,EX-JOCKS,ex-jocks,
 3194,Costume Supervisor,costume supervisor,
-3195,"Ex-jock #3",ex-jock 3,
+3195,Ex-jock #3,ex-jock 3,
 3196,Disheveled Clown,disheveled clown,
 3197,Ringmaster,ringmaster,
 3198,RADIO WEATHER MAN,radio weather man,
 3199,APU+,apu,
 3200,Hobgoblin,hobgoblin,
 3201,LITTLE BO PEEP,little bo peep,
-3202,"G.I. #1",gi 1,
+3202,G.I. #1,gi 1,
 3203,Young Skinner,young skinner,
-3204,"G.I. #2",gi 2,
-3205,"Wolf #1",wolf 1,
-3206,"Wolf #2",wolf 2,
+3204,G.I. #2,gi 2,
+3205,Wolf #1,wolf 1,
+3206,Wolf #2,wolf 2,
 3207,Camel Lisa,camel lisa,
 3208,Harem Girl Bart,harem girl bart,
 3209,Super-criminal,super-criminal,
@@ -3161,8 +3193,6 @@ id,name,normalized_name,gender
 3211,A.D.R. Sessions,adr sessions,
 3212,SMOOTH ANNOUNCER,smooth announcer,
 3213,Company Spokesman,company spokesman,
-3320,Hippo,hippo,
-3155,Johnny Tightlips,johnny tightlips,m
 3214,Female Technician,female technician,
 3215,Cartoon Dog,cartoon dog,
 3216,Rockettes,rockettes,
@@ -3172,14 +3202,14 @@ id,name,normalized_name,gender
 3220,SIX-YEAR-OLD HOMER,six-year-old homer,
 3221,CLASSICAL D.J.,classical dj,
 3222,Fire Inspector,fire inspector,
-3223,"Groom #1 / Groom #2",groom 1 groom 2,
+3223,Groom #1 / Groom #2,groom 1 groom 2,
 3224,Ring Bearer,ring bearer,
 3225,Movie Audience,movie audience,
 3226,Burly Usher,burly usher,
 3227,Octoparrot,octoparrot,
 3228,Prisoner,prisoner,
-3229,"Rodeo Clown #1",rodeo clown 1,
-3230,"Rodeo Clown #2",rodeo clown 2,
+3229,Rodeo Clown #1,rodeo clown 1,
+3230,Rodeo Clown #2,rodeo clown 2,
 3231,Sardonicus,sardonicus,
 3232,Dr. Steve,dr steve,
 3233,Bruce Vilanch,bruce vilanch,
@@ -3215,6 +3245,7 @@ id,name,normalized_name,gender
 3263,Australian Runner,australian runner,
 3264,Runners,runners,
 3265,HIP-LOOKING MAN,hip-looking man,
+3266,L.T. Smash,lt smash,m
 3267,Party Posse,party posse,
 3268,Joey Fatone,joey fatone,
 3269,Justin Timberlake,justin timberlake,
@@ -3223,9 +3254,9 @@ id,name,normalized_name,gender
 3272,J.C. Chasez,jc chasez,
 3273,Cienega,cienega,
 3274,Arab Woman,arab woman,
-3275,"Hippie #1",hippie 1,
-3276,"Hippie #2",hippie 2,
-3277,"Hippie #3",hippie 3,
+3275,Hippie #1,hippie 1,
+3276,Hippie #2,hippie 2,
+3277,Hippie #3,hippie 3,
 3278,ADMIRAL,admiral,
 3279,"""mad"" Writer #1",mad writer 1,
 3280,"""mad"" Writer #2",mad writer 2,
@@ -3237,10 +3268,11 @@ id,name,normalized_name,gender
 3286,COWBOY/LINCOLN,cowboylincoln,
 3287,Souvenir Salesman,souvenir salesman,
 3288,Henri,henri,
+3289,Howard K. Duff VIII,howard k duff viii,m
 3290,KIRK/MILHOUSE,kirkmilhouse,
-3291,"Vendor #1",vendor 1,
-3292,"Vendor #2",vendor 2,
-3293,"Vendor #3",vendor 3,
+3291,Vendor #1,vendor 1,
+3292,Vendor #2,vendor 2,
+3293,Vendor #3,vendor 3,
 3294,2nd Executive,2nd executive,
 3295,SPIRIT,spirit,
 3296,Chavez,chavez,
@@ -3251,7 +3283,7 @@ id,name,normalized_name,gender
 3301,FEMALE AUDIENCE,female audience,
 3302,Business Owner,business owner,
 3303,Factory Owner,factory owner,
-3304,"Scientist #3",scientist 3,
+3304,Scientist #3,scientist 3,
 3305,Francine's Mom,francines mom,
 3306,Francine's Dad,francines dad,
 3307,Bag Boys,bag boys,
@@ -3267,14 +3299,15 @@ id,name,normalized_name,gender
 3317,Cheetah,cheetah,
 3318,Masai Chief,masai chief,
 3319,Masai Tribesmen,masai tribesmen,
-3321,"Bantu #1",bantu 1,
-3322,"Bantu #2",bantu 2,
+3320,Hippo,hippo,
+3321,Bantu #1,bantu 1,
+3322,Bantu #2,bantu 2,
 3323,Joan Bushwell,joan bushwell,
 3324,Chimps,chimps,
 3325,POACHER,poacher,
 3326,ANIMAL ACTIVIST,animal activist,
-3327,"Miner Chimp #1",miner chimp 1,
-3328,"Miner Chimp #2",miner chimp 2,
+3327,Miner Chimp #1,miner chimp 1,
+3328,Miner Chimp #2,miner chimp 2,
 3329,Muntu,muntu,
 3330,Linguo,linguo,
 3331,BOOKISH BOY,bookish boy,
@@ -3296,6 +3329,7 @@ id,name,normalized_name,gender
 3347,Dog/cat,dogcat,
 3348,Bill Cosby,bill cosby,
 3349,Airline Rep,airline rep,
+3350,Hobo,hobo,m
 3351,Country Doctor,country doctor,
 3352,Abe Bunyan,abe bunyan,
 3353,Mrs. Abe Bunyan,mrs abe bunyan,
@@ -3316,12 +3350,13 @@ id,name,normalized_name,gender
 3368,Gypsy,gypsy,
 3369,Shrunken Head,shrunken head,
 3370,Gil Robot,gil robot,
-3371,"Robot Worker #1",robot worker 1,
-3372,"Robot Worker #2",robot worker 2,
-3373,"ROBOT WORKERS #1 AND #2",robot workers 1 and 2,
+3371,Robot Worker #1,robot worker 1,
+3372,Robot Worker #2,robot worker 2,
+3373,ROBOT WORKERS #1 AND #2,robot workers 1 and 2,
 3374,Ultrahouse 3000,ultrahouse 3000,
 3375,Matthew Perry,matthew perry,
 3376,Dennis Miller,dennis miller,
+3377,Pierce Brosnan,pierce brosnan,m
 3378,Harry Potter,harry potter,
 3379,PRINCE,prince,
 3380,Prince William,prince william,
@@ -3334,14 +3369,15 @@ id,name,normalized_name,gender
 3387,CAMPY 40'S MOVIE DETECTIVE,campy 40s movie detective,
 3388,Cora,cora,
 3389,Police Dog,police dog,
+3390,Judge Harm,judge harm,f
 3391,Seal,seal,
 3392,Dr. Kaufman,dr kaufman,
 3393,Super-muscular Soldier,super-muscular soldier,
 3394,Prof. Huntington,prof huntington,
 3395,Formico,formico,
 3396,Models,models,
-3397,"Model #2",model 2,
-3398,"Model #1",model 1,
+3397,Model #2,model 2,
+3398,Model #1,model 1,
 3399,Sad Robot,sad robot,
 3400,Female Bargoer,female bargoer,
 3401,Male Bargoer,male bargoer,
@@ -3351,7 +3387,7 @@ id,name,normalized_name,gender
 3405,Michael Stipe,michael stipe,
 3406,Mike Mills,mike mills,
 3407,Turkey,turkey,
-3408,"Animal Catcher #1",animal catcher 1,
+3408,Animal Catcher #1,animal catcher 1,
 3409,Older Chinese Man,older chinese man,
 3410,WRITERS,writers,
 3411,MR. BURNS BRAIN,mr burns brain,
@@ -3370,9 +3406,6 @@ id,name,normalized_name,gender
 3424,"Waylon Smithers, Sr.",waylon smithers sr,
 3425,WAYLON JR.,waylon jr,
 3426,Space Ship Ensign,space ship ensign,
-4164,Cake,cake,
-3350,Hobo,hobo,m
-3377,Pierce Brosnan,pierce brosnan,m
 3427,Space Ship Captain,space ship captain,
 3428,Astronaut Pitchman,astronaut pitchman,
 3429,Wino,wino,
@@ -3386,6 +3419,7 @@ id,name,normalized_name,gender
 3437,Bob Dole,bob dole,
 3438,Environmentalist,environmentalist,
 3439,Spotted Owl,spotted owl,
+3440,Gabriel,gabriel,m
 3441,Other Students,other students,
 3442,Cougar,cougar,
 3443,Overweight Man,overweight man,
@@ -3406,9 +3440,9 @@ id,name,normalized_name,gender
 3458,Justin,justin,
 3459,Soccer Mummy,soccer mummy,
 3460,Teenage Soccer Player,teenage soccer player,
-3461,"Announcer #3",announcer 3,
-3462,"Teenage Usher #1",teenage usher 1,
-3463,"Teenage Usher #2",teenage usher 2,
+3461,Announcer #3,announcer 3,
+3462,Teenage Usher #1,teenage usher 1,
+3463,Teenage Usher #2,teenage usher 2,
 3465,Society Man,society man,
 3466,Barbara Walters,barbara walters,
 3467,Joy Behar,joy behar,
@@ -3417,7 +3451,7 @@ id,name,normalized_name,gender
 3470,Professor Van Doren,professor van doren,
 3471,Derby Announcer,derby announcer,
 3472,Beer Vendor,beer vendor,
-3473,"Derby Announcer #1",derby announcer 1,
+3473,Derby Announcer #1,derby announcer 1,
 3474,Kristen Davis,kristen davis,
 3475,Kim Catrall,kim catrall,
 3476,Sarah Jessica Parker,sarah jessica parker,
@@ -3432,20 +3466,22 @@ id,name,normalized_name,gender
 3485,Wolfgang Puck,wolfgang puck,
 3486,Little Rich Boy,little rich boy,
 3487,Greta Wolfcastle,greta wolfcastle,
-3488,"Snobby Bully #1",snobby bully 1,
-3489,"Snobby Bully #2",snobby bully 2,
+3488,Snobby Bully #1,snobby bully 1,
+3489,Snobby Bully #2,snobby bully 2,
 3490,Lookalike,lookalike,
 3491,Teenage Waiter,teenage waiter,
 3492,Tram Driver,tram driver,
-3493,"Bully #1",bully 1,
-3494,"Bully #2",bully 2,
+3493,Bully #1,bully 1,
+3494,Bully #2,bully 2,
 3495,Canadian Player,canadian player,
 3496,Ostrich,ostrich,
 3497,COWBOY,cowboy,
+3498,BUCK,buck,m
 3499,Sad Cowboy,sad cowboy,
 3500,Bank Robber,bank robber,
 3501,Grampa's Recorded Voice,grampas recorded voice,
 3502,Zelda,zelda,
+3503,Zack,zack,m
 3504,Elderly Ladies,elderly ladies,
 3505,OLD MEN,old men,
 3506,Black Best Friend,black best friend,
@@ -3473,13 +3509,9 @@ id,name,normalized_name,gender
 3528,Goose,goose,
 3529,Catapult Man,catapult man,
 3530,French Army,french army,
-4165,"Pie #3",pie 3,
-3498,BUCK,buck,m
-3503,Zack,zack,m
-3440,Gabriel,gabriel,m
 3531,English Soldier,english soldier,
-3532,"English Soldier #1",english soldier 1,
-3533,"English Soldier #2",english soldier 2,
+3532,English Soldier #1,english soldier 1,
+3533,English Soldier #2,english soldier 2,
 3534,Judge Lovejoy,judge lovejoy,
 3535,Courtroom Audience,courtroom audience,
 3536,Hamlet Bart,hamlet bart,
@@ -3539,11 +3571,11 @@ id,name,normalized_name,gender
 3590,Carrie,carrie,
 3591,Tina,tina,
 3592,Robert Pinsky,robert pinsky,
-3593,"Student #1",student 1,
-3594,"Student #2",student 2,
+3593,Student #1,student 1,
+3594,Student #2,student 2,
 3595,Glue-bottle Cow,glue-bottle cow,
-3596,"Student #3",student 3,
-3597,"Student #4",student 4,
+3596,Student #3,student 3,
+3597,Student #4,student 4,
 3598,CATERPILLAR,caterpillar,
 3599,Screamapillar,screamapillar,
 3600,Homer Devil,homer devil,
@@ -3600,6 +3632,7 @@ id,name,normalized_name,gender
 3651,Network Announcer,network announcer,
 3652,Female Cab Driver,female cab driver,
 3653,Drunk Homer,drunk homer,
+3654,Mick Jagger,mick jagger,m
 3655,Keith Richards,keith richards,
 3656,Elvis Costello,elvis costello,
 3657,Lenny Kravitz,lenny kravitz,
@@ -3616,12 +3649,13 @@ id,name,normalized_name,gender
 3668,Japanese Joey,japanese joey,
 3669,Japanese Phoebe,japanese phoebe,
 3670,Clock Announcer,clock announcer,
-3671,"Robot #1",robot 1,
-3672,"Robot #2",robot 2,
+3671,Robot #1,robot 1,
+3672,Robot #2,robot 2,
 3673,Clown,clown,
 3674,Characters,characters,
 3675,M.C. Safety,mc safety,
 3676,Caution Crew Member,caution crew member,
+3677,Mrs. McConnell,mrs mcconnell,f
 3678,Third-grade Class,third-grade class,
 3679,Third-grade Girl,third-grade girl,
 3680,Teenagers,teenagers,
@@ -3632,6 +3666,7 @@ id,name,normalized_name,gender
 3685,Grandpappy,grandpappy,
 3686,Mountain Woman,mountain woman,
 3687,Spanish Man,spanish man,
+3688,Cookie Kwan,cookie kwan,f
 3689,Kid Announcer,kid announcer,
 3690,BAJA MEN,baja men,
 3691,LINDSAY/COOKIE,lindsaycookie,
@@ -3643,8 +3678,8 @@ id,name,normalized_name,gender
 3697,Angelo,angelo,
 3698,All Men,all men,
 3699,Kiki,kiki,
-3700,"Shoe Buyer #1",shoe buyer 1,
-3701,"Shoe Buyer #2",shoe buyer 2,
+3700,Shoe Buyer #1,shoe buyer 1,
+3701,Shoe Buyer #2,shoe buyer 2,
 3702,Stampy,stampy,
 3703,Baha Men,baha men,
 3704,Larry Holmes,larry holmes,
@@ -3653,18 +3688,18 @@ id,name,normalized_name,gender
 3707,Termites,termites,
 3708,Exterminator,exterminator,
 3709,Bran Producers,bran producers,
-3710,"Bran Producer #1",bran producer 1,
-3711,"Bran Producer #2",bran producer 2,
+3710,Bran Producer #1,bran producer 1,
+3711,Bran Producer #2,bran producer 2,
 3712,Mitch,mitch,
 3713,David Lander,david lander,
 3714,BEARDED MAN,bearded man,
 3715,Female Castaway,female castaway,
 3716,Sad Man,sad man,
 3717,Reality Show Tribe,reality show tribe,
-3718,"Cameraman #1",cameraman 1,
-3719,"Cameraman #2",cameraman 2,
-3720,"Cop #1",cop 1,
-3721,"Cop #2",cop 2,
+3718,Cameraman #1,cameraman 1,
+3719,Cameraman #2,cameraman 2,
+3720,Cop #1,cop 1,
+3721,Cop #2,cop 2,
 3722,Masseur,masseur,
 3723,ASIAN MASSEUSE,asian masseuse,
 3724,Yoga Master,yoga master,
@@ -3677,9 +3712,9 @@ id,name,normalized_name,gender
 3731,Man Dressed As Jester,man dressed as jester,
 3732,Reveler,reveler,
 3733,SIX-YEAR-OLD GRAMPA,six-year-old grampa,
-3734,"Judge #2",judge 2,
-3735,"Judge #1",judge 1,
-3736,"Judge #3",judge 3,
+3734,Judge #2,judge 2,
+3735,Judge #1,judge 1,
+3736,Judge #3,judge 3,
 3737,Robin Williams,robin williams,
 3738,Committee Chairman,committee chairman,
 3739,Sad Whiny Voice,sad whiny voice,
@@ -3688,8 +3723,6 @@ id,name,normalized_name,gender
 3742,RIDER,rider,
 3743,Robot Mother,robot mother,
 3744,Maniacal-looking Teacher,maniacal-looking teacher,
-3654,Mick Jagger,mick jagger,m
-3688,Cookie Kwan,cookie kwan,f
 3745,Little Richard,little richard,
 3746,Skinner's Thoughts,skinners thoughts,
 3747,Mrs. Skinner's Thoughts,mrs skinners thoughts,
@@ -3704,6 +3737,7 @@ id,name,normalized_name,gender
 3756,Space Frog,space frog,
 3757,ASTRONAUT VOICE,astronaut voice,
 3758,Sheriff Lisa,sheriff lisa,
+3759,Colt,colt,m
 3760,HEAD PROTESTER,head protester,
 3761,Giuseppe,giuseppe,
 3762,MISS SEPTEMBER,miss september,
@@ -3744,6 +3778,7 @@ id,name,normalized_name,gender
 3797,Truck Commercial Announcer,truck commercial announcer,
 3798,Rib-It,rib-it,
 3799,Lisa's Cheering Section,lisas cheering section,
+3800,George Plimpton,george plimpton,m
 3801,Barnard,barnard,
 3802,Radcliffe,radcliffe,
 3803,Wellesley,wellesley,
@@ -3754,12 +3789,13 @@ id,name,normalized_name,gender
 3808,Seven Sisters,seven sisters,
 3809,Real Lisa,real lisa,
 3810,Ribhead,ribhead,
-3811,"Ribhead #2",ribhead 2,
+3811,Ribhead #2,ribhead 2,
 3812,Italian Man,italian man,
 3813,Sun Moon,sun moon,
 3814,Hibbert Boy,hibbert boy,
 3815,Big Band Singer,big band singer,
 3816,Irish Cop,irish cop,
+3817,Sara Sloane,sara sloane,f
 3818,REPORTER CLETUS,reporter cletus,
 3819,James L. Brooks,james l brooks,
 3820,Helen Fielding,helen fielding,
@@ -3772,7 +3808,7 @@ id,name,normalized_name,gender
 3827,Southern Congressman,southern congressman,
 3828,Elderly Congressman,elderly congressman,
 3829,Committee Member,committee member,
-3830,"Committee Member #2",committee member 2,
+3830,Committee Member #2,committee member 2,
 3831,Congressperson,congressperson,
 3832,Sgt. At Arms,sgt at arms,
 3833,Speaker Of The House,speaker of the house,
@@ -3780,23 +3816,22 @@ id,name,normalized_name,gender
 3835,Mouse Paramedic,mouse paramedic,
 3836,Nuts & Bolts,nuts bolts,
 3837,Terrence,terrence,
+3838,Stark Richdale,stark richdale,m
 3839,First Worker,first worker,
 3840,Capitol Dome,capitol dome,
 3841,Nuclear Inspector,nuclear inspector,
 3842,Animated Skinner,animated skinner,
+3843,Declan Desmond,declan desmond,m
 3844,Sad Voice,sad voice,
 3845,Hobby Shop Guy,hobby shop guy,
 3846,Astronomer,astronomer,
 3847,MALE COMPUTER VOICE,male computer voice,
 3848,Angry Mob,angry mob,
-4166,Pies,pies,
-3817,Sara Sloane,sara sloane,f
-3800,George Plimpton,george plimpton,m
-3759,Colt,colt,m
-3838,Stark Richdale,stark richdale,m
 3849,Jimmy the Snitch,jimmy the snitch,
 3850,PUZZLE LENNY,puzzle lenny,
 3851,Bachelors,bachelors,
+3852,Grady,grady,m
+3853,Julio,julio,m
 3854,Stylist,stylist,
 3855,Lesbian,lesbian,
 3856,Large Gay Man,large gay man,
@@ -3806,8 +3841,8 @@ id,name,normalized_name,gender
 3860,Young Dr. Hibbert,young dr hibbert,
 3861,David Byrne,david byrne,
 3862,William Shatner,william shatner,
-3863,"Wrangler #1",wrangler 1,
-3864,"Wrangler #2",wrangler 2,
+3863,Wrangler #1,wrangler 1,
+3864,Wrangler #2,wrangler 2,
 3865,Luke,luke,
 3866,Cleanie,cleanie,
 3867,Native American,native american,
@@ -3829,8 +3864,8 @@ id,name,normalized_name,gender
 3883,REGIS,regis,
 3884,SUDS MCDUFF,suds mcduff,
 3885,Derelicts,derelicts,
-3886,"Parasailer #1",parasailer 1,
-3887,"Parasailer #2",parasailer 2,
+3886,Parasailer #1,parasailer 1,
+3887,Parasailer #2,parasailer 2,
 3888,Male Narrator,male narrator,
 3889,Female Tour Guide,female tour guide,
 3890,Female,female,
@@ -3865,6 +3900,7 @@ id,name,normalized_name,gender
 3919,Death,death,
 3920,Frankie the Squealer,frankie the squealer,
 3921,Swedish Scientist,swedish scientist,
+3922,Frink Senior,frink senior,m
 3923,Young Professor Frink,young professor frink,
 3924,Jennifer Garner,jennifer garner,
 3925,Dudley Herschbach,dudley herschbach,
@@ -3880,7 +3916,7 @@ id,name,normalized_name,gender
 3935,French Teacher,french teacher,
 3936,Michael Moore,michael moore,
 3937,Boy Student,boy student,
-3938,"Dad #2",dad 2,
+3938,Dad #2,dad 2,
 3939,Alien Rock Band,alien rock band,
 3940,Museum-goers,museum-goers,
 3941,Edwina,edwina,
@@ -3890,16 +3926,14 @@ id,name,normalized_name,gender
 3945,J.K. Rowling,jk rowling,
 3946,Squeaky-Voiced British Teen,squeaky-voiced british teen,
 3947,Judi Dench,judi dench,
-3948,"Gentleman #1",gentleman 1,
-3949,"GENTLEMAN #2",gentleman 2,
+3948,Gentleman #1,gentleman 1,
+3949,GENTLEMAN #2,gentleman 2,
 3950,Lord Daftwager,lord daftwager,
 3951,Evan Marriott,evan marriott,
 3952,Sir Ian McKellen,sir ian mckellen,
 3953,Deep British Voice,deep british voice,
 3954,Courtroom,courtroom,
 3955,Young Girl In Crowd,young girl in crowd,
-3922,Frink Senior,frink senior,m
-3852,Grady,grady,m
 3956,Second Guard,second guard,
 3957,Sparkly Elves,sparkly elves,
 3958,Madonna,madonna,
@@ -3939,6 +3973,7 @@ id,name,normalized_name,gender
 3992,Pregnant Woman,pregnant woman,
 3993,Wildlife Host,wildlife host,
 3994,HANK HILL,hank hill,
+3995,Roofi,roofi,m
 3996,Gerbil,gerbil,
 3997,Kids Chorus,kids chorus,
 3998,Helpful Bear,helpful bear,
@@ -3956,8 +3991,8 @@ id,name,normalized_name,gender
 4010,"""Yeeeessss"" Man",yeeeessss man,
 4011,Bike Guy,bike guy,
 4012,Macho Tv Announcer,macho tv announcer,
-4013,"ROBOT WARS ANNOUNCER #2",robot wars announcer 2,
-4014,"ROBOT WARS ANNOUNCER #1",robot wars announcer 1,
+4013,ROBOT WARS ANNOUNCER #2,robot wars announcer 2,
+4014,ROBOT WARS ANNOUNCER #1,robot wars announcer 1,
 4015,Knockahomer,knockahomer,
 4016,Scary Robot,scary robot,
 4017,Security Voice,security voice,
@@ -3978,6 +4013,7 @@ id,name,normalized_name,gender
 4032,Ashley Olsen,ashley olsen,
 4033,Mary-Kate Olsen,mary-kate olsen,
 4034,Elderly Librarian,elderly librarian,
+4035,Henry VIII,henry viii,m
 4036,MARGARINE OF ARAGON,margarine of aragon,
 4037,Court Herald,court herald,
 4038,Royal Physician,royal physician,
@@ -3988,8 +4024,8 @@ id,name,normalized_name,gender
 4043,Anne Boleyn,anne boleyn,
 4044,Archbishop Lovejoy,archbishop lovejoy,
 4045,Jane Seymour,jane seymour,
-4046,"Next Wife #2",next wife 2,
-4047,"Next Wife #3",next wife 3,
+4046,Next Wife #2,next wife 2,
+4047,Next Wife #3,next wife 3,
 4048,Anne of Cleves,anne of cleves,
 4049,Advisor Moe,advisor moe,
 4050,Chief Homer,chief homer,
@@ -4002,11 +4038,10 @@ id,name,normalized_name,gender
 4057,Fops,fops,
 4058,Emperor Joseph II,emperor joseph ii,
 4059,Knight Chorus,knight chorus,
-4035,Henry VIII,henry viii,m
 4060,LADIES IN WAITING CHORUS,ladies in waiting chorus,
 4061,Female Soloist,female soloist,
-4062,"Fop #1",fop 1,
-4063,"Fop #2",fop 2,
+4062,Fop #1,fop 1,
+4063,Fop #2,fop 2,
 4064,Chancellor Smithers,chancellor smithers,
 4065,Beethoven,beethoven,
 4066,Crazies,crazies,
@@ -4023,17 +4058,18 @@ id,name,normalized_name,gender
 4077,Indigent Man,indigent man,
 4078,"""Yesss"" Man",yesss man,
 4079,Airline Employee,airline employee,
-4080,"Boy #2",boy 2,
+4080,Boy #2,boy 2,
 4081,Cap City Boys,cap city boys,
 4082,Little Milhouse,little milhouse,
 4083,Indigent Woman,indigent woman,
 4084,Miss Wickerbottom,miss wickerbottom,
 4085,Phonic Frog,phonic frog,
+4086,Simon,simon,m
 4087,Ticket Vendor,ticket vendor,
 4088,Creepy Little Girl,creepy little girl,
 4089,Mysterious Noise,mysterious noise,
-4090,"Sec Agent #1",sec agent 1,
-4091,"Sec Agent #2",sec agent 2,
+4090,Sec Agent #1,sec agent 1,
+4091,Sec Agent #2,sec agent 2,
 4092,Committee Chairwoman,committee chairwoman,
 4093,Congressional Committee,congressional committee,
 4094,Arties,arties,
@@ -4057,10 +4093,11 @@ id,name,normalized_name,gender
 4112,Store Employee,store employee,
 4113,Juvies,juvies,
 4114,Crowd Of Mice,crowd of mice,
-4115,"Juvie #1",juvie 1,
+4115,Juvie #1,juvie 1,
+4116,Gina Vendetti,gina vendetti,f
 4117,Girl Juvies,girl juvies,
 4118,Boy Juvie,boy juvie,
-4119,"Juvie #2",juvie 2,
+4119,Juvie #2,juvie 2,
 4120,Juvie Girl,juvie girl,
 4121,Female Alien,female alien,
 4122,Blacksmith,blacksmith,
@@ -4071,8 +4108,8 @@ id,name,normalized_name,gender
 4127,Hulk,hulk,
 4128,Klingons,klingons,
 4129,PRINCIPAL SKINNER CT,principal skinner ct,
-4130,"Klingon #1",klingon 1,
-4131,"Klingon #2",klingon 2,
+4130,Klingon #1,klingon 1,
+4131,Klingon #2,klingon 2,
 4132,Convention Freak,convention freak,
 4133,Klingon Wedding Minister,klingon wedding minister,
 4134,Unrecognizable Simpsons,unrecognizable simpsons,
@@ -4089,25 +4126,28 @@ id,name,normalized_name,gender
 4145,Young Wife,young wife,
 4146,Young Husband,young husband,
 4147,Animal Character,animal character,
-4148,"Widow #1",widow 1,
-4149,"Widow #2",widow 2,
+4148,Widow #1,widow 1,
+4149,Widow #2,widow 2,
 4150,Widows,widows,
 4151,Attractive Widow,attractive widow,
 4152,Raoul,raoul,
 4153,American Skipper,american skipper,
 4154,Canadian Skipper,canadian skipper,
 4155,AMERICAN/CANADIAN SKIPPERS,americancanadian skippers,
-4156,"Contestant #1",contestant 1,
-4157,"Contestant #2",contestant 2,
+4156,Contestant #1,contestant 1,
+4157,Contestant #2,contestant 2,
 4158,Farmer Billy,farmer billy,
 4159,Pig Owner,pig owner,
 4160,Salad,salad,
 4161,Nichelle Nichols,nichelle nichols,
-4162,"Pie #1",pie 1,
-4163,"Pie #2",pie 2,
-4086,Simon,simon,m
+4162,Pie #1,pie 1,
+4163,Pie #2,pie 2,
+4164,Cake,cake,
+4165,Pie #3,pie 3,
+4166,Pies,pies,
 4167,Girl Scout,girl scout,
 4168,Dalai Lama,dalai lama,
+4169,10-Year-Old Homer,10-year-old homer,m
 4170,10-Year-Old Lenny,10-year-old lenny,
 4171,10-Year-Old Carl,10-year-old carl,
 4172,T.J.,tj,
@@ -4123,13 +4163,14 @@ id,name,normalized_name,gender
 4182,Eager Young Reporter,eager young reporter,
 4183,GOLF-COURSE EMPLOYEE,golf-course employee,
 4184,Other Golfers,other golfers,
+4185,Nash Castor,nash castor,m
 4186,Elderly Southern Senator,elderly southern senator,
 4187,Other Senators,other senators,
-4188,"Aide #1",aide 1,
-4189,"Aide #2",aide 2,
+4188,Aide #1,aide 1,
+4189,Aide #2,aide 2,
 4190,Swat Team Leader,swat team leader,
-4191,"Detainee #1",detainee 1,
-4192,"Detainee #3",detainee 3,
+4191,Detainee #1,detainee 1,
+4192,Detainee #3,detainee 3,
 4193,U.S. Constitution,us constitution,
 4194,Bill O' Rights,bill o rights,
 4195,Old Coot,old coot,
@@ -4140,6 +4181,8 @@ id,name,normalized_name,gender
 4200,NVA SGT.,nva sgt,
 4201,Alien Boss,alien boss,
 4202,Harlot,harlot,
+4203,Inspector Wiggum,inspector wiggum,m
+4204,Eliza,eliza,f
 4205,Dr. Bartley,dr bartley,
 4206,Cockney Woman,cockney woman,
 4207,Peter Pan,peter pan,
@@ -4167,8 +4210,9 @@ id,name,normalized_name,gender
 4229,Male Clerk,male clerk,
 4230,Reflection,reflection,
 4231,Mr. Muntz,mr muntz,
-4232,"News Crew Member #1",news crew member 1,
-4233,"News Crew Member #2",news crew member 2,
+4232,News Crew Member #1,news crew member 1,
+4233,News Crew Member #2,news crew member 2,
+4234,CHLOE,chloe,f
 4235,Bob Dylan,bob dylan,
 4236,Teenage Moe,teenage moe,
 4237,Lisa's Reflection,lisas reflection,
@@ -4178,9 +4222,10 @@ id,name,normalized_name,gender
 4241,SPONGE BOB,sponge bob,
 4242,Sgt. Activity,sgt activity,
 4243,Lt. Adventure,lt adventure,
-4244,"Exhibitor #1",exhibitor 1,
-4245,"Exhibitor #3",exhibitor 3,
+4244,Exhibitor #1,exhibitor 1,
+4245,Exhibitor #3,exhibitor 3,
 4246,Retailers,retailers,
+4247,Goose Gladwell,goose gladwell,m
 4248,Chum,chum,
 4249,Homer's Muzzle,homers muzzle,
 4250,Employment Counselor,employment counselor,
@@ -4191,10 +4236,10 @@ id,name,normalized_name,gender
 4255,2nd U.S. Border Guard,2nd us border guard,
 4256,Los Jacquitos Leader,los jacquitos leader,
 4257,Mountie,mountie,
-4258,"Canadian Official #1",canadian official 1,
-4259,"Canadian Official #2",canadian official 2,
-4260,"Server #1",server 1,
-4261,"Server #2",server 2,
+4258,Canadian Official #1,canadian official 1,
+4259,Canadian Official #2,canadian official 2,
+4260,Server #1,server 1,
+4261,Server #2,server 2,
 4262,Health Inspector,health inspector,
 4263,New Health Inspector,new health inspector,
 4264,Loan Officer,loan officer,
@@ -4203,11 +4248,6 @@ id,name,normalized_name,gender
 4267,Five Of Diamonds,five of diamonds,
 4268,Jack Of Clubs,jack of clubs,
 4269,Eight Of Clubs,eight of clubs,
-4204,Eliza,eliza,f
-4169,10-Year-Old Homer,10-year-old homer,m
-4185,Nash Castor,nash castor,m
-4203,Inspector Wiggum,inspector wiggum,m
-4247,Goose Gladwell,goose gladwell,m
 4270,Jack Of Diamonds,jack of diamonds,
 4271,SQUEAKY-VOICED TEEN ATTENDANT,squeaky-voiced teen attendant,
 4272,Toddler,toddler,
@@ -4229,11 +4269,11 @@ id,name,normalized_name,gender
 4288,Yao Ming,yao ming,
 4289,Mr. Burns Logo,mr burns logo,
 4290,Captain McCallister's Head,captain mccallisters head,
-4291,"Espn-style Anchorman #1",espn-style anchorman 1,
-4292,"Espn-style Anchorman #2",espn-style anchorman 2,
+4291,Espn-style Anchorman #1,espn-style anchorman 1,
+4292,Espn-style Anchorman #2,espn-style anchorman 2,
 4293,Warren Sapp,warren sapp,
 4294,Tom Brady,tom brady,
-4295,"Huge Man #1",huge man 1,
+4295,Huge Man #1,huge man 1,
 4296,Commissioner,commissioner,
 4297,Texas Owner,texas owner,
 4298,Nfl Film-type Announcer,nfl film-type announcer,
@@ -4273,19 +4313,20 @@ id,name,normalized_name,gender
 4332,Chinese Pilot,chinese pilot,
 4333,Chinese Co-pilot,chinese co-pilot,
 4334,Functionary,functionary,
+4335,Madam Wu,madam wu,f
 4336,Barbarian,barbarian,
 4337,2nd Barbarian,2nd barbarian,
 4338,Chinese Uncle Ben,chinese uncle ben,
 4339,Chinese Willy,chinese willy,
 4340,Chinese Announcer,chinese announcer,
 4341,Disgruntled Audience Member,disgruntled audience member,
-4342,"Disgruntled Audience Member #2",disgruntled audience member 2,
-4343,"Disgruntled Audience Member #3",disgruntled audience member 3,
+4342,Disgruntled Audience Member #2,disgruntled audience member 2,
+4343,Disgruntled Audience Member #3,disgruntled audience member 3,
 4344,Chinese Acrobats,chinese acrobats,
 4345,Ling,ling,
 4346,Chinese Man,chinese man,
-4347,"Chinese Guard #1",chinese guard 1,
-4348,"Chinese Guard #2",chinese guard 2,
+4347,Chinese Guard #1,chinese guard 1,
+4348,Chinese Guard #2,chinese guard 2,
 4349,David Silverman,david silverman,
 4350,Muscular Homer,muscular homer,
 4351,Brenda,brenda,
@@ -4309,7 +4350,6 @@ id,name,normalized_name,gender
 4369,Basketball Player,basketball player,
 4370,Oboist,oboist,
 4371,Frank Gehry,frank gehry,
-5087,ALEPPO,aleppo,
 4372,Shelbyvillians,shelbyvillians,
 4373,Officer Krackney,officer krackney,
 4376,Jenda,jenda,
@@ -4321,6 +4361,7 @@ id,name,normalized_name,gender
 4383,Angry Rainbows,angry rainbows,
 4384,Teenage Martin,teenage martin,
 4385,Robo-Wiggum,robo-wiggum,
+4386,Bender,bender,m
 4387,MOE-CLONE,moe-clone,
 4388,Uni-clams,uni-clams,
 4389,Sad Uni-clam,sad uni-clam,
@@ -4338,7 +4379,8 @@ id,name,normalized_name,gender
 4401,Stapled Soldier,stapled soldier,
 4402,Army Men,army men,
 4403,Vending Machine,vending machine,
-4404,"Vending Machine #2",vending machine 2,
+4404,Vending Machine #2,vending machine 2,
+4405,Tab Spangler,tab spangler,m
 4406,German Backpacker,german backpacker,
 4407,Female German Backpacker,female german backpacker,
 4408,German Student,german student,
@@ -4372,13 +4414,14 @@ id,name,normalized_name,gender
 4436,Humbleton Woman,humbleton woman,
 4437,Jason Bateman,jason bateman,
 4438,Sister Thomasina,sister thomasina,
+4439,Father Sean,father sean,m
 4440,Sean's Dad,seans dad,
 4441,Young Sean,young sean,
 4442,St. Sebastian,st sebastian,
 4443,Dying Soldier,dying soldier,
 4444,Church Women,church women,
-4445,"Croquet Player #1",croquet player 1,
-4446,"Croquet Player #2",croquet player 2,
+4445,Croquet Player #1,croquet player 1,
+4446,Croquet Player #2,croquet player 2,
 4447,Emcee,emcee,
 4448,Pious Riot,pious riot,
 4449,Band Member,band member,
@@ -4398,17 +4441,14 @@ id,name,normalized_name,gender
 4463,Uncle John,uncle john,
 4464,Aunt Kathy,aunt kathy,
 4465,Randy,randy,
-4466,"Jet Skier #1",jet skier 1,
-4467,"Jet Skier #2",jet skier 2,
+4466,Jet Skier #1,jet skier 1,
+4467,Jet Skier #2,jet skier 2,
 4468,Jet Skiers,jet skiers,
 4469,Vampire Puppet,vampire puppet,
 4470,Frederick Ives Hologram,frederick ives hologram,
 4471,Katherine Blodgett Hologram,katherine blodgett hologram,
 4472,Alexander Graham Bell Hologram,alexander graham bell hologram,
 4473,Elisha Gray Hologram,elisha gray hologram,
-4405,Tab Spangler,tab spangler,m
-4439,Father Sean,father sean,m
-4386,Bender,bender,m
 4474,Museum Head,museum head,
 4475,SHADOWY CREATURE,shadowy creature,
 4476,Plant Monster,plant monster,
@@ -4423,15 +4463,15 @@ id,name,normalized_name,gender
 4485,Grandmotherly Woman,grandmotherly woman,
 4486,Bart Spider,bart spider,
 4487,Milhouse Slug,milhouse slug,
-4488,"Wild Beast #1",wild beast 1,
-4489,"Wild Beast #2",wild beast 2,
-4490,"Wild Beast #3",wild beast 3,
+4488,Wild Beast #1,wild beast 1,
+4489,Wild Beast #2,wild beast 2,
+4490,Wild Beast #3,wild beast 3,
 4491,WILD BEASTS,wild beasts,
 4492,Emotional Woman,emotional woman,
 4493,Amer-asian Girl,amer-asian girl,
 4494,Bratty Teenage Boy,bratty teenage boy,
-4495,"Bratty Teenage Boy #2",bratty teenage boy 2,
-4496,"Bratty Teenage Boy #3",bratty teenage boy 3,
+4495,Bratty Teenage Boy #2,bratty teenage boy 2,
+4496,Bratty Teenage Boy #3,bratty teenage boy 3,
 4497,Therapist,therapist,
 4498,Old Robot,old robot,
 4499,Silver-haired Priest,silver-haired priest,
@@ -4474,6 +4514,7 @@ id,name,normalized_name,gender
 4536,Italian Sausage Maker,italian sausage maker,
 4537,GOAT LADY,goat lady,
 4538,Gondola Driver,gondola driver,
+4539,Mary,mary,f
 4540,Joseph,joseph,
 4541,Hibbert Wise Man,hibbert wise man,
 4542,Skinner Wise Man,skinner wise man,
@@ -4491,6 +4532,7 @@ id,name,normalized_name,gender
 4555,Elderly Cyrus,elderly cyrus,
 4556,Native Wives,native wives,
 4557,Coin Basket,coin basket,
+4558,MASON,mason,m
 4559,Local Announcer,local announcer,
 4560,William H. Macy,william h macy,
 4561,Spanish Captain,spanish captain,
@@ -4509,10 +4551,7 @@ id,name,normalized_name,gender
 4574,Bart-Jack,bart-jack,
 4575,Bart-waitress,bart-waitress,
 4576,Bart Head,bart head,
-5192,Film Loop,film loop,
-4539,Mary,mary,f
 4577,Coach Krupt,coach krupt,m
-4558,MASON,mason,m
 4578,Go-cart Worker,go-cart worker,
 4579,Eli Stern VI,eli stern vi,
 4580,Willie's Dad,willies dad,
@@ -4536,13 +4575,14 @@ id,name,normalized_name,gender
 4599,Nascar-type Announcer,nascar-type announcer,
 4600,SMOOTH-VOICED MAN,smooth-voiced man,
 4601,Dan Castellaneta,dan castellaneta,
-4602,"Contestant #3",contestant 3,
+4602,Contestant #3,contestant 3,
 4603,Female Producer,female producer,
 4604,Verity,verity,
 4605,Panicky Cameraman,panicky cameraman,
+4606,Charles Heathbar,charles heathbar,m
 4607,Fox Cameraman,fox cameraman,
 4608,Irish Housekeeper,irish housekeeper,
-4609,"Sports Anchor #2",sports anchor 2,
+4609,Sports Anchor #2,sports anchor 2,
 4610,Point 'n' Laugh,point n laugh,
 4611,Rob Reiner,rob reiner,
 4612,Celebrity Impersonators,celebrity impersonators,
@@ -4557,19 +4597,20 @@ id,name,normalized_name,gender
 4621,Female Factory Worker,female factory worker,
 4622,Pleading Factory Worker,pleading factory worker,
 4623,Factory Workers,factory workers,
-4624,"Factory Worker #1",factory worker 1,
-4625,"Factory Worker #2",factory worker 2,
+4624,Factory Worker #1,factory worker 1,
+4625,Factory Worker #2,factory worker 2,
 4626,Plant Workers,plant workers,
+4627,Richard Dean Anderson,richard dean anderson,m
 4628,STARGATE CONVENTIONEERS,stargate conventioneers,
 4629,College Nerd,college nerd,
-4630,"COLLEGE NERD #2",college nerd 2,
+4630,COLLEGE NERD #2,college nerd 2,
 4631,Indian Passenger,indian passenger,
 4632,Indian Man,indian man,
-4633,"INDIAN MAN #2",indian man 2,
+4633,INDIAN MAN #2,indian man 2,
 4634,Indian Workers,indian workers,
-4635,"Indian Worker #1",indian worker 1,
-4636,"Indian Worker #2",indian worker 2,
-4637,"Indian Worker #3",indian worker 3,
+4635,Indian Worker #1,indian worker 1,
+4636,Indian Worker #2,indian worker 2,
+4637,Indian Worker #3,indian worker 3,
 4638,Kavi,kavi,
 4639,Indian Assistant,indian assistant,
 4640,Indian Bodyguard,indian bodyguard,
@@ -4583,6 +4624,7 @@ id,name,normalized_name,gender
 4648,Pilgrim Smithers,pilgrim smithers,
 4649,Brother Willie,brother willie,
 4650,Fletcher Christian,fletcher christian,
+4651,Bligh,bligh,m
 4652,Crew,crew,
 4653,Bosun Willie,bosun willie,
 4654,King Homer,king homer,
@@ -4608,23 +4650,20 @@ id,name,normalized_name,gender
 4674,Greater Than Or Equal To Sign,greater than or equal to sign,
 4675,Number 8,number 8,
 4676,Number 27,number 27,
-4606,Charles Heathbar,charles heathbar,m
-4627,Richard Dean Anderson,richard dean anderson,m
-4651,Bligh,bligh,m
 4677,MELANIE UPFOOT,melanie upfoot,
 4678,Sal Bando,sal bando,
 4679,Gene Tenace,gene tenace,
 4680,Mail Lady,mail lady,
 4681,Bride,bride,
-4682,"Housekeeper #1",housekeeper 1,
-4683,"Housekeeper #2",housekeeper 2,
+4682,Housekeeper #1,housekeeper 1,
+4683,Housekeeper #2,housekeeper 2,
 4684,Housekeepers,housekeepers,
 4685,Facilitator,facilitator,
-4686,"Bachelor #1",bachelor 1,
+4686,Bachelor #1,bachelor 1,
 4687,Grumpy-looking Man,grumpy-looking man,
 4688,Effeminate Bachelor,effeminate bachelor,
 4689,Good-looking Bachelor,good-looking bachelor,
-4690,"Twin Guy #1",twin guy 1,
+4690,Twin Guy #1,twin guy 1,
 4691,The Players,the players,
 4692,Will Smith,will smith,
 4693,Museum Employee,museum employee,
@@ -4634,10 +4673,11 @@ id,name,normalized_name,gender
 4697,Clarisse Drummond,clarisse drummond,
 4698,Wallace Brady,wallace brady,
 4699,Scientist-type,scientist-type,
-4700,"DETECTIVE #1",detective 1,
-4701,"Detective #2",detective 2,
+4700,DETECTIVE #1,detective 1,
+4701,Detective #2,detective 2,
 4702,HUNCH,hunch,
 4703,Female Left-fielder,female left-fielder,
+4704,TABITHA,tabitha,f
 4705,BUCK/TABITHA,bucktabitha,
 4706,Sports Talk Radio Host,sports talk radio host,
 4707,2nd Duffman,2nd duffman,
@@ -4648,6 +4688,7 @@ id,name,normalized_name,gender
 4712,Lars Ulrich,lars ulrich,
 4713,Kirk Hammett,kirk hammett,
 4714,Robert Trujillo,robert trujillo,
+4715,Lunchlady Dora,lunchlady dora,f
 4716,Spirits,spirits,
 4717,Calabresis,calabresis,
 4718,Dante Calabresi,dante calabresi,
@@ -4658,7 +4699,7 @@ id,name,normalized_name,gender
 4723,Jack White,jack white,
 4724,Meg White,meg white,
 4725,Skinny,skinny,
-4726,"JAZZ MUSICIAN #2/MARBLES",jazz musician 2marbles,
+4726,JAZZ MUSICIAN #2/MARBLES,jazz musician 2marbles,
 4727,Marbles,marbles,
 4728,Mutt,mutt,
 4729,Smiley,smiley,
@@ -4669,8 +4710,8 @@ id,name,normalized_name,gender
 4734,ROCKY BALBOA,rocky balboa,
 4735,Nascar Announcer,nascar announcer,
 4736,Contractors,contractors,
-4737,"Contractor #1",contractor 1,
-4738,"Contractor #2",contractor 2,
+4737,Contractor #1,contractor 1,
+4738,Contractor #2,contractor 2,
 4739,Mr. Peanut,mr peanut,
 4740,Coaster Weirdoes,coaster weirdoes,
 4741,Male Coaster Weirdo,male coaster weirdo,
@@ -4682,15 +4723,15 @@ id,name,normalized_name,gender
 4747,SOUTHERN TV THERAPIST,southern tv therapist,
 4748,DR. PHIL,dr phil,
 4749,Fudge Box,fudge box,
-4750,"Heckler #1",heckler 1,
-4751,"Heckler #2",heckler 2,
+4750,Heckler #1,heckler 1,
+4751,Heckler #2,heckler 2,
 4752,Shape,shape,
 4753,Golem,golem,
 4754,Female Golem,female golem,
 4755,Orson Welles,orson welles,
 4756,Production Assistant,production assistant,
-4757,"Recruiter #1",recruiter 1,
-4758,"Recruiter #2",recruiter 2,
+4757,Recruiter #1,recruiter 1,
+4758,Recruiter #2,recruiter 2,
 4759,Drill Sergeant,drill sergeant,
 4760,Female Sergeant,female sergeant,
 4761,Cereal Captain,cereal captain,
@@ -4714,7 +4755,6 @@ id,name,normalized_name,gender
 4779,Vermont Woman,vermont woman,
 4780,Other Men,other men,
 4781,Max,max,
-4704,TABITHA,tabitha,f
 4782,OLDER WOMAN'S VOICE,older womans voice,
 4783,Max's Widow,maxs widow,
 4784,Opal,opal,
@@ -4754,6 +4794,7 @@ id,name,normalized_name,gender
 4818,Female Candy Worker,female candy worker,
 4819,Candy Workers,candy workers,
 4820,Male Candy Worker,male candy worker,
+4821,Captain Jack,captain jack,m
 4822,Zeke,zeke,
 4823,Grizzled Old Salt,grizzled old salt,
 4824,Fausto,fausto,
@@ -4804,8 +4845,8 @@ id,name,normalized_name,gender
 4869,8-Year-Old Comic Book Guy,8-year-old comic book guy,
 4870,24-Year-Old Marge,24-year-old marge,
 4871,Young Sea Captain,young sea captain,
-4872,"Climber #1",climber 1,
-4873,"Climber #2",climber 2,
+4872,Climber #1,climber 1,
+4873,Climber #2,climber 2,
 4874,Blind Climber,blind climber,
 4875,MANLY VOICE,manly voice,
 4876,James Patterson,james patterson,
@@ -4850,8 +4891,8 @@ id,name,normalized_name,gender
 4915,MARIA SHRIVER KENNEDY QUIMBY,maria shriver kennedy quimby,
 4916,Celebrities,celebrities,
 4917,Enrico Irritazio,enrico irritazio,
-4918,"Attractive Woman #1",attractive woman 1,
-4919,"Attractive Woman #2",attractive woman 2,
+4918,Attractive Woman #1,attractive woman 1,
+4919,Attractive Woman #2,attractive woman 2,
 4920,Portly Wizard,portly wizard,
 4921,Elf Marge,elf marge,
 4922,VENDOR APU,vendor apu,
@@ -4869,8 +4910,8 @@ id,name,normalized_name,gender
 4934,Rogue Kearney,rogue kearney,
 4935,Rogue Jimbo,rogue jimbo,
 4936,British Announcer,british announcer,
-4937,"Male Fan #1",male fan 1,
-4938,"Male Fan #2",male fan 2,
+4937,Male Fan #1,male fan 1,
+4938,Male Fan #2,male fan 2,
 4939,Nelson's Head,nelsons head,
 4940,Viking Comic Book Guy,viking comic book guy,
 4941,Satyr Largo,satyr largo,
@@ -4882,8 +4923,8 @@ id,name,normalized_name,gender
 4947,Old Bart,old bart,
 4948,Old Milhouse,old milhouse,
 4949,Ghost Marge,ghost marge,
-4950,"Sheep #1",sheep 1,
-4951,"Sheep #2",sheep 2,
+4950,Sheep #1,sheep 1,
+4951,Sheep #2,sheep 2,
 4952,Dogs,dogs,
 4953,Firemen,firemen,
 4954,Wagon Wheel Demonstrator,wagon wheel demonstrator,
@@ -4919,6 +4960,7 @@ id,name,normalized_name,gender
 4984,Lionel Richie,lionel richie,
 4985,Improv Actor,improv actor,
 4986,Improv Actress,improv actress,
+4987,Colby,colby,m
 4988,Plane Computer,plane computer,
 4989,Sad Boy,sad boy,
 4990,Widow,widow,
@@ -4937,13 +4979,15 @@ id,name,normalized_name,gender
 5003,Smug Liberal Man,smug liberal man,
 5004,Gay Men,gay men,
 5005,Gerta,gerta,
-5006,"Tow Driver Prisoner #1",tow driver prisoner 1,
-5007,"Tow Driver Prisoner #2",tow driver prisoner 2,
-5008,"Tow Driver Prisoner #3",tow driver prisoner 3,
+5006,Tow Driver Prisoner #1,tow driver prisoner 1,
+5007,Tow Driver Prisoner #2,tow driver prisoner 2,
+5008,Tow Driver Prisoner #3,tow driver prisoner 3,
 5009,Singing Prisoners,singing prisoners,
 5010,Train Engineer,train engineer,
 5011,Tow Driver Prisoners,tow driver prisoners,
+5012,Dwight,dwight,m
 5013,Bank Patrons,bank patrons,
+5014,Ted Nugent,ted nugent,m
 5015,Father Donnelly,father donnelly,
 5016,Senate Mouse,senate mouse,
 5017,Elevator Voice,elevator voice,
@@ -4961,6 +5005,7 @@ id,name,normalized_name,gender
 5029,UNCLE NORBERT,uncle norbert,
 5030,UNCLE ZACK,uncle zack,
 5031,Mr. Johnson,mr johnson,
+5032,Milo,milo,m
 5033,Korean Singer,korean singer,
 5034,Tintin,tintin,
 5035,Dan Clowes,dan clowes,
@@ -4969,15 +5014,15 @@ id,name,normalized_name,gender
 5038,CUTE GIRL,cute girl,
 5039,BERNICE,bernice,
 5040,Vietnamese Woman,vietnamese woman,
-5041,"Husband #1",husband 1,
+5041,Husband #1,husband 1,
 5042,Husbands,husbands,
-5043,"Husband #2",husband 2,
-5044,"Husband #3",husband 3,
+5043,Husband #2,husband 2,
+5044,Husband #3,husband 3,
 5045,2nd Business Woman,2nd business woman,
 5046,Jack Black,jack black,
 5047,Latino Male Clerk,latino male clerk,
-5048,"Salesman #1",salesman 1,
-5049,"Salesman #2",salesman 2,
+5048,Salesman #1,salesman 1,
+5049,Salesman #2,salesman 2,
 5050,Sexy Saleswoman,sexy saleswoman,
 5051,Opal's Audience,opals audience,
 5052,Keith Olbermann,keith olbermann,
@@ -5012,12 +5057,10 @@ id,name,normalized_name,gender
 5081,CAMPAIGN ANNOUNCER,campaign announcer,
 5082,Senator Whinergirl,senator whinergirl,
 5083,HILLARY,hillary,
-5084,"Campaign Worker #1",campaign worker 1,
+5084,Campaign Worker #1,campaign worker 1,
 5085,Senator Vane,senator vane,
 5086,GOV. HUNTINGCHURCH,gov huntingchurch,
-4987,Colby,colby,m
-5032,Milo,milo,m
-5014,Ted Nugent,ted nugent,m
+5087,ALEPPO,aleppo,
 5088,Fred Thompson,fred thompson,
 5089,Locals,locals,
 5090,Dennis Kucinich,dennis kucinich,
@@ -5026,6 +5069,7 @@ id,name,normalized_name,gender
 5093,Democrats,democrats,
 5094,Young Lou,young lou,
 5095,Young Comic Book Guy,young comic book guy,
+5096,Prof. August,prof august,m
 5097,Prof. August's Thoughts,prof augusts thoughts,
 5098,Gas Man,gas man,
 5099,College Kid,college kid,
@@ -5066,8 +5110,8 @@ id,name,normalized_name,gender
 5134,Paul Cook,paul cook,
 5135,Texan Announcer,texan announcer,
 5136,Texan Crowd,texan crowd,
-5137,"Punk #1",punk 1,
-5138,"Punk #2",punk 2,
+5137,Punk #1,punk 1,
+5138,Punk #2,punk 2,
 5139,Mike,mike,
 5140,School Nurse,school nurse,
 5141,Terry Gross,terry gross,
@@ -5081,6 +5125,7 @@ id,name,normalized_name,gender
 5149,Bald Detective,bald detective,
 5150,Red-haired Detective,red-haired detective,
 5151,E.T. Reporter,et reporter,
+5152,Chazz Busby,chazz busby,m
 5153,Annette,annette,
 5154,Smoke Lisa,smoke lisa,
 5155,Lillian Hellman,lillian hellman,
@@ -5120,24 +5165,24 @@ id,name,normalized_name,gender
 5189,Mr. Kinkaid,mr kinkaid,
 5190,Head Board Member,head board member,
 5191,Other Board Members,other board members,
-5096,Prof. August,prof august,m
+5192,Film Loop,film loop,
 5193,2nd Film Loop,2nd film loop,
 5194,Jim Jarmusch,jim jarmusch,
 5195,Bouncer,bouncer,
 5196,Male Audience Member,male audience member,
 5197,Female Audience Member,female audience member,
-5198,"Male Audience Member #2",male audience member 2,
+5198,Male Audience Member #2,male audience member 2,
 5199,People On Street,people on street,
 5200,Woman On Street,woman on street,
-5201,"Man On Street #2",man on street 2,
+5201,Man On Street #2,man on street 2,
 5202,Male Filmgoer,male filmgoer,
 5203,Man On Street,man on street,
 5204,John C. Reilly,john c reilly,
 5205,Female Employee,female employee,
 5206,Hippo Critter,hippo critter,
-5207,"Hippo #1",hippo 1,
-5208,"Hippo #2",hippo 2,
-5209,"Hippo #3",hippo 3,
+5207,Hippo #1,hippo 1,
+5208,Hippo #2,hippo 2,
+5209,Hippo #3,hippo 3,
 5210,Hippos,hippos,
 5211,Fozzy,fozzy,
 5212,Lance Armstrong,lance armstrong,
@@ -5150,11 +5195,13 @@ id,name,normalized_name,gender
 5219,Drew Carey,drew carey,
 5220,Krusketeers,krusketeers,
 5221,C.J.,cj,
+5222,Ron Rabinowitz,ron rabinowitz,m
 5223,Channel 6 Executive,channel 6 executive,
 5224,Stagehands,stagehands,
 5225,Ira Man,ira man,
 5226,Protestant Leprechaun,protestant leprechaun,
 5227,Catholic Leprechaun,catholic leprechaun,
+5228,Patrick,patrick,m
 5229,Urchin,urchin,
 5230,Mulk,mulk,
 5231,Lucky Jim,lucky jim,
@@ -5178,6 +5225,7 @@ id,name,normalized_name,gender
 5249,Cap'n Crunchy,capn crunchy,
 5250,Tricky Rabbit,tricky rabbit,
 5251,Threecan Sam,threecan sam,
+5252,Alberto,alberto,m
 5253,3-Year-Old Lisa,3-year-old lisa,
 5254,5-Year-Old Bart,5-year-old bart,
 5255,Sylvia,sylvia,
@@ -5223,10 +5271,10 @@ id,name,normalized_name,gender
 5295,Angel Mark Cuban,angel mark cuban,
 5296,Muk Mu,muk mu,
 5297,Swarm,swarm,
-5252,Alberto,alberto,m
 5298,Marv Albert,marv albert,
 5299,Millionaire,millionaire,
 5300,Art Instructor,art instructor,
+5301,Juliet Hobbes,juliet hobbes,f
 5302,Folk Art Singer,folk art singer,
 5303,Prof. Hobbes,prof hobbes,
 5304,Mrs. Hobbes,mrs hobbes,
@@ -5240,8 +5288,8 @@ id,name,normalized_name,gender
 5312,Teenage Carl,teenage carl,
 5313,Al Gore,al gore,
 5314,Administrators,administrators,
-5315,"Jock #1",jock 1,
-5316,"Jock #2",jock 2,
+5315,Jock #1,jock 1,
+5316,Jock #2,jock 2,
 5317,Old Italian Man,old italian man,
 5318,Rest Of Kids,rest of kids,
 5319,Voices From Sauce,voices from sauce,
@@ -5294,14 +5342,15 @@ id,name,normalized_name,gender
 5366,2nd Irish Cop,2nd irish cop,
 5367,Irish Judge,irish judge,
 5368,Congregants,congregants,
+5369,Parson,parson,m
 5370,Coroner,coroner,
 5371,Bridal Saleslady,bridal saleslady,
 5372,Tux Salesman,tux salesman,
 5373,Videographer,videographer,
 5374,Deep Mysterious Voice,deep mysterious voice,
-5375,"Hockey Announcer #1",hockey announcer 1,
-5376,"Hockey Announcer #2",hockey announcer 2,
-5377,"Hockey Announcer #3",hockey announcer 3,
+5375,Hockey Announcer #1,hockey announcer 1,
+5376,Hockey Announcer #2,hockey announcer 2,
+5377,Hockey Announcer #3,hockey announcer 3,
 5378,Maya,maya,
 5379,Umpa-lumpas,umpa-lumpas,
 5380,Jenny,jenny,
@@ -5317,10 +5366,10 @@ id,name,normalized_name,gender
 5390,Juggler,juggler,
 5391,Old Comedy Writer,old comedy writer,
 5392,Soccer Mom,soccer mom,
-5393,"Popular Girl #1",popular girl 1,
-5394,"Popular Girl #1's Tablemates",popular girl 1s tablemates,
-5395,"Popular Girl #2",popular girl 2,
-5396,"Popular Girl #2's Tablemates",popular girl 2s tablemates,
+5393,Popular Girl #1,popular girl 1,
+5394,Popular Girl #1's Tablemates,popular girl 1s tablemates,
+5395,Popular Girl #2,popular girl 2,
+5396,Popular Girl #2's Tablemates,popular girl 2s tablemates,
 5397,Helicopter Parents,helicopter parents,
 5398,Kaitlin,kaitlin,
 5399,GHOST,ghost,
@@ -5375,8 +5424,9 @@ id,name,normalized_name,gender
 5448,Older Executive,older executive,
 5449,Male Producer,male producer,
 5450,Jonah,jonah,
-5451,"Director #1",director 1,
-5452,"Director #2",director 2,
+5451,Director #1,director 1,
+5452,Director #2,director 2,
+5453,Lyle McCarthy,lyle mccarthy,m
 5454,Fiji,fiji,
 5455,HOLLYWOOD HIPSTERS,hollywood hipsters,
 5456,Police Chief,police chief,
@@ -5404,8 +5454,8 @@ id,name,normalized_name,gender
 5478,Head Soldier,head soldier,
 5479,Chinese-american Worker,chinese-american worker,
 5480,LUANNE,luanne,
-5481,"Carl #1",carl 1,
-5482,"Carl #2",carl 2,
+5481,Carl #1,carl 1,
+5482,Carl #2,carl 2,
 5483,CLASSY FRENCHMAN,classy frenchman,
 5484,COMMISSIONER POMPIDOU,commissioner pompidou,
 5485,Beautiful French Lady,beautiful french lady,
@@ -5450,6 +5500,7 @@ id,name,normalized_name,gender
 5525,All Railroad Bulls,all railroad bulls,
 5526,2nd Railroad Bull,2nd railroad bull,
 5527,Krusty Auditioner,krusty auditioner,
+5528,Princess Penelope,princess penelope,f
 5529,Gator,gator,
 5530,Gary Larson,gary larson,
 5531,Holly Hippie,holly hippie,
@@ -5461,13 +5512,14 @@ id,name,normalized_name,gender
 5537,2nd Nurse,2nd nurse,
 5538,Brassy Housewife,brassy housewife,
 5539,2nd Brassy Housewife,2nd brassy housewife,
-5540,"Curly #1",curly 1,
+5540,Curly #1,curly 1,
 5541,Curlys,curlys,
-5542,"Curly #3",curly 3,
+5542,Curly #3,curly 3,
 5543,Olympic Pins,olympic pins,
 5544,Pin Dealer,pin dealer,
 5545,BALD MIDGET,bald midget,
 5546,Medicine Woman,medicine woman,
+5547,Bob Costas,bob costas,m
 5548,Milhoose,milhoose,
 5549,Canadian Nelson,canadian nelson,
 5550,Usa Fans,usa fans,
@@ -5479,12 +5531,12 @@ id,name,normalized_name,gender
 5556,Colonel Burns,colonel burns,
 5557,Smithers-like Valet,smithers-like valet,
 5558,Virgil Simpson,virgil simpson,
-5559,"Patroller #1",patroller 1,
-5560,"Patroller #2",patroller 2,
+5559,Patroller #1,patroller 1,
+5560,Patroller #2,patroller 2,
 5561,Circus Clown,circus clown,
 5562,Milford,milford,
 5563,Obama Kids,obama kids,
-5564,"Librarian #2",librarian 2,
+5564,Librarian #2,librarian 2,
 5565,Hopi Singers,hopi singers,
 5566,Anime Kid,anime kid,
 5567,PICKACHU-TYPE,pickachu-type,
@@ -5496,16 +5548,17 @@ id,name,normalized_name,gender
 5573,CHILLED-OUT KID,chilled-out kid,
 5574,Bodhi,bodhi,
 5575,Nikki McKenna,nikki mckenna,
-5576,"COOL SECOND-GRADER #1",cool second-grader 1,
-5577,"COOL SECOND-GRADER #2",cool second-grader 2,
+5576,COOL SECOND-GRADER #1,cool second-grader 1,
+5577,COOL SECOND-GRADER #2,cool second-grader 2,
 5578,Nikki's Mom,nikkis mom,
 5579,Nikki's Dad,nikkis dad,
 5580,Henry Higgins,henry higgins,
 5581,Michelle Obama,michelle obama,
-5582,"COOL SECOND GRADER #1",cool second grader 1,
+5582,COOL SECOND GRADER #1,cool second grader 1,
 5583,Navy Seal,navy seal,
 5584,Airport Workers,airport workers,
 5585,Israeli Airline Guard,israeli airline guard,
+5586,Jakob,jakob,m
 5587,Bible Group,bible group,
 5588,DOREET,doreet,
 5589,Israeli Bystander,israeli bystander,
@@ -5517,7 +5570,7 @@ id,name,normalized_name,gender
 5595,Delroy,delroy,
 5596,Thought Bubble Grampa,thought bubble grampa,
 5597,Wimpy-looking Boy,wimpy-looking boy,
-5598,"Boy #3",boy 3,
+5598,Boy #3,boy 3,
 5599,Tellers,tellers,
 5600,Silkie,silkie,
 5601,Edward G. Robinson,edward g robinson,
@@ -5528,12 +5581,9 @@ id,name,normalized_name,gender
 5606,Sun,sun,
 5607,Danish Sales Rep,danish sales rep,
 5608,Springfield Man,springfield man,
-6025,Jamie,jamie,
-5586,Jakob,jakob,m
-5528,Princess Penelope,princess penelope,f
-5609,"National Guardsman #1",national guardsman 1,
-5610,"National Guardsman #2",national guardsman 2,
-5611,"National Guardsman #3",national guardsman 3,
+5609,National Guardsman #1,national guardsman 1,
+5610,National Guardsman #2,national guardsman 2,
+5611,National Guardsman #3,national guardsman 3,
 5612,Female Activist,female activist,
 5613,HUGE BLUE WHALE,huge blue whale,
 5614,Ms. Dubinsky,ms dubinsky,
@@ -5547,6 +5597,7 @@ id,name,normalized_name,gender
 5622,Bobbies,bobbies,
 5623,Sally's Father,sallys father,
 5624,Upright Citizens,upright citizens,
+5625,Shauna Chalmers,shauna chalmers,f
 5626,Audrey,audrey,
 5627,Revelers,revelers,
 5628,The Queen,the queen,
@@ -5562,6 +5613,7 @@ id,name,normalized_name,gender
 5638,WALT,walt,
 5639,Neighbors,neighbors,
 5640,THE REAL WALT,the real walt,
+5641,THE REAL BOB,the real bob,m
 5642,Prison Worker,prison worker,
 5643,Joyce,joyce,
 5644,Mexican Man,mexican man,
@@ -5571,8 +5623,9 @@ id,name,normalized_name,gender
 5648,Man With Crazy Beard,man with crazy beard,
 5649,Thought Bubble Lisa,thought bubble lisa,
 5650,Ron Finkelsteinberg,ron finkelsteinberg,
-5651,"Sports Bar Guy #3",sports bar guy 3,
-5652,"Sports Bar Guy #4",sports bar guy 4,
+5651,Sports Bar Guy #3,sports bar guy 3,
+5652,Sports Bar Guy #4,sports bar guy 4,
+5653,Simon Cowell,simon cowell,m
 5654,Ryan Seacrest,ryan seacrest,
 5655,Randy Jackson,randy jackson,
 5656,Kara DioGuardi,kara dioguardi,
@@ -5630,8 +5683,6 @@ id,name,normalized_name,gender
 5708,Chairman,chairman,
 5709,Nbc Executive,nbc executive,
 5710,Network Executive,network executive,
-5641,THE REAL BOB,the real bob,m
-5653,Simon Cowell,simon cowell,m
 5711,Personal Physician,personal physician,
 5712,Sgt. Activity Doll,sgt activity doll,
 5713,Funeral Director,funeral director,
@@ -5649,11 +5700,13 @@ id,name,normalized_name,gender
 5725,Western Union Boy,western union boy,
 5726,Tree Salesman,tree salesman,
 5727,Hamlet,hamlet,
+5728,Martha Stewart,martha stewart,f
 5729,Katy Perry,katy perry,
 5730,Sock Puppet Dog,sock puppet dog,
 5731,Samoan Native,samoan native,
 5732,Wah-wah Birds,wah-wah birds,
 5733,Glinda,glinda,
+5734,Fbi Supervisor,fbi supervisor,m
 5735,Other Guards,other guards,
 5736,Female Agent,female agent,
 5737,Whiny Agent,whiny agent,
@@ -5677,8 +5730,8 @@ id,name,normalized_name,gender
 5755,Ms. Juniper,ms juniper,
 5756,DISTINGUISHED OLDER GENTLEMEN,distinguished older gentlemen,
 5757,Comic Book Gay,comic book gay,
-5758,"Tranny #1",tranny 1,
-5759,"Tranny #2",tranny 2,
+5758,Tranny #1,tranny 1,
+5759,Tranny #2,tranny 2,
 5760,Gays,gays,
 5761,Grizzly Shawn,grizzly shawn,
 5762,Bar Customers,bar customers,
@@ -5705,14 +5758,15 @@ id,name,normalized_name,gender
 5783,Dog Guy,dog guy,
 5784,Lainie,lainie,
 5785,Carlotta,carlotta,
+5786,Dr. Kissingher,dr kissingher,m
 5787,Middle-aged Lady,middle-aged lady,
 5788,Heavyset Woman,heavyset woman,
 5789,Attractive Friend,attractive friend,
 5790,Blofeld,blofeld,
-5791,"Young Woman #1",young woman 1,
-5792,"Young Woman #2",young woman 2,
+5791,Young Woman #1,young woman 1,
+5792,Young Woman #2,young woman 2,
 5793,Burns' Wingman,burns wingman,
-5794,"YOUNG WOMAN #1 & #2",young woman 1 2,
+5794,YOUNG WOMAN #1 & #2,young woman 1 2,
 5795,Scratchy's Father,scratchys father,
 5796,Cat Monk,cat monk,
 5797,Crazy Clown,crazy clown,
@@ -5725,6 +5779,7 @@ id,name,normalized_name,gender
 5804,MAN IN THE AUDIENCE,man in the audience,
 5805,Sir Anthony Hopkins,sir anthony hopkins,
 5806,John Lassiter,john lassiter,
+5807,Randy Newman,randy newman,m
 5808,Russell Brand,russell brand,
 5809,D.J. Kwanzaa,dj kwanzaa,
 5810,Ice Mocha,ice mocha,
@@ -5732,9 +5787,6 @@ id,name,normalized_name,gender
 5812,Halle Berry,halle berry,
 5813,Cowboy Ketchup,cowboy ketchup,
 5814,Waffle,waffle,
-5734,Fbi Supervisor,fbi supervisor,m
-5807,Randy Newman,randy newman,m
-5786,Dr. Kissingher,dr kissingher,m
 5815,Peanut Butter,peanut butter,
 5816,Willis,willis,
 5817,Miss Pennyfarthing,miss pennyfarthing,
@@ -5744,10 +5796,13 @@ id,name,normalized_name,gender
 5821,Leathery Old Woman,leathery old woman,
 5822,Climber,climber,
 5823,Other Orderly,other orderly,
+5824,Walther Hotenhoffer,walther hotenhoffer,m
 5825,Frat Nerd,frat nerd,
 5826,Drug Dealer,drug dealer,
 5827,Old-timey Farmer,old-timey farmer,
 5828,Friends,friends,
+5829,Chong,chong,m
+5830,Cheech,cheech,m
 5831,Fetus,fetus,
 5832,Grizabella,grizabella,
 5833,ELEANOR,eleanor,
@@ -5756,6 +5811,7 @@ id,name,normalized_name,gender
 5836,RETIRED AFRICAN-AMERICAN,retired african-american,
 5837,2nd Retired Lineman Masseur,2nd retired lineman masseur,
 5838,FOOTBALL-HATING INTELLECTUAL,football-hating intellectual,
+5839,Dr. Zander,dr zander,m
 5840,Gerald,gerald,
 5841,Kareem Abdul-Jabbar,kareem abdul-jabbar,
 5842,Custodial Employee,custodial employee,
@@ -5764,6 +5820,7 @@ id,name,normalized_name,gender
 5845,SHIRLEY TEMPLE-TYPE GIRL,shirley temple-type girl,
 5846,Ewell Freestone,ewell freestone,
 5847,Garden Ladies,garden ladies,
+5848,Raymondo,raymondo,m
 5849,Swami,swami,
 5850,Cregg Demon,cregg demon,
 5851,THOUGHT-BUBBLE FLANDERS,thought-bubble flanders,
@@ -5792,6 +5849,7 @@ id,name,normalized_name,gender
 5874,Skinner's Face,skinners face,
 5875,Comic Book Guy's Face,comic book guys face,
 5876,Moe's Face,moes face,
+5877,Wayne,wayne,m
 5878,FEDEX-TYPE GUY,fedex-type guy,
 5879,Tom Colicchio,tom colicchio,
 5880,Cia Official,cia official,
@@ -5833,10 +5891,6 @@ id,name,normalized_name,gender
 5916,Amuse Bruce,amuse bruce,
 5917,Spanish Chef,spanish chef,
 5918,TONY BOURDAIN,tony bourdain,
-5877,Wayne,wayne,m
-5839,Dr. Zander,dr zander,m
-5824,Walther Hotenhoffer,walther hotenhoffer,m
-5829,Chong,chong,m
 5919,Mario Batali,mario batali,
 5920,Swedish Chef,swedish chef,
 5921,BRITISH VOICE,british voice,
@@ -5847,15 +5901,17 @@ id,name,normalized_name,gender
 5926,Young Thug,young thug,
 5927,Homer Taste Buds,homer taste buds,
 5928,Paleontologist,paleontologist,
-5929,"Stagehand #1",stagehand 1,
-5930,"Stagehand #2",stagehand 2,
+5929,Stagehand #1,stagehand 1,
+5930,Stagehand #2,stagehand 2,
 5931,Gang,gang,
 5932,Neil Gaiman,neil gaiman,
+5933,Slick Publisher,slick publisher,m
 5934,Lackeys,lackeys,
 5935,Zombie Bride,zombie bride,
 5936,Female Marketing Executive,female marketing executive,
 5937,Male Marketing Executive,male marketing executive,
 5938,Karaoke Operator,karaoke operator,
+5939,Robert Marlowe,robert marlowe,m
 5940,Dottie,dottie,
 5941,Regulator,regulator,
 5942,Diversity Kitten,diversity kitten,
@@ -5863,6 +5919,7 @@ id,name,normalized_name,gender
 5944,Skanky Girl,skanky girl,
 5945,Fatso,fatso,
 5946,Eunice,eunice,
+5947,Annie Crawford,annie crawford,f
 5948,Young Executive,young executive,
 5949,Woman Executive,woman executive,
 5950,Adult Audience,adult audience,
@@ -5889,8 +5946,8 @@ id,name,normalized_name,gender
 5971,Handsome Male Android,handsome male android,
 5972,Delivery Nurse,delivery nurse,
 5973,Adult Ralph,adult ralph,
-5974,"Adult Ralph #2",adult ralph 2,
-5975,"Adult Ralph #3",adult ralph 3,
+5974,Adult Ralph #2,adult ralph 2,
+5975,Adult Ralph #3,adult ralph 3,
 5976,Lenny,lenny,
 5977,Carl,carl,
 5978,Tsa Agent,tsa agent,
@@ -5905,9 +5962,9 @@ id,name,normalized_name,gender
 5987,Chris Christie,chris christie,
 5988,James Madison,james madison,
 5989,Other Car's Driver,other cars driver,
-5990,"Fireman #1",fireman 1,
-5991,"Fireman #2",fireman 2,
-5992,"Fireman #3",fireman 3,
+5990,Fireman #1,fireman 1,
+5991,Fireman #2,fireman 2,
+5992,Fireman #3,fireman 3,
 5993,Male Twin,male twin,
 5994,2nd Male Twin,2nd male twin,
 5995,Mexican Duffman,mexican duffman,
@@ -5925,8 +5982,8 @@ id,name,normalized_name,gender
 6007,Adoring Young Women,adoring young women,
 6008,Viking Homer,viking homer,
 6009,Viking Lenny,viking lenny,
-6010,"Monk #2",monk 2,
-6011,"Monk #3",monk 3,
+6010,Monk #2,monk 2,
+6011,Monk #3,monk 3,
 6012,Persian Trader,persian trader,
 6013,Christian Homer,christian homer,
 6014,King Nelson,king nelson,
@@ -5940,8 +5997,7 @@ id,name,normalized_name,gender
 6022,Rat,rat,
 6023,Union Soldier,union soldier,
 6024,Extra Large Underwear,extra large underwear,
-5939,Robert Marlowe,robert marlowe,m
-5933,Slick Publisher,slick publisher,m
+6025,Jamie,jamie,
 6026,Adam,adam,
 6027,Guy Driving By,guy driving by,
 6028,Frida,frida,
@@ -5986,7 +6042,7 @@ id,name,normalized_name,gender
 6067,Another Robot,another robot,
 6068,Yet Another Robot,yet another robot,
 6069,Dying Robot,dying robot,
-6070,"Robot #3",robot 3,
+6070,Robot #3,robot 3,
 6071,Hound,hound,
 6072,Fishing Robot,fishing robot,
 6073,Fitness Salesman,fitness salesman,
@@ -6003,6 +6059,7 @@ id,name,normalized_name,gender
 6084,Giant Cat,giant cat,
 6085,Check-in Agent,check-in agent,
 6086,Tough Announcer,tough announcer,
+6087,Rowan Priddis,rowan priddis,m
 6088,Kidzone Rep,kidzone rep,
 6089,Caribbean Boy,caribbean boy,
 6090,Singaporean Girl,singaporean girl,
@@ -6023,6 +6080,7 @@ id,name,normalized_name,gender
 6105,Criminal Guests,criminal guests,
 6106,German Criminal,german criminal,
 6107,Mistress,mistress,
+6108,CAIN,cain,m
 6109,Homer's Reflection,homers reflection,
 6110,Hufnpuffalus,hufnpuffalus,
 6111,Drug Lord,drug lord,
@@ -6041,8 +6099,7 @@ id,name,normalized_name,gender
 6124,Sleazy Sam,sleazy sam,
 6125,Farmwife,farmwife,
 6126,Pistons,pistons,
-6087,Rowan Priddis,rowan priddis,m
-6108,CAIN,cain,m
+6127,Lady Gaga,lady gaga,f
 6128,Senior Tsa Agent,senior tsa agent,
 6129,Wardrobe Man,wardrobe man,
 6130,Dangling Accountant,dangling accountant,
@@ -6105,12 +6162,13 @@ id,name,normalized_name,gender
 6187,Puppet,puppet,
 6188,Dealer Avatar,dealer avatar,
 6189,Elderly Owner,elderly owner,
+6190,Dan Gillick,dan gillick,m
 6191,Joey the Arsonist,joey the arsonist,
 6192,Kenny the Problem,kenny the problem,
 6193,Bulgarian Woman,bulgarian woman,
 6194,Giant Grasshopper,giant grasshopper,
 6195,Teenage Female Voice,teenage female voice,
-6196,"Teenage Female Voice #2",teenage female voice 2,
+6196,Teenage Female Voice #2,teenage female voice 2,
 6197,Relieved Mom,relieved mom,
 6198,Crazed Dad,crazed dad,
 6199,Girl's Mom,girls mom,
@@ -6126,6 +6184,7 @@ id,name,normalized_name,gender
 6209,Tree Hoper,tree hoper,
 6210,Seminar Leader,seminar leader,
 6211,Donut Man/terence,donut manterence,
+6212,Terence,terence,m
 6213,T-Rex,t-rex,
 6214,YO-YO,yo-yo,
 6215,Tattoo Artist,tattoo artist,
@@ -6143,7 +6202,6 @@ id,name,normalized_name,gender
 6227,Bongo,bongo,
 6228,Baby Homer,baby homer,
 6229,Toad,toad,
-6212,Terence,terence,m
 6230,Young Herman,young herman,
 6231,12-Year-Old Lou,12-year-old lou,
 6232,Miss Viola,miss viola,
@@ -6154,6 +6212,7 @@ id,name,normalized_name,gender
 6237,Furious Dad,furious dad,
 6238,Psycho Dad,psycho dad,
 6239,Ape Heads,ape heads,
+6240,Lloyd,lloyd,m
 6241,Dr. Eugene Blatz,dr eugene blatz,
 6242,Overlord,overlord,
 6243,Post-apocalyptic Crowd,post-apocalyptic crowd,
@@ -6185,15 +6244,15 @@ id,name,normalized_name,gender
 6269,Caricature,caricature,
 6270,Ol' Joe Clabby,ol joe clabby,
 6271,Front Desk Man,front desk man,
-6272,"Kicked-out Husband #1",kicked-out husband 1,
-6273,"Kicked-out Husband #2",kicked-out husband 2,
+6272,Kicked-out Husband #1,kicked-out husband 1,
+6273,Kicked-out Husband #2,kicked-out husband 2,
 6274,Robert A. Caro,robert a caro,
 6275,ALAN RICKMAN,alan rickman,
 6276,Video Game Woman,video game woman,
 6277,Futuristic Computer,futuristic computer,
 6278,Sensitive Female Voice,sensitive female voice,
 6279,Hillbilly,hillbilly,
-6280,"Hillbilly #2",hillbilly 2,
+6280,Hillbilly #2,hillbilly 2,
 6281,Face,face,
 6282,Storytime Sue,storytime sue,
 6284,DUFFMAN VOICE MILHOUSE,duffman voice milhouse,
@@ -6209,6 +6268,7 @@ id,name,normalized_name,gender
 6294,Swedish Wrestler,swedish wrestler,
 6295,Elderly Audience,elderly audience,
 6296,Nerdy Fat Kid,nerdy fat kid,
+6297,Ms. Cantwell,ms cantwell,f
 6298,Nurse Dora,nurse dora,
 6299,Capri,capri,
 6300,Richard Dawkins Demon,richard dawkins demon,
@@ -6237,15 +6297,13 @@ id,name,normalized_name,gender
 6323,Sex Shop Salesman,sex shop salesman,
 6324,Sushi Piece,sushi piece,
 6325,2nd Sushi Piece,2nd sushi piece,
+6326,Rev. Hooper,rev hooper,m
 6327,Female Parishioners,female parishioners,
 6328,Parishioners,parishioners,
 6329,Oogle Driver,oogle driver,
 6330,Oogle Worker,oogle worker,
 6331,Warm Female Voice,warm female voice,
 6332,Male Singers,male singers,
-6326,Rev. Hooper,rev hooper,m
-6297,Ms. Cantwell,ms cantwell,f
-6240,Lloyd,lloyd,m
 6333,Ken,ken,
 6334,Doesn't Like Anything,doesnt like anything,
 6335,Cop With A Secret,cop with a secret,
@@ -6291,8 +6349,8 @@ id,name,normalized_name,gender
 6375,Fat In The Hat,fat in the hat,
 6376,Borax,borax,
 6377,Fighter Pilots,fighter pilots,
-6378,"Fighter Pilot #1",fighter pilot 1,
-6379,"Fighter Pilot #2",fighter pilot 2,
+6378,Fighter Pilot #1,fighter pilot 1,
+6379,Fighter Pilot #2,fighter pilot 2,
 6380,Legless Wiseguy,legless wiseguy,
 6381,Big Mouth,big mouth,
 6382,Freaks,freaks,
@@ -6314,6 +6372,7 @@ id,name,normalized_name,gender
 6398,TOY COW,toy cow,
 6399,JOY,joy,
 6400,HOMER JR.,homer jr,
+6401,Isabel Gutierrez,isabel gutierrez,f
 6402,Drivers,drivers,
 6403,Pigsty,pigsty,
 6404,1st First Grader,1st first grader,
@@ -6347,7 +6406,6 @@ id,name,normalized_name,gender
 6432,Female Boarder,female boarder,
 6433,Out-of-towners,out-of-towners,
 6434,Church Reporter,church reporter,
-6642,CGI HOMER,cgi homer,
 6435,Female Tourist,female tourist,
 6436,Honeymooning Bride,honeymooning bride,
 6437,King Winter,king winter,
@@ -6357,8 +6415,8 @@ id,name,normalized_name,gender
 6441,Boarders,boarders,
 6442,Singing Man,singing man,
 6443,British Tourist,british tourist,
-6444,"Plant Employee #1",plant employee 1,
-6445,"Plant Employee #2",plant employee 2,
+6444,Plant Employee #1,plant employee 1,
+6445,Plant Employee #2,plant employee 2,
 6446,The Collider,the collider,
 6447,Altar Boy,altar boy,
 6448,Raiders Dad,raiders dad,
@@ -6369,23 +6427,23 @@ id,name,normalized_name,gender
 6453,Sleazy Executive,sleazy executive,
 6454,Deputy Director Gratman,deputy director gratman,
 6455,Young Fbi Agent,young fbi agent,
-6456,"Fbi Trooper #1",fbi trooper 1,
-6457,"Fbi Trooper #2",fbi trooper 2,
-6458,"Fbi Trooper #3",fbi trooper 3,
-6459,"Criminal #1",criminal 1,
-6460,"Criminal #2",criminal 2,
+6456,Fbi Trooper #1,fbi trooper 1,
+6457,Fbi Trooper #2,fbi trooper 2,
+6458,Fbi Trooper #3,fbi trooper 3,
+6459,Criminal #1,criminal 1,
+6460,Criminal #2,criminal 2,
 6461,Criminals,criminals,
-6462,"Criminal #3",criminal 3,
+6462,Criminal #3,criminal 3,
 6463,Gottfrid,gottfrid,
 6464,Death Metal Lead Singer,death metal lead singer,
 6465,Judd Apatow,judd apatow,
 6466,SETH ROGEN,seth rogen,
 6467,Producers,producers,
 6468,Federal Judge,federal judge,
-6469,"Producer #1",producer 1,
-6470,"Producer #2",producer 2,
-6471,"Producer #3",producer 3,
-6472,"Producer #4",producer 4,
+6469,Producer #1,producer 1,
+6470,Producer #2,producer 2,
+6471,Producer #3,producer 3,
+6472,Producer #4,producer 4,
 6473,Channing Tatum,channing tatum,
 6474,GRIM ANNOUNCER,grim announcer,
 6475,Radioactive Man's Thoughts,radioactive mans thoughts,
@@ -6413,6 +6471,7 @@ id,name,normalized_name,gender
 6497,Rev. Kartawijaya,rev kartawijaya,
 6498,Devil Kid,devil kid,
 6499,Kid With Lisp,kid with lisp,
+6500,Diggs,diggs,m
 6501,FREEDOM,freedom,
 6502,Comic Book Guy's Bird,comic book guys bird,
 6503,Animated Krusty,animated krusty,
@@ -6429,14 +6488,14 @@ id,name,normalized_name,gender
 6514,Old Jewish Man's Late Wife,old jewish mans late wife,
 6515,Uncle Bill,uncle bill,
 6516,Bingo Caller,bingo caller,
-6517,"Old Man #1",old man 1,
-6518,"Old Man #2",old man 2,
+6517,Old Man #1,old man 1,
+6518,Old Man #2,old man 2,
 6519,Mildred,mildred,
 6520,Female Dj,female dj,
 6521,FEMALE D. J.,female d j,
 6522,Gang Member,gang member,
-6523,"S.a.t. Prepper #1",sat prepper 1,
-6524,"S.a.t. Prepper #2",sat prepper 2,
+6523,S.a.t. Prepper #1,sat prepper 1,
+6524,S.a.t. Prepper #2,sat prepper 2,
 6525,Crowds,crowds,
 6526,DAWN,dawn,
 6527,Speedo Salesman,speedo salesman,
@@ -6446,7 +6505,7 @@ id,name,normalized_name,gender
 6531,Elderly Japanese Man,elderly japanese man,
 6532,Ezra,ezra,
 6533,Federation Executive,federation executive,
-6534,"FEDERATION EXECUTIVE #2",federation executive 2,
+6534,FEDERATION EXECUTIVE #2,federation executive 2,
 6535,Brazilian Lady,brazilian lady,
 6536,Voice From Tablet,voice from tablet,
 6537,Brazilian Fans,brazilian fans,
@@ -6518,6 +6577,7 @@ id,name,normalized_name,gender
 6603,RODNEY DANGERFIELD,rodney dangerfield,
 6604,RESUSCI-ANNIE,resusci-annie,
 6605,CEELO GREEN-TYPE,ceelo green-type,
+6606,CAPTAIN BOWDITCH,captain bowditch,m
 6607,GITMO,gitmo,
 6608,NFL NARRATOR,nfl narrator,
 6609,CAPTAIN BOWDITCH/SAILORS,captain bowditchsailors,
@@ -6526,14 +6586,15 @@ id,name,normalized_name,gender
 6612,BULLY DEMON,bully demon,
 6613,SCREAMING TORSO,screaming torso,
 6614,DEMON GIRL,demon girl,
-6615,"PRINCIPAL HEAD #2",principal head 2,
+6615,PRINCIPAL HEAD #2,principal head 2,
 6616,DEMON TEACHER,demon teacher,
 6617,JEFFISTOPHELES,jeffistopheles,
 6618,JOCK DEMON,jock demon,
 6619,HOT STUFF,hot stuff,
-6620,"PRINCIPAL HEAD #1",principal head 1,
+6620,PRINCIPAL HEAD #1,principal head 1,
 6621,NOAH WEBSTER,noah webster,
 6622,MISERABLE MAN,miserable man,
+6623,MOOG,moog,m
 6624,WISEGUYS,wiseguys,
 6625,MOOG/LEONARD/CARLTON/DUM,moogleonardcarltondum,
 6626,DUM,dum,
@@ -6552,17 +6613,19 @@ id,name,normalized_name,gender
 6639,REGULAR GHOST MARGE/ ORIGINAL GHOST MARGE,regular ghost marge original ghost marge,
 6640,ORIGINAL GHOST BART,original ghost bart,
 6641,ORIGINAL GHOST HOMER,original ghost homer,
-6623,MOOG,moog,m
+6642,CGI HOMER,cgi homer,
 6643,CGI DOG,cgi dog,
 6644,MINION MARGE SIMPSON,minion marge simpson,
 6645,MINION HOMER SIMPSON,minion homer simpson,
 6646,ORIGINAL GHOST LISA,original ghost lisa,
+6647,MAXINE LOMBARD,maxine lombard,f
 6648,MUTANT CHARLIE,mutant charlie,
 6649,MAXINE,maxine,
 6650,HEDONISMBOT,hedonismbot,
 6651,JUKEBOX RECORD,jukebox record,
 6652,LEELA,leela,
 6653,FRY,fry,
+6654,PROFESSOR FARNSWORTH,professor farnsworth,m
 6655,HERMES,hermes,
 6656,DR. ZOIDBERG,dr zoidberg,
 6657,FRY/PROFESSOR/LEELA,fryprofessorleela,
@@ -6586,7 +6649,7 @@ id,name,normalized_name,gender
 6675,MAN IN CENTER OF PRISON,man in center of prison,
 6676,NELSON COMET,nelson comet,
 6677,KING TOOT,king toot,
-6678,"GUITAR CENTRAL EMPLOYEE #1",guitar central employee 1,
+6678,GUITAR CENTRAL EMPLOYEE #1,guitar central employee 1,
 6679,STIG,stig,
 6680,SUNGAZER SINGER,sungazer singer,
 6681,NICK DELACOURT,nick delacourt,
@@ -6618,7 +6681,7 @@ id,name,normalized_name,gender
 6707,ALIEN MOM/ALIEN KIDS,alien momalien kids,
 6708,YOUNG FEMALE CREATURE,young female creature,
 6709,INTELLECTUAL ALIEN,intellectual alien,
-6710,"ALIEN ANNOUNCER #1",alien announcer 1,
+6710,ALIEN ANNOUNCER #1,alien announcer 1,
 6711,KLAUNAX,klaunax,
 6712,SWEET MALE VOICES,sweet male voices,
 6713,GENTLE VOICE,gentle voice,
@@ -6628,6 +6691,7 @@ id,name,normalized_name,gender
 6717,CIRCUS AUDIENCE,circus audience,
 6718,FINGERNAIL MAN,fingernail man,
 6719,SVEN-GOLLY,sven-golly,
+6720,ELON MUSK,elon musk,m
 6721,ELON,elon,
 6722,IMAGINER,imaginer,
 6723,YOUNG JEWISH MAN,young jewish man,
@@ -6647,77 +6711,13 @@ id,name,normalized_name,gender
 6737,HARRY CHAPIN-TYPE SINGER,harry chapin-type singer,
 6738,CABBIES,cabbies,
 6739,SMILE,smile,
+6740,KEMI,kemi,f
 6741,PEDICAB DRIVER,pedicab driver,
 6742,SMITHERS' THOUGHTS,smithers thoughts,
 6743,AGED MOE,aged moe,
 6744,RICHARD BRANSON,richard branson,
 6745,CHURCH GROUP,church group,
-6740,KEMI,kemi,f
-6647,MAXINE LOMBARD,maxine lombard,f
 6746,COCKTAIL WAITRESSES,cocktail waitresses,
-6747,"SECURITY THUG #1",security thug 1,
-6748,"SECURITY THUG #2",security thug 2,
+6747,SECURITY THUG #1,security thug 1,
+6748,SECURITY THUG #2,security thug 2,
 6749,LATINO WORKERS,latino workers,
-2,Homer Simpson,homer simpson,m
-15,C. Montgomery Burns,c montgomery burns,m
-139,Krusty the Clown,krusty the clown,m
-140,Rev. Timothy Lovejoy,rev timothy lovejoy,m
-801,Comic Book Guy,comic book guy,m
-56,Narrator,narrator,m
-1413,Cletus Spuckler,cletus spuckler,m
-2369,Gil Gunderson,gil gunderson,m
-1508,The Rich Texan,the rich texan,m
-1114,Rainier Wolfcastle,rainier wolfcastle,m
-1975,Manjula Nahasapeemapetilon,manjula nahasapeemapetilon,f
-3843,Declan Desmond,declan desmond,m
-3057,Lindsay Naegle,lindsay naegle,f
-5947,Annie Crawford,annie crawford,f
-2256,Frank Grimes,frank grimes,m
-6190,Dan Gillick,dan gillick,m
-2065,Drederick Tatum,drederick tatum,m
-5152,Chazz Busby,chazz busby,m
-3853,Julio,julio,m
-5848,Raymondo,raymondo,m
-5625,Shauna Chalmers,shauna chalmers,f
-1336,Female Executive,female executive,f
-3390,Judge Harm,judge harm,f
-2513,Ray Magini,ray magini,m
-6127,Lady Gaga,lady gaga,f
-108,Herman Hermann,herman hermann,m
-6720,ELON MUSK,elon musk,m
-6500,Diggs,diggs,m
-1653,Jay,jay,m
-5369,Parson,parson,m
-4234,CHLOE,chloe,f
-5830,Cheech,cheech,m
-2675,Wally,wally,m
-844,Llewellyn Sinclair,llewellyn sinclair,m
-3266,L.T. Smash,lt smash,m
-1548,Ben,ben,m
-6654,PROFESSOR FARNSWORTH,professor farnsworth,m
-156,Security Guard,security guard,m
-5012,Dwight,dwight,m
-3995,Roofi,roofi,m
-3289,Howard K. Duff VIII,howard k duff viii,m
-6401,Isabel Gutierrez,isabel gutierrez,f
-5453,Lyle McCarthy,lyle mccarthy,m
-5547,Bob Costas,bob costas,m
-2710,Saleswoman,saleswoman,f
-1577,Dr. Zweig,dr zweig,f
-5228,Patrick,patrick,m
-4715,Lunchlady Dora,lunchlady dora,f
-5301,Juliet Hobbes,juliet hobbes,f
-2973,Brother Faith,brother faith,m
-3159,Jesse Grass,jesse grass,m
-4335,Madam Wu,madam wu,f
-669,Horst,horst,m
-3677,Mrs. McConnell,mrs mcconnell,f
-4116,Gina Vendetti,gina vendetti,f
-2859,Lifeways Editor,lifeways editor,m
-4821,Captain Jack,captain jack,m
-6606,CAPTAIN BOWDITCH,captain bowditch,m
-5222,Ron Rabinowitz,ron rabinowitz,m
-5728,Martha Stewart,martha stewart,f
-1770,Officer Goodman,officer goodman,m
-1634,Evan Conover,evan conover,m
-1868,Agent Johnson,agent johnson,m

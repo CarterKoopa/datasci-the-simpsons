@@ -58,7 +58,7 @@ id,name,normalized_name
 57,Backyard,backyard
 58,DIRT ROAD,dirt road
 59,Simpson Dining Room,simpson dining room
-60,"NEIGHBOR #1'S HOUSE",neighbor 1 house
+60,NEIGHBOR #1'S HOUSE,neighbor 1 house
 61,WILLIAMS' HOUSE,williams house
 62,WILLIAMS DEN,williams den
 63,WILLIAMS' LAWN,williams lawn
@@ -68,7 +68,7 @@ id,name,normalized_name
 67,Dr. Monroe's Office,dr monroe office
 68,DR. MONROE'S LABORATORY,dr monroe laboratory
 69,Waiting Room,waiting room
-70,"STREET NEIGHBOR #2'S HOUSE",street neighbor 2 house
+70,STREET NEIGHBOR #2'S HOUSE,street neighbor 2 house
 71,School Bus,school bus
 72,NEAR SCHOOL ENTRANCE,near school entrance
 73,PLAYGROUND,playground
@@ -283,7 +283,6 @@ id,name,normalized_name
 282,Springfield Museum,springfield museum
 283,A BUSY DOWNTOWN STREET,a busy downtown street
 284,SAME SCENE,same scene
-947,ARAB CITY,arab city
 285,THE OFFICE OF LIONEL HUTZ,the office of lionel hutz
 286,The Law Office of Lionel Hutz,the law office of lionel hutz
 287,Waiting Room Of Dr. Nick Riviera's Office,waiting room of dr nick riviera office
@@ -562,7 +561,6 @@ id,name,normalized_name
 560,Lovejoy Home,lovejoy home
 561,Theater,theater
 562,SPRINGFIELD TOWERS,springfield towers
-1232,London,london
 563,MILLIONAIRE'S CLUB,millionaire club
 564,Baseball Card Show,baseball card show
 565,Woods,woods
@@ -597,8 +595,8 @@ id,name,normalized_name
 594,Springfield Barber College,springfield barber college
 595,Dog Pound,dog pound
 596,Springfield Googolplex Theatres,springfield googolplex theatres
-597,"MOVIE THEATRE #1",movie theatre 1
-598,"MOVIE THEATRE #6",movie theatre 6
+597,MOVIE THEATRE #1,movie theatre 1
+598,MOVIE THEATRE #6,movie theatre 6
 599,COUNTRY BAR,country bar
 600,The Beer -N- Brawl,the beer -n- brawl
 601,HOSPITAL OPERATING ROOM,hospital operating room
@@ -656,7 +654,6 @@ id,name,normalized_name
 653,Audience,audience
 654,FAT KIDS' COMPOUND,fat kids compound
 655,Springfield Community Center,springfield community center
-1233,England,england
 656,REHEARSAL ROOM,rehearsal room
 657,Day Care Center,day care center
 658,COMMUNITY CENTER,community center
@@ -754,7 +751,6 @@ id,name,normalized_name
 750,MONORAIL PLATFORM,monorail platform
 751,Monorail Engine,monorail engine
 752,Monorail Cabin,monorail cabin
-1695,Sportacus,sportacus
 753,COMMAND CENTER,command center
 754,HALL OF RECORDS,hall of records
 755,Sky,sky
@@ -949,6 +945,7 @@ id,name,normalized_name
 944,RAFT,raft
 945,Ocean,ocean
 946,OFFSHORE OIL RIG,offshore oil rig
+947,ARAB CITY,arab city
 948,ARAB NIGHTCLUB,arab nightclub
 949,HMO,hmo
 950,Optometrist's Office,optometrist office
@@ -1136,7 +1133,6 @@ id,name,normalized_name
 1132,Springfield Skating Rink,springfield skating rink
 1133,HOCKEY RINK,hockey rink
 1134,THE STEPS OF THE CAPITOL,the steps of the capitol
-2172,BUSHES,bushes
 1135,MONSTER ISLAND,monster island
 1136,SKATING RINK LOCKER ROOM,skating rink locker room
 1137,SKATING RINK,skating rink
@@ -1234,6 +1230,8 @@ id,name,normalized_name
 1229,Tent,tent
 1230,Lisa's Dorm,lisa dorm
 1231,DORM ROOM,dorm room
+1232,London,london
+1233,England,england
 1234,PARKFIELD MANOR,parkfield manor
 1235,Skyscraper,skyscraper
 1236,OTTO CAB,otto cab
@@ -1418,7 +1416,6 @@ id,name,normalized_name
 1415,CHESTER'S HOUSE,chester house
 1416,SPRINGFIELD DMV,springfield dmv
 1417,'30'S-STYLE SHOW-BUSINESS RESTAURANT,30-style show-business restaurant
-2173,JAIL CELL,jail cell
 1418,The Pimento Grove,the pimento grove
 1419,TROY'S HOUSE,troy house
 1420,TRENDY RESTAURANT,trendy restaurant
@@ -1696,6 +1693,7 @@ id,name,normalized_name
 1692,MEETING HALL,meeting hall
 1693,NRA MEETING,nra meeting
 1694,Sporting Goods Store,sporting goods store
+1695,Sportacus,sportacus
 1696,SPRINGFIELD PEE WEE FOOTBALL FIELD,springfield pee wee football field
 1697,SPRINGFIELD FOOTBALL FIELD,springfield football field
 1698,Apu's Car,apu car
@@ -1984,7 +1982,6 @@ id,name,normalized_name
 1981,NEWSPAPER PRESS ROOM,newspaper press room
 1982,PRESS ROOM,press room
 1983,NEWSPAPER,newspaper
-2366,Clinic,clinic
 1984,Planet Springfield Restaurant,planet springfield restaurant
 1985,ROTATING RESTAURANT,rotating restaurant
 1986,TASTE OF SPRINGFIELD FESTIVAL,taste of springfield festival
@@ -2079,7 +2076,6 @@ id,name,normalized_name
 2075,DIRECTOR'S BOOTH,director booth
 2076,SOAP OPERA SET,soap opera set
 2077,INDIAN CASINO,indian casino
-2745,JUVIE,juvie
 2078,BEACH BUNGALOW,beach bungalow
 2079,Simpson House of the Future,simpson house of the future
 2080,NELSON'S CRAB-SHACK,nelson crab-shack
@@ -2174,6 +2170,8 @@ id,name,normalized_name
 2169,Russian Space Station,russian space station
 2170,BODY SHOP,body shop
 2171,High Pressure Tire sales,high pressure tire sales
+2172,BUSHES,bushes
+2173,JAIL CELL,jail cell
 2174,Circus Tent,circus tent
 2175,VAULT,vault
 2176,Springfield National Bank,springfield national bank
@@ -2366,6 +2364,7 @@ id,name,normalized_name
 2363,OLD RITZY NEIGHBORHOOD,old ritzy neighborhood
 2364,BUCK'S MANSION,buck mansion
 2365,BUCK'S HOUSE,buck house
+2366,Clinic,clinic
 2367,Springfield Aquarium,springfield aquarium
 2368,STREET IN FRONT OF RETIREMENT CASTLE,street in front of retirement castle
 2369,Branson,branson
@@ -2744,6 +2743,7 @@ id,name,normalized_name
 2742,DRESSING ROOM AREA,dressing room area
 2743,Housewares Section,housewares section
 2744,Springfield Juvenile Correctional Facility,springfield juvenile correctional facility
+2745,JUVIE,juvie
 2746,Prison Hallway,prison hallway
 2747,Small Prison Auditorium,small prison auditorium
 2748,PRISON PLAY YARD,prison play yard
@@ -3500,7 +3500,7 @@ id,name,normalized_name
 3499,STREETS OF SPRINGFIELD - NIGHT,streets of springfield - night
 3500,BASHIR'S HOUSE,bashir house
 3501,AMID'S STUDY,amid study
-3502,"OFFICE #1",office 1
+3502,OFFICE #1,office 1
 3503,UNDER SEA,under sea
 3504,Mapple World Headquarters,mapple world headquarters
 3505,BILLIONAIRES RETREAT,billionaires retreat
