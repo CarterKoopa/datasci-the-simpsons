@@ -1,0 +1,67 @@
+---
+title: "Simpsons_Emery_cooking"
+author: "Emery Lauer"
+date: "2025-04-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+df_ep <- read.csv("data/simpsons_episodes.csv")
+df_script <- read.csv("data/simpsons_script_lines.csv")
+
+head(df_script)
+
+```
+
+```{r}
+df_script %>% 
+  filter(speaking_line == TRUE) %>% 
+  filter(episode_id == 1) %>% 
+  mutate(word_count = as.numeric(word_count)) %>% 
+  group_by(raw_character_text) %>% 
+  summarize(total_word_count = sum(word_count)) %>% 
+  slice_max(total_word_count, n = 6) %>% 
+  arrange(desc(total_word_count)) 
+
+```
+
+```{r}
+get_word_counts_per_episode <- function(df_script) {
+  df_script %>%
+    filter(speaking_line == TRUE) %>%
+    mutate(
+      word_count = suppressWarnings(as.numeric(word_count))
+    ) %>%
+    filter(!is.na(word_count)) %>%  
+    group_by(episode_id, raw_character_text) %>%
+    summarize(total_word_count = sum(word_count), .groups = "drop") %>%
+    group_by(episode_id) %>%
+    slice_max(total_word_count, n = 5, with_ties = FALSE) %>%
+    arrange(episode_id, desc(total_word_count))
+}
+
+episode_word_counts <- get_word_counts_per_episode(df_script)
+episode_word_counts
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
