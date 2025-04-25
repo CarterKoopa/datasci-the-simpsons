@@ -10,16 +10,13 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## EDA
 
 ```{r}
 df_ep <- read.csv("data/simpsons_episodes.csv")
 df_script <- read.csv("data/simpsons_script_lines.csv")
 
+head(df_ep)
 head(df_script)
 
 ```
@@ -28,6 +25,7 @@ head(df_script)
 df_script %>% 
   filter(speaking_line == TRUE) %>% 
   filter(episode_id == 1) %>% 
+  filter(word_count <= 1000) %>% 
   mutate(word_count = as.numeric(word_count)) %>% 
   group_by(raw_character_text) %>% 
   summarize(total_word_count = sum(word_count)) %>% 
@@ -41,19 +39,76 @@ get_word_counts_per_episode <- function(df_script) {
   df_script %>%
     filter(speaking_line == TRUE) %>%
     mutate(
-      word_count = suppressWarnings(as.numeric(word_count))
+      word_count = (as.numeric(word_count))
     ) %>%
-    filter(!is.na(word_count)) %>%  
+    filter(!is.na(word_count)) %>%
+    filter(word_count <= 1000) %>% 
     group_by(episode_id, raw_character_text) %>%
     summarize(total_word_count = sum(word_count), .groups = "drop") %>%
     group_by(episode_id) %>%
-    slice_max(total_word_count, n = 5, with_ties = FALSE) %>%
+    slice_max(total_word_count, n = 1, with_ties = FALSE) %>%
     arrange(episode_id, desc(total_word_count))
 }
 
 episode_word_counts <- get_word_counts_per_episode(df_script)
 episode_word_counts
 
+```
+
+```{r}
+ df_ep_new <- df_ep %>% 
+  select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views) %>% 
+  rename(
+    episode_id = id
+  )
+
+
+df_simpsons <- df_ep_new %>%
+  left_join(episode_word_counts, by = "episode_id")
+
+df_simpsons
+```
+
+```{r}
+# Bart|Homer|Marge|Lisa|Maggie|
+df_simpsons %>% 
+  filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
+ggplot(
+    aes(x = `episode_id`, y = us_viewers_in_millions, color = raw_character_text)
+  ) +
+  geom_point() 
+# labs(
+#   title = "Serotonin Levels vs. # of Friends",
+#   x = "Number of Friends",
+#   y = "Serotonin (ng/mL)",
+# )
+```
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
+ggplot(
+    aes(x = `original_air_year`, y = us_viewers_in_millions, color = raw_character_text)
+  ) +
+  geom_count() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+# labs(
+#   title = "Serotonin Levels vs. # of Friends",
+#   x = "Number of Friends",
+#   y = "Serotonin (ng/mL)",
+# )
+```
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
+  mutate(votes_per_view = imdb_votes/us_viewers_in_millions) %>% 
+ggplot(
+    aes(x = `episode_id`, y = votes_per_view, color = raw_character_text)
+  ) +
+  geom_point() +
+  geom_smooth(color = "yellow")+
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
 
 ## Including Plots
