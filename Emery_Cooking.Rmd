@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+install.packages("plotly")
 ```
 
 ## EDA
@@ -105,7 +106,7 @@ df_simpsons %>%
   mutate(votes_per_view = imdb_votes/us_viewers_in_millions) %>% 
 ggplot(
     aes(x = `episode_id`, y = votes_per_view, color = raw_character_text)
-  ) +
+    )+
   geom_point() +
   geom_smooth(color = "yellow")+
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
