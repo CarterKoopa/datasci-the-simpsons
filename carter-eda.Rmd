@@ -1,0 +1,49 @@
+---
+title: "simpsons-data"
+author: "Carter Harris"
+date: "2025-04-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Load Initial Data
+
+asdasdasd
+
+```{r data-log}
+df_lines_raw = read_csv("data/simpsons_script_lines.csv")
+df_episodes_raw = read_csv("data/simpsons_episodes.csv")
+```
+
+## EDA
+
+```{r eda}
+head(df_lines_raw)
+```
+
+Removing some extraneous columns to make things easier to work with:
+
+```{r filtering}
+df_lines <-
+  df_lines_raw %>%
+  # Drop line number and episode timestamp (for now)
+  select(!matches("number", "timestamp_in_ms")) %>% 
+  # drop NA rows - these are non-character dialogs or descriptive text
+  drop_na()
+
+df_lines
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

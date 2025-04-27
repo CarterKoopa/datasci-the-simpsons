@@ -8,7 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-install.packages("plotly")
+#install.packages("plotly")
 ```
 
 ## EDA
@@ -23,15 +23,32 @@ head(df_script)
 ```
 
 ```{r}
-df_script %>% 
+df_words_per_epsiode <-
+  df_script %>% 
+  filter(speaking_line == TRUE) %>% 
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count <= 1000) %>% 
+  group_by(episode_id) %>% 
+  summarise(total_words_per_episode = sum(word_count)) %>% 
+  inner_join(df_ep_new, by = "episode_id")
+
+df_words_per_epsiode
+
+df_words_per_epsiode %>%
+  ggplot(aes(total_words_per_episode, us_viewers_in_millions)) +
+  geom_point()
+```
+
+```{r}
+df_script %>%
   filter(speaking_line == TRUE) %>% 
   filter(episode_id == 1) %>% 
-  filter(word_count <= 1000) %>% 
   mutate(word_count = as.numeric(word_count)) %>% 
+  filter(word_count <= 1000) %>% 
   group_by(raw_character_text) %>% 
   summarize(total_word_count = sum(word_count)) %>% 
   slice_max(total_word_count, n = 6) %>% 
-  arrange(desc(total_word_count)) 
+  arrange(desc(total_word_count))
 
 ```
 
@@ -51,7 +68,11 @@ get_word_counts_per_episode <- function(df_script) {
     arrange(episode_id, desc(total_word_count))
 }
 
-episode_word_counts <- get_word_counts_per_episode(df_script)
+episode_word_counts <- 
+  get_word_counts_per_episode(df_script) %>% 
+  inner_join(df_words_per_epsiode, by = "episode_id") %>% 
+  select(c("episode_id", "raw_character_text", "total_word_count", "total_words_per_episode")) %>% 
+  mutate(percentage_of_script = total_word_count / total_words_per_episode)
 episode_word_counts
 
 ```
@@ -88,16 +109,22 @@ ggplot(
 ```{r}
 df_simpsons %>% 
   filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
+  #group_by(raw_character_text) %>% 
+ggplot(
+    aes(x = raw_character_text, y = us_viewers_in_millions, fill = raw_character_text)
+  ) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
 ggplot(
     aes(x = `original_air_year`, y = us_viewers_in_millions, color = raw_character_text)
   ) +
   geom_count() +
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
-# labs(
-#   title = "Serotonin Levels vs. # of Friends",
-#   x = "Number of Friends",
-#   y = "Serotonin (ng/mL)",
-# )
 ```
 
 ```{r}
@@ -110,6 +137,24 @@ ggplot(
   geom_point() +
   geom_smooth(color = "yellow")+
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+```{r}
+df_words_per_epsiode <-
+  df_script %>% 
+  filter(speaking_line == TRUE) %>% 
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count <= 1000) %>% 
+  group_by(episode_id) %>% 
+  summarise(total_words_per_episode = sum(word_count)) %>% 
+  inner_join(df_ep_new, by = "episode_id")
+
+df_words_per_epsiode
+
+df_words_per_epsiode %>%
+  ggplot(aes(total_words_per_episode, us_viewers_in_millions)) +
+  geom_point()
+  
 ```
 
 ## Including Plots
