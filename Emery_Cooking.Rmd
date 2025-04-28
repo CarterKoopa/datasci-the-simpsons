@@ -41,6 +41,15 @@ df_words_per_epsiode %>%
   geom_point()
 ```
 
+#### Compute words over time
+
+```{r}
+df_words_per_epsiode %>%
+  ggplot(aes(episode_id, total_words_per_episode)) +
+  geom_point() +
+  geom_smooth()
+```
+
 #### Test Code - Filter & Sum Total Words by Character
 
 ```{r}
@@ -53,7 +62,52 @@ df_script %>%
   summarize(total_word_count = sum(word_count)) %>% 
   slice_max(total_word_count, n = 6) %>% 
   arrange(desc(total_word_count))
+```
 
+#### Compute Speech Complexity
+
+```{r}
+unique_words <- function(line)
+  # Convert all characters to lowercase
+  tolower(line) %>% 
+  # Remove all non-alphanumeric characters (ie punctuation)
+  gsub("[^[:alnum:] ]", "", .) %>%
+  # Split into individual words
+  str_split(" +") %>%
+  # Deal with weird list-in-a-list thing 
+  .[[1]] %>% 
+  # Count onlthe unique (non-repeat words)
+  unique() %>% 
+  # Get total number of words
+  length()
+
+df_speech_complexity <-
+  df_script %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  # filter(episode_id == 1) %>%
+  filter(
+    grepl(
+      "Simpson",
+      raw_character_text
+    )
+  ) %>%
+  group_by(raw_character_text) %>%
+  summarise(
+    all_words = paste0(normalized_text, collapse = " "),
+    num_unique_words = unique_words(all_words),
+    total_words = sum(word_count, na.rm = TRUE),
+    speech_complexity = num_unique_words / total_words
+  ) %>%
+  arrange(speech_complexity) %>% 
+  slice_max(total_words, n = 4, with_ties = FALSE)
+
+df_speech_complexity
+
+df_speech_complexity %>% 
+  mutate(raw_character_text = fct_reorder(raw_character_text, speech_complexity)) %>% 
+  ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
 
 #### Actual Code - Turn above into function, summing selecting top 5 characters from every episode in the datset
