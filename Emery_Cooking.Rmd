@@ -22,6 +22,8 @@ head(df_script)
 
 ```
 
+#### Compute the total number of words per episode & plot relative to viewership
+
 ```{r}
 df_words_per_epsiode <-
   df_script %>% 
@@ -39,6 +41,8 @@ df_words_per_epsiode %>%
   geom_point()
 ```
 
+#### Test Code - Filter & Sum Total Words by Character
+
 ```{r}
 df_script %>%
   filter(speaking_line == TRUE) %>% 
@@ -51,6 +55,10 @@ df_script %>%
   arrange(desc(total_word_count))
 
 ```
+
+#### Actual Code - Turn above into function, summing selecting top 5 characters from every episode in the datset
+
+Additionally, this code joins the total words per episode and computes the percentage of the script relative to each character
 
 ```{r}
 get_word_counts_per_episode <- function(df_script) {
@@ -77,6 +85,8 @@ episode_word_counts
 
 ```
 
+#### Join compiled total words data with general episode data (including ratings & viewership
+
 ```{r}
  df_ep_new <- df_ep %>% 
   select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views) %>% 
@@ -90,6 +100,8 @@ df_simpsons <- df_ep_new %>%
 
 df_simpsons
 ```
+
+#### First plot - select only the main characters (the Simpsons and a few others of interest) and plot
 
 ```{r}
 # Bart|Homer|Marge|Lisa|Maggie|
@@ -106,6 +118,8 @@ ggplot(
 # )
 ```
 
+#### Create a similar graph in Boxplot form
+
 ```{r}
 df_simpsons %>% 
   filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
@@ -117,6 +131,8 @@ ggplot(
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
 
+#### Compile data per year
+
 ```{r}
 df_simpsons %>% 
   filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
@@ -126,6 +142,10 @@ ggplot(
   geom_count() +
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
+
+#### Compute a IMDb votes per view - what episodes are people most passionate about?
+
+Also add a smoothing line
 
 ```{r}
 df_simpsons %>% 
@@ -137,24 +157,6 @@ ggplot(
   geom_point() +
   geom_smooth(color = "yellow")+
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
-```
-
-```{r}
-df_words_per_epsiode <-
-  df_script %>% 
-  filter(speaking_line == TRUE) %>% 
-  mutate(word_count = as.numeric(word_count)) %>%
-  filter(word_count <= 1000) %>% 
-  group_by(episode_id) %>% 
-  summarise(total_words_per_episode = sum(word_count)) %>% 
-  inner_join(df_ep_new, by = "episode_id")
-
-df_words_per_epsiode
-
-df_words_per_epsiode %>%
-  ggplot(aes(total_words_per_episode, us_viewers_in_millions)) +
-  geom_point()
-  
 ```
 
 ## Including Plots
