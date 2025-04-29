@@ -1,0 +1,161 @@
+---
+title: "Final Report"
+author: "Emery Lauer"
+date: "2025-04-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{df_ep <- read.csv("data/simpsons_episodes.csv")}
+df_script <- read.csv("data/simpsons_script_lines.csv")
+
+head(df_ep)
+head(df_script)
+```
+
+```{r}
+get_word_counts_per_episode <- function(df_script) {
+  df_script %>%
+    filter(speaking_line == TRUE) %>%
+    mutate(
+      word_count = (as.numeric(word_count))
+    ) %>%
+    filter(!is.na(word_count)) %>%
+    filter(word_count <= 1000) %>%
+    group_by(episode_id, raw_character_text) %>%
+    summarize(total_word_count = sum(word_count), .groups = "drop") %>%
+    group_by(episode_id) %>%
+    slice_max(total_word_count, n = 1, with_ties = FALSE) %>%
+    arrange(episode_id, desc(total_word_count))
+}
+
+episode_word_counts <-
+  get_word_counts_per_episode(df_script) %>%
+  inner_join(df_words_per_epsiode, by = "episode_id") %>%
+  select(
+    c(
+      "episode_id",
+      "raw_character_text",
+      "total_word_count",
+      "total_words_per_episode"
+    )
+  ) %>%
+  mutate(percentage_of_script = total_word_count / total_words_per_episode)
+
+df_simpsons <- df_ep_new %>%
+  left_join(episode_word_counts, by = "episode_id")
+
+df_simpsons
+```
+
+```{r fig.width=9, fig.height=5}
+# Bart|Homer|Marge|Lisa|Maggie|
+df_simpsons %>%
+  filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  ggplot(
+    aes(x = `episode_id`, y = us_viewers_in_millions)
+  ) +
+  geom_point(aes(color = raw_character_text)) +
+  geom_smooth(color = "black") +
+ labs(
+   title = "Which Simpsons Characters Are Most Popular Over Time?",
+   x = "Episode Number (sequential over time)",
+   y = "US Viewership in Millions",
+   color = '"Star Character" of Each Episode',
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+ )
+```
+
+```{r fig.width=9, fig.height=5}
+# Bart|Homer|Marge|Lisa|Maggie|
+df_simpsons %>%
+  filter(grepl("Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  ggplot(
+    aes(x = `episode_id`, y = us_viewers_in_millions)
+  ) +
+  geom_point(aes(color = raw_character_text)) +
+  geom_smooth(color = "black", label="Overall Trend") +
+  geom_smooth(aes(color = raw_character_text)) +
+ labs(
+   title = "Excluding Homer, Which Simpsons Characters Are Most Popular Over Time?",
+   x = "Episode Number (sequential over time)",
+   y = "US Viewership in Millions",
+   color = '"Star Character" of Each Episode',
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+ )
+```
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  #group_by(raw_character_text) %>% 
+ggplot(
+    aes(x = raw_character_text, y = us_viewers_in_millions, fill = raw_character_text)
+  ) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+```{r fig.height=5}
+unique_words <- function(line)
+  # Convert all characters to lowercase
+  tolower(line) %>% 
+  # Remove all non-alphanumeric characters (ie punctuation)
+  gsub("[^[:alnum:] ]", "", .) %>%
+  # Split into individual words
+  str_split(" +") %>%
+  # Deal with weird list-in-a-list thing 
+  .[[1]] %>% 
+  # Count onlthe unique (non-repeat words)
+  unique() %>% 
+  # Get total number of words
+  length()
+
+df_speech_complexity <-
+  df_script %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count < 1000) %>%
+  filter(
+    grepl(
+      "Simpson",
+      raw_character_text
+    )
+  ) %>%
+  group_by(raw_character_text) %>%
+  summarise(
+    all_words = paste0(normalized_text, collapse = " "),
+    num_unique_words = unique_words(all_words),
+    total_words = sum(word_count, na.rm = TRUE),
+    speech_complexity = (num_unique_words / total_words) * 100
+  ) %>%
+  arrange(speech_complexity) %>% 
+  slice_max(total_words, n = 4, with_ties = FALSE)
+
+df_speech_complexity
+
+df_speech_complexity %>% 
+  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
+  ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
+  geom_col() +
+  theme(
+    axis.text.x = element_text(angle = 50, hjust = 1),
+    plot.caption = element_text(hjust = 0)
+    ) +
+  labs(
+    x = "Character Name",
+    color = "Character Name",
+    y = "Series-Wide Speech Complexity (percentage)",
+    caption = "Speech Complexity is defined as the number of unique words as a percentage \n of the total words spoken in a character's dialog across the entire series. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)",
+    title = "Which Simpsons Main Characters Have the Most Complex Speech?"
+  )
+```
