@@ -44,7 +44,13 @@ df_words_per_epsiode <-
 
 df_words_per_epsiode %>%
   ggplot(aes(total_words_per_episode, us_viewers_in_millions)) +
-  geom_point()
+  geom_point() +
+  labs(
+    x = "Number of Words in an Episode",
+    y = "Episode Viewership (in millions of views)",
+    title = "How does dialog quantity impact viewership of The Simpsons?",
+    caption = "Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
 ```
 
 #### Compute words over time
@@ -53,12 +59,18 @@ df_words_per_epsiode %>%
 df_words_per_epsiode %>%
   ggplot(aes(episode_id, total_words_per_episode)) +
   geom_point() +
-  geom_smooth()
+  geom_smooth() +
+  labs(
+    x = "Episode ID (sequential with time)",
+    y = "Total Number of Words in Episode",
+    title = "How has dialog quantity varied over time in The Simpsons?",
+    caption = "Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
 ```
 
 #### Compute Speech Complexity
 
-```{r}
+```{r fig.height=5}
 unique_words <- function(line)
   # Convert all characters to lowercase
   tolower(line) %>% 
@@ -88,7 +100,7 @@ df_speech_complexity <-
     all_words = paste0(normalized_text, collapse = " "),
     num_unique_words = unique_words(all_words),
     total_words = sum(word_count, na.rm = TRUE),
-    speech_complexity = num_unique_words / total_words
+    speech_complexity = (num_unique_words / total_words) * 100
   ) %>%
   arrange(speech_complexity) %>% 
   slice_max(total_words, n = 4, with_ties = FALSE)
@@ -99,7 +111,17 @@ df_speech_complexity %>%
   mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
   ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
   geom_col() +
-  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+  theme(
+    axis.text.x = element_text(angle = 50, hjust = 1),
+    plot.caption = element_text(hjust = 0)
+    ) +
+  labs(
+    x = "Character Name",
+    color = "Character Name",
+    y = "Series-Wide Speech Complexity (percentage)",
+    caption = "Speech Complexity is defined as the number of unique words as a percentage \n of the total words spoken in a character's dialog across the entire series. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)",
+    title = "Which Simpsons Main Characters Have the Most Complex Speech?"
+  )
 ```
 
 #### Compute "star character" for each episode and their number of lines spoken
@@ -107,6 +129,8 @@ df_speech_complexity %>%
 This script can be modified to find the top `x` characters per episode by changing the parameter `n` in `slice_max`.
 
 Additionally, this code joins the total words per episode and computes the percentage of the script relative to each character
+
+Finally, join this data with the episode data.
 
 ```{r}
 get_word_counts_per_episode <- function(df_script) {
@@ -116,7 +140,7 @@ get_word_counts_per_episode <- function(df_script) {
       word_count = (as.numeric(word_count))
     ) %>%
     filter(!is.na(word_count)) %>%
-    filter(word_count <= 1000) %>% 
+    filter(word_count <= 1000) %>%
     group_by(episode_id, raw_character_text) %>%
     summarize(total_word_count = sum(word_count), .groups = "drop") %>%
     group_by(episode_id) %>%
@@ -124,18 +148,19 @@ get_word_counts_per_episode <- function(df_script) {
     arrange(episode_id, desc(total_word_count))
 }
 
-episode_word_counts <- 
-  get_word_counts_per_episode(df_script) %>% 
-  inner_join(df_words_per_epsiode, by = "episode_id") %>% 
-  select(c("episode_id", "raw_character_text", "total_word_count", "total_words_per_episode")) %>% 
+episode_word_counts <-
+  get_word_counts_per_episode(df_script) %>%
+  inner_join(df_words_per_epsiode, by = "episode_id") %>%
+  select(
+    c(
+      "episode_id",
+      "raw_character_text",
+      "total_word_count",
+      "total_words_per_episode"
+    )
+  ) %>%
   mutate(percentage_of_script = total_word_count / total_words_per_episode)
-episode_word_counts
 
-```
-
-#### Join 'star character' data with the episode viewership data
-
-```{r}
 df_simpsons <- df_ep_new %>%
   left_join(episode_word_counts, by = "episode_id")
 
@@ -168,7 +193,7 @@ df_simpsons %>%
    x = "Episode Number (sequential over time)",
    y = "US Viewership in Millions",
    color = '"Star Character" of Each Episode',
-   caption = "The Star Character is conisdered the character with the most spoken words in a given episode."
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
  )
 ```
 
@@ -189,7 +214,7 @@ df_simpsons %>%
    x = "Episode Number (sequential over time)",
    y = "US Viewership in Millions",
    color = '"Star Character" of Each Episode',
-   caption = "The Star Character is conisdered the character with the most spoken words in a given episode."
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
  )
 ```
 
