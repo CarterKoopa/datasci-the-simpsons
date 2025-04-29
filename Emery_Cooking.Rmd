@@ -27,7 +27,7 @@ head(df_script)
 # Clean up df_ep to make it slightly easier to join down the line (ie, have the join by colum be named the same thing)
 # Also filter out extra columns that are not needed
  df_ep_new <- df_ep %>% 
-  select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views) %>% 
+  select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views, season) %>% 
   rename(
     episode_id = id
   )
