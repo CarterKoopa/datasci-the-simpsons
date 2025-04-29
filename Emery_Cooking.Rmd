@@ -68,62 +68,6 @@ df_words_per_epsiode %>%
   )
 ```
 
-#### Compute Speech Complexity
-
-```{r fig.height=5}
-unique_words <- function(line)
-  # Convert all characters to lowercase
-  tolower(line) %>% 
-  # Remove all non-alphanumeric characters (ie punctuation)
-  gsub("[^[:alnum:] ]", "", .) %>%
-  # Split into individual words
-  str_split(" +") %>%
-  # Deal with weird list-in-a-list thing 
-  .[[1]] %>% 
-  # Count onlthe unique (non-repeat words)
-  unique() %>% 
-  # Get total number of words
-  length()
-
-df_speech_complexity <-
-  df_script %>%
-  mutate(word_count = as.numeric(word_count)) %>%
-  filter(word_count < 1000) %>%
-  filter(
-    grepl(
-      "Simpson",
-      raw_character_text
-    )
-  ) %>%
-  group_by(raw_character_text) %>%
-  summarise(
-    all_words = paste0(normalized_text, collapse = " "),
-    num_unique_words = unique_words(all_words),
-    total_words = sum(word_count, na.rm = TRUE),
-    speech_complexity = (num_unique_words / total_words) * 100
-  ) %>%
-  arrange(speech_complexity) %>% 
-  slice_max(total_words, n = 4, with_ties = FALSE)
-
-df_speech_complexity
-
-df_speech_complexity %>% 
-  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
-  ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
-  geom_col() +
-  theme(
-    axis.text.x = element_text(angle = 50, hjust = 1),
-    plot.caption = element_text(hjust = 0)
-    ) +
-  labs(
-    x = "Character Name",
-    color = "Character Name",
-    y = "Series-Wide Speech Complexity (percentage)",
-    caption = "Speech Complexity is defined as the number of unique words as a percentage \n of the total words spoken in a character's dialog across the entire series. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)",
-    title = "Which Simpsons Main Characters Have the Most Complex Speech?"
-  )
-```
-
 #### Compute "star character" for each episode and their number of lines spoken
 
 This script can be modified to find the top `x` characters per episode by changing the parameter `n` in `slice_max`.
@@ -218,7 +162,7 @@ df_simpsons %>%
  )
 ```
 
-#### Create a similar graph in Boxplot form
+#### Create a similar graph in boxplot form to better visualize how often each character has the most words in episodes
 
 ```{r}
 df_simpsons %>% 
@@ -231,7 +175,7 @@ ggplot(
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
 
-#### Compile data per year
+#### Compile data per year to see if world events affect viewership
 
 ```{r}
 df_simpsons %>% 
@@ -242,6 +186,8 @@ ggplot(
   geom_count() +
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
+
+In the above figure, you may notice that there is a peak from 2000 to around 2003. This may seem like viewers picked the show back up after a decline, however it simply denotes a period when they changed how the viewership was counted.
 
 #### Compute a IMDb votes per view - what episodes are people most passionate about?
 
@@ -258,3 +204,61 @@ ggplot(
   geom_smooth(color = "yellow")+
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
+
+#### Compute Speech Complexity
+
+```{r fig.height=5}
+unique_words <- function(line)
+  # Convert all characters to lowercase
+  tolower(line) %>% 
+  # Remove all non-alphanumeric characters (ie punctuation)
+  gsub("[^[:alnum:] ]", "", .) %>%
+  # Split into individual words
+  str_split(" +") %>%
+  # Deal with weird list-in-a-list thing 
+  .[[1]] %>% 
+  # Count onlthe unique (non-repeat words)
+  unique() %>% 
+  # Get total number of words
+  length()
+
+df_speech_complexity <-
+  df_script %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count < 1000) %>%
+  filter(
+    grepl(
+      "Simpson",
+      raw_character_text
+    )
+  ) %>%
+  group_by(raw_character_text) %>%
+  summarise(
+    all_words = paste0(normalized_text, collapse = " "),
+    num_unique_words = unique_words(all_words),
+    total_words = sum(word_count, na.rm = TRUE),
+    speech_complexity = (num_unique_words / total_words) * 100
+  ) %>%
+  arrange(speech_complexity) %>% 
+  slice_max(total_words, n = 4, with_ties = FALSE)
+
+df_speech_complexity
+
+df_speech_complexity %>% 
+  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
+  ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
+  geom_col() +
+  theme(
+    axis.text.x = element_text(angle = 50, hjust = 1),
+    plot.caption = element_text(hjust = 0)
+    ) +
+  labs(
+    x = "Character Name",
+    color = "Character Name",
+    y = "Series-Wide Speech Complexity (percentage)",
+    caption = "Speech Complexity is defined as the number of unique words as a percentage \n of the total words spoken in a character's dialog across the entire series. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)",
+    title = "Which Simpsons Main Characters Have the Most Complex Speech?"
+  )
+```
+
+In the above graph, Lisa has the most complex work set while homer has the least. This is interesting because homer is often the character with the most words in most episodes and Lisa has the least.
