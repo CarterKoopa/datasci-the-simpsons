@@ -1,0 +1,218 @@
+---
+title: "Final Report"
+author: "Emery Lauer"
+date: "2025-04-29"
+output: html_document
+---
+
+# D'oh! Analyzing the Speech of The Simpsons
+
+### Analyzing how popularity and complexity vary over time
+
+Data Science SP25 Final Project
+
+Carter Harris, Swasti Jain, and Emery Lauer
+
+## Background Information
+
+*The Simpsons* is widely considered one of the most acclaimed and successful TV series ever produced. Following the day-to-day life and activities of the Simpson family, the animated sitcom chronicles and satirizes American and western society, culture, and general family dysfunction. The Simpson family - Homer, Marge, Bart, and Lisa - are far from the only characters in this chronical, with an army of side characters and celebrity "appearances" ranging from Albert Einstein to Donald Trump. To this end, the show has garnered particular attention for parodying current events and making zany predictions about the future that sometimes end up coming true.
+
+![The Simpsons family. From left to right: Maggie, Marge, Lisa, Homer, and Bart.](images/3343.webp){width="483"}
+
+Having ran continuously for over 35 years, the show and the fictional town of Springfield have become ubiquitous and universally-recognized artifacts of modern media and popular culture. Beyond the entertainment and comedic value, across three decades of production and writing teams, the evolution of the show's script, characters, plots, and settings provides a rich window into the evolution and shifting of American culture and family life as a whole. To this end, we wondered how the script of The Simpsons has evolved through time and what it can tell us about *The Simpsons'* viewers and the wider cultural influences of the show.
+
+## The Dataset
+
+The dataset used for this analysis was originally compiled by the data scientist and software engineer Todd Schneider for his article ["The Simpsons by the Data"](https://toddwschneider.com/posts/the-simpsons-by-the-data/) posted to his website. This article served as a great starting place to guide our research, alongside providing some important contextual information to explain anomalies and strange trends in the data.
+
+In this article, he links to a [GitHub repository](https://github.com/toddwschneider/flim-springfield) that he used for scraping this dataset. The code scrapes from several different sources to compile the following information about *The Simpsons* series:
+
+-   Primarily, the crawler scraped the "Simpsons' World" website, which hosted all historical episodes of the show. From this source, the complete script for every episode, separated by character and individual line, was compiled. This represented a huge quantity of data across over 25 years of the show's run, containing over 150,000 lines. These script lines also provided a way to easily compile all characters in the show, ranging from the main characters in every episode to the one-off special appearances. This source also provided a way to compiled all locations in the show, although this data was not analyzed within this project.
+
+-   The second main source was [this Wikipedia article](https://en.wikipedia.org/wiki/List_of_The_Simpsons_episodes) which includes numerical data about every episode in the series. This source includes episode metadata (season, episode number, air date, etc). alongside original air date viewership data and ratings.
+
+-   Finally, the scraper also pulls data from [IMDb](https://www.imdb.com/title/tt0096697/episodes/), including ratings from IMDb's voting system alongside supplemental episode information to that from Wikipedia.
+
+Unfortunately, in late 2019, Disney (which acquired the rights to *The Simpsons* in early 2019as part of its acquisition of 21st Century Fox) moved all historical streaming episodes of *The Simpsons* from the Simpsons' World website to it's Disney+ streaming subscription service. As such, the original scraper no longer works for collecting the vast array of data it previously provided. However, a user named [William Cukierski](https://www.kaggle.com/wcukierski) on [Kaggle](https://www.kaggle.com/), a website that hosts various data science-related competitions, used the script to extract all episode data through 2016. This dataset was further re-uploaded to the website by user [Prashant Banerjee](https://www.kaggle.com/prashant111), which is available here under the name [The Simpsons Dataset](https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset?resource=download). An abbreviated version of this dataset was the February 24th, 2025 dataset for the weekly [Tidy Tuesday data science project](https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-02-04), which is where our team originally discovered it. However, to explore the larger trends over time, all subsequent analysis was completed with the complete 1989-2016 dataset available.
+
+## Sources of Uncertainty
+
+## Guiding Question
+
+How has the viewership of *The Simpsons* changed over time? Which characters have been more or less popular at different points across the show's history?
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+#### Importing the data set into R
+
+```{r}
+df_ep <- read.csv("data/simpsons_episodes.csv")
+df_script <- read.csv("data/simpsons_script_lines.csv")
+
+head(df_ep)
+head(df_script)
+```
+
+#### Combining the two CSV files to get air dates, IMDB information, and words into the script information
+
+```{r}
+get_word_counts_per_episode <- function(df_script) {
+  df_script %>%
+    filter(speaking_line == TRUE) %>%
+    mutate(
+      word_count = (as.numeric(word_count))
+    ) %>%
+    filter(!is.na(word_count)) %>%
+    filter(word_count <= 1000) %>%
+    group_by(episode_id, raw_character_text) %>%
+    summarize(total_word_count = sum(word_count), .groups = "drop") %>%
+    group_by(episode_id) %>%
+    slice_max(total_word_count, n = 1, with_ties = FALSE) %>%
+    arrange(episode_id, desc(total_word_count))
+}
+
+episode_word_counts <-
+  get_word_counts_per_episode(df_script) %>%
+  inner_join(df_words_per_epsiode, by = "episode_id") %>%
+  select(
+    c(
+      "episode_id",
+      "raw_character_text",
+      "total_word_count",
+      "total_words_per_episode"
+    )
+  ) %>%
+  mutate(percentage_of_script = total_word_count / total_words_per_episode)
+
+df_simpsons <- df_ep_new %>%
+  left_join(episode_word_counts, by = "episode_id")
+
+df_simpsons
+```
+
+#### Plotting US viewership and the character with the most words in an episode over time
+
+```{r fig.width=9, fig.height=5}
+# Bart|Homer|Marge|Lisa|Maggie|
+df_simpsons %>%
+  filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  ggplot(
+    aes(x = `episode_id`, y = us_viewers_in_millions)
+  ) +
+  geom_point(aes(color = raw_character_text)) +
+  geom_smooth(color = "black") +
+ labs(
+   title = "Which Simpsons Characters Are Most Popular Over Time?",
+   x = "Episode Number (sequential over time)",
+   y = "US Viewership in Millions",
+   color = '"Star Character" of Each Episode',
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+ )
+```
+
+The above figure shows the overall trend between episode number and views. There is a downward trend, except for around episode 300 where the show appears to have revitalized itself and gain new viewers. In reality, however, the algorithm for measuring viewers had simply changed around that time. After this peak, the trend continue downwards as the show loses popularity.
+
+A notable outlier from this graph include episode 343, where it gained 23 million views. This episode, Homer and Ned's Hail Mary Pass, played directly after Super Bowl XXXIX, which garnered many more views than previous episodes.
+
+#### Excluding Homer, how popular are the other family members over time?
+
+```{r fig.width=9, fig.height=5}
+# Bart|Homer|Marge|Lisa|Maggie|
+df_simpsons %>%
+  filter(grepl("Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  ggplot(
+    aes(x = `episode_id`, y = us_viewers_in_millions)
+  ) +
+  geom_point(aes(color = raw_character_text)) +
+  geom_smooth(color = "black", label="Overall Trend") +
+  geom_smooth(aes(color = raw_character_text)) +
+ labs(
+   title = "Excluding Homer, Which Simpsons Characters Are Most Popular Over Time?",
+   x = "Episode Number (sequential over time)",
+   y = "US Viewership in Millions",
+   color = '"Star Character" of Each Episode',
+   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+ )
+```
+
+In the figure above, the Simpsons' star characters, excluding Homer, have interesting individual trends. Around episode 300, Lisa and Marge have a sort of rise in popularity, while Bart's viewership decreases. This could be because he was in less episodes or maybe his writing quality had decreased while Lisa and Marge's writing improved. However, there is no evidence that more female writers were brought onto the show during that period.
+
+Some outliers in this graph may affect the trendline, however. Episode 303, for example, where Lisa is the star character, is called "I'm Spelling As Fast As I Can", where Lisa gets to participate in the Spellympics, getting the chance to win and get free college, while Homer obsesses over a new sandwich made of unidentified meat. Lisa loses the Spellympics, however the town carves her face in a mountain to commemorate her achievement.
+
+Another outlier, episode 474 titled "Moms I'd Like to Forget", garnered 12.6 million views and covers how Bart has an identical scar on his hand as someone else in his 5th grade class. He discovers that Marge was in a club of 4 mothers she was in seven years prior. Marge plans to reunite with the mothers and have Homer and Bart reunite with the fathers and sons, respectively, where they learn the scar comes from fireworks accidentally going everywhere and branding the boys' hands.
+
+#### Box plots of each character and their overall views
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+  #group_by(raw_character_text) %>% 
+ggplot(
+    aes(x = raw_character_text, y = us_viewers_in_millions, fill = raw_character_text)
+  ) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+The above box plots separate the characters to see the overall views of each of them. Homer has the most episodes where he is the "star character", so he has the widest range. However, looking at the medians of each character, Marge has the highest median viewer count in her episodes while Lisa has the lowest.
+
+#### Analyzing the complexity of the main character's lines over the data set
+
+```{r fig.height=5}
+unique_words <- function(line)
+  # Convert all characters to lowercase
+  tolower(line) %>% 
+  # Remove all non-alphanumeric characters (ie punctuation)
+  gsub("[^[:alnum:] ]", "", .) %>%
+  # Split into individual words
+  str_split(" +") %>%
+  # Deal with weird list-in-a-list thing 
+  .[[1]] %>% 
+  # Count onlthe unique (non-repeat words)
+  unique() %>% 
+  # Get total number of words
+  length()
+
+df_speech_complexity <-
+  df_script %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count < 1000) %>%
+  filter(
+    grepl(
+      "Simpson",
+      raw_character_text
+    )
+  ) %>%
+  group_by(raw_character_text) %>%
+  summarise(
+    all_words = paste0(normalized_text, collapse = " "),
+    num_unique_words = unique_words(all_words),
+    total_words = sum(word_count, na.rm = TRUE),
+    speech_complexity = (num_unique_words / total_words) * 100
+  ) %>%
+  arrange(speech_complexity) %>% 
+  slice_max(total_words, n = 4, with_ties = FALSE)
+
+df_speech_complexity
+
+df_speech_complexity %>% 
+  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
+  ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
+  geom_col() +
+  theme(
+    axis.text.x = element_text(angle = 50, hjust = 1),
+    plot.caption = element_text(hjust = 0)
+    ) +
+  labs(
+    x = "Character Name",
+    color = "Character Name",
+    y = "Series-Wide Speech Complexity (percentage)",
+    caption = "Speech Complexity is defined as the number of unique words as a percentage \n of the total words spoken in a character's dialog across the entire series. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)",
+    title = "Which Simpsons Main Characters Have the Most Complex Speech?"
+  )
+```
+
+The above figure shows the speech complexity per character. Interestingly, this graph shows nearly the opposite of the earlier box plot as Homer and Marge have the lowest speech complexity where Lisa has the highest. Since Homer is the star character in the most episodes and Marge has the highest median viewer count, recounting that the creator chose the name Simpsons because it sounded like "simpleton", this analysis appears to confirm their suspicions that viewers are looking for a simple funny show where they can more or less turn their brains turn off to watch.
