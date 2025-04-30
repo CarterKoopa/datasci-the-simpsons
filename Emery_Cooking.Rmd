@@ -141,6 +141,8 @@ df_simpsons %>%
  )
 ```
 
+The above figure shows the overall trend between episode number and views. There is a downward trend, except for around episode 300 where the show appears to have revitalized itself and gain new viewers. In reality, however, the algorithm for measuring viewers had simply changed around that time. After this peak, the trend continue downwards as the show loses popularity.
+
 #### The above plot shows the overwhelming number of episodes where Homer is the star character. A trend line of Homer closely follows that of all the characters combined. How do the remaining 3 main characters perform?
 
 ```{r fig.width=9, fig.height=5}

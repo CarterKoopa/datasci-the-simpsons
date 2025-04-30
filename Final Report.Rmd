@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
+#### Importing the data set into R
+
 ```{r}
 df_ep <- read.csv("data/simpsons_episodes.csv")
 df_script <- read.csv("data/simpsons_script_lines.csv")
@@ -17,6 +19,8 @@ df_script <- read.csv("data/simpsons_script_lines.csv")
 head(df_ep)
 head(df_script)
 ```
+
+#### Combining the two CSV files to get air dates, IMDB information, and words into the script information
 
 ```{r}
 get_word_counts_per_episode <- function(df_script) {
@@ -53,6 +57,8 @@ df_simpsons <- df_ep_new %>%
 df_simpsons
 ```
 
+#### Plotting US viewership and the character with the most words in an episode over time
+
 ```{r fig.width=9, fig.height=5}
 # Bart|Homer|Marge|Lisa|Maggie|
 df_simpsons %>%
@@ -70,6 +76,12 @@ df_simpsons %>%
    caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
  )
 ```
+
+The above figure shows the overall trend between episode number and views. There is a downward trend, except for around episode 300 where the show appears to have revitalized itself and gain new viewers. In reality, however, the algorithm for measuring viewers had simply changed around that time. After this peak, the trend continue downwards as the show loses popularity.
+
+A notable outlier from this graph include episode 343, where it gained 23 million views. This episode, Homer and Ned's Hail Mary Pass, played directly after Super Bowl XXXIX, which garnered many more views than previous episodes.
+
+#### Excluding Homer, how popular are the other family members over time?
 
 ```{r fig.width=9, fig.height=5}
 # Bart|Homer|Marge|Lisa|Maggie|
@@ -90,6 +102,14 @@ df_simpsons %>%
  )
 ```
 
+In the figure above, the Simpsons' star characters, excluding Homer, have interesting individual trends. Around episode 300, Lisa and Marge have a sort of rise in popularity, while Bart's viewership decreases. This could be because he was in less episodes or maybe his writing quality had decreased while Lisa and Marge's writing improved. However, there is no evidence that more female writers were brought onto the show during that period.
+
+Some outliers in this graph may affect the trendline, however. Episode 303, for example, where Lisa is the star character, is called "I'm Spelling As Fast As I Can", where Lisa gets to participate in the Spellympics, getting the chance to win and get free college, while Homer obsesses over a new sandwich made of unidentified meat. Lisa loses the Spellympics, however the town carves her face in a mountain to commemorate her achievement.
+
+Another outlier, episode 474 titled "Moms I'd Like to Forget", garnered 12.6 million views and covers how Bart has an identical scar on his hand as someone else in his 5th grade class. He discovers that Marge was in a club of 4 mothers she was in seven years prior. Marge plans to reunite with the mothers and have Homer and Bart reunite with the fathers and sons, respectively, where they learn the scar comes from fireworks accidentally going everywhere and branding the boys' hands.
+
+#### Box plots of each character and their overall views
+
 ```{r}
 df_simpsons %>% 
   filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
@@ -100,6 +120,10 @@ ggplot(
   geom_boxplot() +
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
+
+The above box plots separate the characters to see the overall views of each of them. Homer has the most episodes where he is the "star character", so he has the widest range. However, looking at the medians of each character, Marge has the highest median viewer count in her episodes while Lisa has the lowest.
+
+#### Analyzing the complexity of the main character's lines over the data set
 
 ```{r fig.height=5}
 unique_words <- function(line)
@@ -154,3 +178,5 @@ df_speech_complexity %>%
     title = "Which Simpsons Main Characters Have the Most Complex Speech?"
   )
 ```
+
+The above figure shows the speech complexity per character. Interestingly, this graph shows nearly the opposite of the earlier box plot as Homer and Marge have the lowest speech complexity where Lisa has the highest. Since Homer is the star character in the most episodes and Marge has the highest median viewer count, recounting that the creator chose the name Simpsons because it sounded like "simpleton", this analysis appears to confirm their suspicions that viewers are looking for a simple funny show where they can more or less turn their brains turn off to watch.
