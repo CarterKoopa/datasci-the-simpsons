@@ -1,0 +1,104 @@
+---
+title: "Appendix"
+author: "Emery Lauer"
+date: "2025-04-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## EDA
+
+#### Importing the CSV files into R
+
+```{r}
+df_ep <- read.csv("data/simpsons_episodes.csv")
+df_script <- read.csv("data/simpsons_script_lines.csv")
+
+head(df_ep)
+head(df_script)
+```
+
+#### Compute the total number of words per episode & plot relative to viewership
+
+```{r}
+# Clean up df_ep to make it slightly easier to join down the line (ie, have the join by colum be named the same thing)
+# Also filter out extra columns that are not needed
+ df_ep_new <- df_ep %>% 
+  select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views, season) %>% 
+  rename(
+    episode_id = id
+  )
+
+# Compute the total number of works in an episode
+df_words_per_epsiode <-
+  df_script %>% 
+  filter(speaking_line == TRUE) %>% 
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count <= 1000) %>% 
+  group_by(episode_id) %>% 
+  summarise(total_words_per_episode = sum(word_count)) %>% 
+  inner_join(df_ep_new, by = "episode_id")
+
+df_words_per_epsiode %>%
+  ggplot(aes(total_words_per_episode, us_viewers_in_millions)) +
+  geom_point() +
+  labs(
+    x = "Number of Words in an Episode",
+    y = "Episode Viewership (in millions of views)",
+    title = "How does dialog quantity impact viewership of The Simpsons?",
+    caption = "Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
+```
+
+The figure above shows a general upward trend between number of words in an episode and episode viewership, however there is not a high correlation to definitively say whether word count affects viewership.
+
+#### Compute words over time
+
+```{r}
+df_words_per_epsiode %>%
+  ggplot(aes(episode_id, total_words_per_episode)) +
+  geom_point() +
+  geom_smooth() +
+  labs(
+    x = "Episode ID (sequential with time)",
+    y = "Total Number of Words in Episode",
+    title = "How has dialog quantity varied over time in The Simpsons?",
+    caption = "Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
+```
+
+Interestingly, the number of words per episode slightly trends downwards over time, which could indicate a number of things. Our collective sense of humor could have changed over the years to rely more on physical comedy or maybe the writers got more efficient with their words.
+
+#### Compile data per year to see if world events affect viewership
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
+ggplot(
+    aes(x = `original_air_year`, y = us_viewers_in_millions, color = raw_character_text)
+  ) +
+  geom_count() +
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+In the above figure, you may notice that there is a peak from 2000 to around 2003. This may seem like viewers picked the show back up after a decline, however it simply denotes a period when they changed how the viewership was counted.
+
+#### Plotting how votes proportional to views change over time
+
+```{r}
+df_simpsons %>% 
+  filter(grepl("Simpson|Santa's Little Helper|Obama|Trump|Millhouse|Chief Wiggum", raw_character_text)) %>% 
+  mutate(votes_per_view = imdb_votes/us_viewers_in_millions) %>% 
+ggplot(
+    aes(x = `episode_id`, y = votes_per_view, color = raw_character_text)
+    )+
+  geom_point() +
+  geom_smooth(color = "yellow")+
+  theme(axis.text.x = element_text(angle = 50, hjust = 1))
+```
+
+The above figure plots IMDB votes per million views against episode id (which is sequential over time). This figure is almost the exact opposite of the above figure, which could indicate that number of votes per episode was relatively constant, but as viewership rose or declined, the proportional number of votes did the opposite.
