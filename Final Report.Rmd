@@ -44,6 +44,13 @@ How has the viewership of *The Simpsons* changed over time? Which characters hav
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+
+character_colors <- c(
+  "Bart Simpson" = "#F28E2B",
+  "Lisa Simpson" = "#4E79A7",
+  "Marge Simpson" = "#59A14F",
+  "Homer Simpson" = "#E15759"
+)
 ```
 
 #### Importing the data set into R
@@ -54,6 +61,12 @@ df_script <- read.csv("data/simpsons_script_lines.csv")
 
 head(df_ep)
 head(df_script)
+
+df_ep_new <- df_ep %>%
+  select(id, imdb_votes, original_air_date, original_air_year, us_viewers_in_millions, views, season) %>%
+  rename(
+    episode_id = id
+  )
 ```
 
 #### Combining the two CSV files to get air dates, IMDB information, and words into the script information
@@ -73,6 +86,15 @@ get_word_counts_per_episode <- function(df_script) {
     slice_max(total_word_count, n = 1, with_ties = FALSE) %>%
     arrange(episode_id, desc(total_word_count))
 }
+
+df_words_per_epsiode <-
+  df_script %>%
+  filter(speaking_line == TRUE) %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count <= 1000) %>%
+  group_by(episode_id) %>%
+  summarise(total_words_per_episode = sum(word_count)) %>%
+  inner_join(df_ep_new, by = "episode_id")
 
 episode_word_counts <-
   get_word_counts_per_episode(df_script) %>%
@@ -103,14 +125,15 @@ df_simpsons %>%
     aes(x = `episode_id`, y = us_viewers_in_millions)
   ) +
   geom_point(aes(color = raw_character_text)) +
+  scale_color_manual(values = character_colors) +
   geom_smooth(color = "black") +
- labs(
-   title = "Which Simpsons Characters Are Most Popular Over Time?",
-   x = "Episode Number (sequential over time)",
-   y = "US Viewership in Millions",
-   color = '"Star Character" of Each Episode',
-   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
- )
+  labs(
+    title = "Which Simpsons Characters Are Most Popular Over Time?",
+    x = "Episode Number (sequential over time)",
+    y = "US Viewership in Millions",
+    color = '"Star Character" of Each Episode',
+    caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
 ```
 
 The above figure shows the overall trend between episode number and views. There is a downward trend, except for around episode 300 where the show appears to have revitalized itself and gain new viewers. In reality, however, the algorithm for measuring viewers had simply changed around that time. After this peak, the trend continue downwards as the show loses popularity.
@@ -127,15 +150,16 @@ df_simpsons %>%
     aes(x = `episode_id`, y = us_viewers_in_millions)
   ) +
   geom_point(aes(color = raw_character_text)) +
-  geom_smooth(color = "black", label="Overall Trend") +
+  scale_color_manual(values = character_colors) +
+  geom_smooth(color = "black", label = "Overall Trend") +
   geom_smooth(aes(color = raw_character_text)) +
- labs(
-   title = "Excluding Homer, Which Simpsons Characters Are Most Popular Over Time?",
-   x = "Episode Number (sequential over time)",
-   y = "US Viewership in Millions",
-   color = '"Star Character" of Each Episode',
-   caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
- )
+  labs(
+    title = "Excluding Homer, Which Simpsons Characters Are Most Popular Over Time?",
+    x = "Episode Number (sequential over time)",
+    y = "US Viewership in Millions",
+    color = '"Star Character" of Each Episode',
+    caption = "The Star Character is conisdered the character with the most spoken words in a given episode. \n Source: The Simpsons Dataset, Prashant Banerjee (via Kaggle)"
+  )
 ```
 
 In the figure above, the Simpsons' star characters, excluding Homer, have interesting individual trends. Around episode 300, Lisa and Marge have a sort of rise in popularity, while Bart's viewership decreases. This could be because he was in less episodes or maybe his writing quality had decreased while Lisa and Marge's writing improved. However, there is no evidence that more female writers were brought onto the show during that period.
@@ -147,13 +171,14 @@ Another outlier, episode 474 titled "Moms I'd Like to Forget", garnered 12.6 mil
 #### Box plots of each character and their overall views
 
 ```{r}
-df_simpsons %>% 
+df_simpsons %>%
   filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
-  #group_by(raw_character_text) %>% 
-ggplot(
+  # group_by(raw_character_text) %>%
+  ggplot(
     aes(x = raw_character_text, y = us_viewers_in_millions, fill = raw_character_text)
   ) +
   geom_boxplot() +
+  scale_fill_manual(values = character_colors) +
   theme(axis.text.x = element_text(angle = 50, hjust = 1))
 ```
 
@@ -162,19 +187,22 @@ The above box plots separate the characters to see the overall views of each of 
 #### Analyzing the complexity of the main character's lines over the data set
 
 ```{r fig.height=5}
-unique_words <- function(line)
-  # Convert all characters to lowercase
-  tolower(line) %>% 
-  # Remove all non-alphanumeric characters (ie punctuation)
-  gsub("[^[:alnum:] ]", "", .) %>%
-  # Split into individual words
-  str_split(" +") %>%
-  # Deal with weird list-in-a-list thing 
-  .[[1]] %>% 
-  # Count onlthe unique (non-repeat words)
-  unique() %>% 
-  # Get total number of words
-  length()
+unique_words <- function(line) {
+  line <- iconv(line, from = "", to = "UTF-8", sub = " ")
+  line %>%
+    # Convert all characters to lowercase
+    tolower() %>%
+    # Remove all non-alphanumeric characters (ie punctuation)
+    gsub("[^[:alnum:] ]", "", .) %>%
+    # Split into individual words
+    str_split(" +") %>%
+    # Deal with weird list-in-a-list thing
+    .[[1]] %>%
+    # Count onlthe unique (non-repeat words)
+    unique() %>%
+    # Get total number of words
+    length()
+}
 
 df_speech_complexity <-
   df_script %>%
@@ -193,19 +221,20 @@ df_speech_complexity <-
     total_words = sum(word_count, na.rm = TRUE),
     speech_complexity = (num_unique_words / total_words) * 100
   ) %>%
-  arrange(speech_complexity) %>% 
+  arrange(speech_complexity) %>%
   slice_max(total_words, n = 4, with_ties = FALSE)
 
 df_speech_complexity
 
-df_speech_complexity %>% 
-  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>% 
+df_speech_complexity %>%
+  mutate(raw_character_text = fct_reorder(raw_character_text, desc(speech_complexity))) %>%
   ggplot(aes(raw_character_text, speech_complexity, fill = raw_character_text)) +
   geom_col() +
+  scale_fill_manual(values = character_colors) +
   theme(
     axis.text.x = element_text(angle = 50, hjust = 1),
     plot.caption = element_text(hjust = 0)
-    ) +
+  ) +
   labs(
     x = "Character Name",
     color = "Character Name",
