@@ -117,7 +117,7 @@ episode_word_counts <-
 df_simpsons <- df_ep_new %>%
   left_join(episode_word_counts, by = "episode_id")
 
-df_simpsons
+head(df_simpsons)
 ```
 
 #### Plotting US viewership and the character with the most words in an episode over time
