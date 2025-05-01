@@ -2,7 +2,9 @@
 title: "Final Report"
 author: "Emery Lauer"
 date: "2025-04-29"
-output: html_document
+output:   
+  github_document:
+    toc: true
 ---
 
 # D'oh! Analyzing the Speech of The Simpsons
@@ -35,7 +37,10 @@ In this article, he links to a [GitHub repository](https://github.com/toddwschne
 
 Unfortunately, in late 2019, Disney (which acquired the rights to *The Simpsons* in early 2019as part of its acquisition of 21st Century Fox) moved all historical streaming episodes of *The Simpsons* from the Simpsons' World website to it's Disney+ streaming subscription service. As such, the original scraper no longer works for collecting the vast array of data it previously provided. However, a user named [William Cukierski](https://www.kaggle.com/wcukierski) on [Kaggle](https://www.kaggle.com/), a website that hosts various data science-related competitions, used the script to extract all episode data through 2016. This dataset was further re-uploaded to the website by user [Prashant Banerjee](https://www.kaggle.com/prashant111), which is available here under the name [The Simpsons Dataset](https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset?resource=download). An abbreviated version of this dataset was the February 24th, 2025 dataset for the weekly [Tidy Tuesday data science project](https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-02-04), which is where our team originally discovered it. However, to explore the larger trends over time, all subsequent analysis was completed with the complete 1989-2016 dataset available.
 
-## Sources of Uncertainty
+## Sources of Uncertainty in the Dataset
+
+While the dataset offers a detailed look at The Simpsons' episodes, characters, and viewership over nearly three decades, there are several sources of uncertainty that may affect the interpretation of the [[data:\\\\](data:){.uri}](%5Bdata:\%5D(data:)%7B.uri%7D){.uri} As noted by Todd Schneider, viewership data appears to spike around the year 2000, between seasons 11 and 12. This change is not due to a sudden increase in popularity but rather a shift in the metric used. Wikipedia began reporting individual viewers instead of households. This creates a discontinuity in the data that may mislead trend analysis unless adjusted for or explicitly acknowledged.\
+Additionally, the dataset relies on scraping multiple sources, Simpsons World, Wikipedia, and IMDb. There could be inconsistencies with these sources. We know that Wikipedia data may be user-edited and not always verified. However additionally IMDb ratings might reflect a self-selected group of users and may not be representative of the general audience.
 
 ## Guiding Question
 
@@ -245,3 +250,21 @@ df_speech_complexity %>%
 ```
 
 The above figure shows the speech complexity per character. Interestingly, this graph shows nearly the opposite of the earlier box plot as Homer and Marge have the lowest speech complexity where Lisa has the highest. Since Homer is the star character in the most episodes and Marge has the highest median viewer count, recounting that the creator chose the name Simpsons because it sounded like "simpleton", this analysis appears to confirm their suspicions that viewers are looking for a simple funny show where they can more or less turn their brains turn off to watch.
+
+## Sources of Uncertainty in our Methodology
+
+While our analysis provides insight into character prominence and dialogue richness, the methods used come with important limitations:
+
+We define speech complexity as the number of unique words spoken by a character divided by their total word count. While this captures vocabulary variety, it might not actually represent character intelligence.
+
+We define a "Star Character" of each episode as the one who speaks the most words. However, this may not always align with narrative or audience perception of who the episode is really “about.”
+
+## Conclusions
+
+We see that Homer has the least complex speech across the series and he is well represented as the “Star Character” throughout the series. *It is possible that this association points to a choice by the writers to make the main character deliberately consistent and non-complex.* There is certainly a lot of benefit to creating a character that is consistent and familiar especially in the genre of sitcom television. It ensures the viewers on what sort of entertainment they are going to receive. That consistency can lead to comfort and preference for that character.
+
+We performed more analysis on the favored characters excluding Homer since he is often considered the main protagonist. We discovered that Bart was favored in earlier seasons however in later seasons Lisa and Marge also fluctuate for the top spot.
+
+It is difficult to tell whether these star characters were representing genuine popularity since there are so many sources of uncertainty. As aforementioned there is uncertainty that the imdb voting is a true representation of all viewers of the Simpsons. There is also uncertainty that our chosen method of denoting the 'star character' as the most prominent character is not the most effective measurement of "popularity".
+
+*It is inconclusive to say whether viewers of the Simpsons prefer to watch non-complex characters [in general]{.underline}.* Especially since the data analysis presented does not account popularity of an episode based on inter-character dynamics or historical and pop culture influences separate from the characters.
