@@ -1,8 +1,3 @@
-Final Report
-================
-Emery Lauer
-2025-04-29
-
 - [D’oh! Analyzing the Speech of The
   Simpsons](#doh-analyzing-the-speech-of-the-simpsons)
   - [Analyzing how popularity and complexity vary over
