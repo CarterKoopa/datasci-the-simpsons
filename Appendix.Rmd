@@ -76,6 +76,47 @@ Interestingly, the number of words per episode slightly trends downwards over ti
 #### Compile data per year to see if world events affect viewership
 
 ```{r}
+get_word_counts_per_episode <- function(df_script) {
+  df_script %>%
+    filter(speaking_line == TRUE) %>%
+    mutate(
+      word_count = (as.numeric(word_count))
+    ) %>%
+    filter(!is.na(word_count)) %>%
+    filter(word_count <= 1000) %>%
+    group_by(episode_id, raw_character_text) %>%
+    summarize(total_word_count = sum(word_count), .groups = "drop") %>%
+    group_by(episode_id) %>%
+    slice_max(total_word_count, n = 1, with_ties = FALSE) %>%
+    arrange(episode_id, desc(total_word_count))
+}
+
+df_words_per_epsiode <-
+  df_script %>%
+  filter(speaking_line == TRUE) %>%
+  mutate(word_count = as.numeric(word_count)) %>%
+  filter(word_count <= 1000) %>%
+  group_by(episode_id) %>%
+  summarise(total_words_per_episode = sum(word_count)) %>%
+  inner_join(df_ep_new, by = "episode_id")
+
+episode_word_counts <-
+  get_word_counts_per_episode(df_script) %>%
+  inner_join(df_words_per_epsiode, by = "episode_id") %>%
+  select(
+    c(
+      "episode_id",
+      "raw_character_text",
+      "total_word_count",
+      "total_words_per_episode"
+    )
+  ) %>%
+  mutate(percentage_of_script = total_word_count / total_words_per_episode)
+
+df_simpsons <- df_ep_new %>%
+  left_join(episode_word_counts, by = "episode_id")
+
+
 df_simpsons %>% 
   filter(grepl("Homer Simpson|Bart Simpson|Marge Simpson|Lisa Simpson", raw_character_text)) %>%
 ggplot(
